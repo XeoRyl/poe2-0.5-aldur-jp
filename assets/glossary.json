@@ -2,7 +2,7 @@
   "version": "0.5.0",
   "source": "poe2db.tw/jp",
   "updated": "2026-05-22",
-  "notes": "verified=poe2db.tw/jpで日本語訳を確認済み / provisional=poe2db未収録または当ドキュメント内の暫定訳。",
+  "notes": "verified=poe2db.tw/jpで日本語訳・URLを確認済み / provisional=poe2db未収録。previous_ja=poe2db公式日本語名に上書き前の暫定訳。",
   "terms": {
     ".build files": {
       "ja": ".build ファイル",
@@ -11,10 +11,11 @@
       "status": "provisional"
     },
     "Ab Aeterno": {
-      "ja": "アブ・エテルノ",
+      "ja": "永遠から",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Ab_Aeterno",
+      "status": "verified",
+      "previous_ja": "アブ・エテルノ"
     },
     "Abyss": {
       "ja": "アビス",
@@ -41,16 +42,18 @@
       "status": "provisional"
     },
     "Abyssal Depths": {
-      "ja": "アビサル・デプス",
+      "ja": "アビスの深淵",
       "category": "location",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Abyssal_Depths",
+      "status": "verified",
+      "previous_ja": "アビサル・デプス"
     },
     "Acolyte of Chayula": {
-      "ja": "アコライト・オブ・チャユラ",
+      "ja": "アコライトオブチャユラ",
       "category": "ascendancy",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Acolyte_of_Chayula",
+      "status": "verified",
+      "previous_ja": "アコライト・オブ・チャユラ"
     },
     "Adamant Recovery": {
       "ja": "アダマント・リカバリー",
@@ -71,10 +74,11 @@
       "status": "provisional"
     },
     "Advancing Storm": {
-      "ja": "アドバンシング・ストーム",
+      "ja": "進行する嵐",
       "category": "support",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Advancing_Storm",
+      "status": "verified",
+      "previous_ja": "アドバンシング・ストーム"
     },
     "Affinity": {
       "ja": "アフィニティ",
@@ -95,10 +99,11 @@
       "status": "verified"
     },
     "Align Fate": {
-      "ja": "アライン・フェイト",
+      "ja": "運命の調和",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Align_Fate",
+      "status": "verified",
+      "previous_ja": "アライン・フェイト"
     },
     "Alloy": {
       "ja": "アロイ",
@@ -113,10 +118,11 @@
       "status": "provisional"
     },
     "Ancestral Cry": {
-      "ja": "アンセストラル・クライ",
+      "ja": "アンセストラルクライ",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Ancestral_Cry",
+      "status": "verified",
+      "previous_ja": "アンセストラル・クライ"
     },
     "Ancestral Empowerment": {
       "ja": "アンセストラル・エンパワメント",
@@ -125,16 +131,17 @@
       "status": "provisional"
     },
     "Ancestral Warrior Totem": {
-      "ja": "アンセストラル・ウォリアー・トーテム",
+      "ja": "アンセストラルウォーリアートーテム",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Ancestral_Warrior_Totem",
+      "status": "verified",
+      "previous_ja": "アンセストラル・ウォリアー・トーテム"
     },
     "Ancient Beacons": {
       "ja": "古代のビーコン",
       "category": "mechanic",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Ancient_Beacons",
+      "status": "verified"
     },
     "Ancient Emotions": {
       "ja": "エンシェント・エモーション",
@@ -185,10 +192,11 @@
       "status": "provisional"
     },
     "Apep's Supremacy": {
-      "ja": "アペプの覇権",
+      "ja": "アペプの優越性",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Apep's_Supremacy",
+      "status": "verified",
+      "previous_ja": "アペプの覇権"
     },
     "Arbiter of Ash": {
       "ja": "灰のアービター",
@@ -211,8 +219,8 @@
     "Arc": {
       "ja": "アーク",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Arc",
+      "status": "verified"
     },
     "Arcane Armour Set": {
       "ja": "アーケイン・アーマーセット",
@@ -263,10 +271,11 @@
       "status": "provisional"
     },
     "Arctic Howl": {
-      "ja": "アークティック・ハウル",
+      "ja": "アークティックハウル",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Arctic_Howl",
+      "status": "verified",
+      "previous_ja": "アークティック・ハウル"
     },
     "Arjun's Medal": {
       "ja": "アルジュンのメダル",
@@ -329,10 +338,11 @@
       "status": "provisional"
     },
     "Atsak's Sight": {
-      "ja": "アツァクの眼",
+      "ja": "アツァクの視野",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Atsak's_Sight",
+      "status": "verified",
+      "previous_ja": "アツァクの眼"
     },
     "Atziri": {
       "ja": "アジリ",
@@ -341,10 +351,11 @@
       "status": "provisional"
     },
     "Atziri's Contempt": {
-      "ja": "アツィリの侮蔑",
+      "ja": "アッツィリの軽蔑",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Atziri's_Contempt",
+      "status": "verified",
+      "previous_ja": "アツィリの侮蔑"
     },
     "Atziri's Impatience": {
       "ja": "アツィリの焦燥",
@@ -353,16 +364,18 @@
       "status": "provisional"
     },
     "Atziri's Rule": {
-      "ja": "アジリの統治",
+      "ja": "アッツィリの統治",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Atziri's_Rule",
+      "status": "verified",
+      "previous_ja": "アジリの統治"
     },
     "Atziri's Splendour": {
-      "ja": "アジリの威光",
+      "ja": "アッツィリの栄耀",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Atziri's_Splendour",
+      "status": "verified",
+      "previous_ja": "アジリの威光"
     },
     "Atziri's Temple": {
       "ja": "アジリの神殿",
@@ -377,10 +390,11 @@
       "status": "provisional"
     },
     "Atziri, the Red Queen": {
-      "ja": "赤の女王アツィリ",
+      "ja": "赤き女王、アッツィリ",
       "category": "boss",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Atziri%2C_the_Red_Queen",
+      "status": "verified",
+      "previous_ja": "赤の女王アツィリ"
     },
     "Audience with the King": {
       "ja": "王との謁見",
@@ -425,10 +439,11 @@
       "status": "provisional"
     },
     "Ball Lightning": {
-      "ja": "ボール・ライトニング",
+      "ja": "ボールライトニング",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Ball_Lightning",
+      "status": "verified",
+      "previous_ja": "ボール・ライトニング"
     },
     "Baryas": {
       "ja": "バーリャ",
@@ -461,22 +476,25 @@
       "status": "provisional"
     },
     "Berek's Grip": {
-      "ja": "ベレクの掌握",
+      "ja": "ベレクの握り",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Berek's_Grip",
+      "status": "verified",
+      "previous_ja": "ベレクの掌握"
     },
     "Berek's Pass": {
-      "ja": "ベレクの通行",
+      "ja": "ベレクの山道",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Berek's_Pass",
+      "status": "verified",
+      "previous_ja": "ベレクの通行"
     },
     "Berek's Respite": {
-      "ja": "ベレクの安息",
+      "ja": "ベレクの休息",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Berek's_Respite",
+      "status": "verified",
+      "previous_ja": "ベレクの安息"
     },
     "Beyond": {
       "ja": "ビヨンド",
@@ -503,28 +521,31 @@
       "status": "provisional"
     },
     "Blackflame": {
-      "ja": "ブラックフレイム",
+      "ja": "黒い炎",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Blackflame",
+      "status": "verified",
+      "previous_ja": "ブラックフレイム"
     },
     "Bleeding": {
-      "ja": "ブリーディング",
+      "ja": "出血",
       "category": "mechanic",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Bleeding",
+      "status": "verified",
+      "previous_ja": "ブリーディング"
     },
     "Blink": {
       "ja": "ブリンク",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Blink",
+      "status": "verified"
     },
     "Blistering Bond": {
-      "ja": "ブリスタリング・ボンド",
+      "ja": "焼け付く絆",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Blistering_Bond",
+      "status": "verified",
+      "previous_ja": "ブリスタリング・ボンド"
     },
     "Blood Loss": {
       "ja": "ブラッドロス",
@@ -535,14 +556,15 @@
     "Blood Mage": {
       "ja": "ブラッドメイジ",
       "category": "ascendancy",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Blood_Mage",
+      "status": "verified"
     },
     "Blood Price": {
-      "ja": "ブラッド・プライス",
+      "ja": "血の対価",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Blood_Price",
+      "status": "verified",
+      "previous_ja": "ブラッド・プライス"
     },
     "Bloodstone Lances": {
       "ja": "ブラッドストーン・ランス",
@@ -571,14 +593,14 @@
     "Boneshatter": {
       "ja": "ボーンシャッター",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Boneshatter",
+      "status": "verified"
     },
     "Bonestorm": {
       "ja": "ボーンストーム",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Bonestorm",
+      "status": "verified"
     },
     "Brass Dome": {
       "ja": "ブラスドーム",
@@ -641,16 +663,18 @@
       "status": "provisional"
     },
     "Brink I": {
-      "ja": "ブリンク I",
+      "ja": "スタン狙い I",
       "category": "support",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Brink_I",
+      "status": "verified",
+      "previous_ja": "ブリンク I"
     },
     "Brutus' Lead Sprinkler": {
-      "ja": "ブルータスの鉛散布器",
+      "ja": "ブルータスの鉛のスプリンクラー",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Brutus'_Lead_Sprinkler",
+      "status": "verified",
+      "previous_ja": "ブルータスの鉛散布器"
     },
     "Build Guides": {
       "ja": "ビルドガイド",
@@ -695,10 +719,11 @@
       "status": "provisional"
     },
     "Carnage Heart": {
-      "ja": "カーネージハート",
+      "ja": "カーネイジ・ハート",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Carnage_Heart",
+      "status": "verified",
+      "previous_ja": "カーネージハート"
     },
     "Cassis Helm": {
       "ja": "カシスヘルム",
@@ -719,10 +744,11 @@
       "status": "provisional"
     },
     "Cat O' Nine Tails": {
-      "ja": "九尾の鞭",
+      "ja": "九尾の猫",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Cat_O'_Nine_Tails",
+      "status": "verified",
+      "previous_ja": "九尾の鞭"
     },
     "Catalyst": {
       "ja": "カタリスト",
@@ -761,16 +787,17 @@
       "status": "provisional"
     },
     "Chober Chaber": {
-      "ja": "チョーバー・チェイバー",
+      "ja": "チョーバー・チェバー",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Chober_Chaber",
+      "status": "verified",
+      "previous_ja": "チョーバー・チェイバー"
     },
     "Chronomancer": {
       "ja": "クロノマンサー",
       "category": "ascendancy",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Chronomancer",
+      "status": "verified"
     },
     "Citadel maps": {
       "ja": "シタデルマップ",
@@ -787,8 +814,8 @@
     "Comet": {
       "ja": "コメット",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Comet",
+      "status": "verified"
     },
     "Command Skills": {
       "ja": "コマンドスキル",
@@ -821,10 +848,11 @@
       "status": "provisional"
     },
     "Convalescence": {
-      "ja": "コンバレッセンス",
+      "ja": "コンヴァレッセンス",
       "category": "passive",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Convalescence",
+      "status": "verified",
+      "previous_ja": "コンバレッセンス"
     },
     "Core of the Guardian": {
       "ja": "コア・オブ・ザ・ガーディアン",
@@ -839,16 +867,18 @@
       "status": "provisional"
     },
     "Corrupting Cry I": {
-      "ja": "コラプティング・クライ I",
+      "ja": "コラプティングクライ 1",
       "category": "support",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Corrupting_Cry_I",
+      "status": "verified",
+      "previous_ja": "コラプティング・クライ I"
     },
     "Corrupting Cry II": {
-      "ja": "コラプティング・クライ II",
+      "ja": "コラプティングクライ 2",
       "category": "support",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Corrupting_Cry_II",
+      "status": "verified",
+      "previous_ja": "コラプティング・クライ II"
     },
     "Corruption Chamber": {
       "ja": "コラプション・チェンバー",
@@ -893,10 +923,11 @@
       "status": "provisional"
     },
     "Crossbow Ammunition Skills": {
-      "ja": "クロスボウ弾薬スキル",
+      "ja": "弾薬スキル",
       "category": "mechanic",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Crossbow_Ammunition_Skills",
+      "status": "verified",
+      "previous_ja": "クロスボウ弾薬スキル"
     },
     "Crystalline Potential": {
       "ja": "クリスタリン・ポテンシャル",
@@ -917,10 +948,11 @@
       "status": "provisional"
     },
     "Culmination II": {
-      "ja": "カルミネーション II",
+      "ja": "究極の一撃 II",
       "category": "support",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Culmination_II",
+      "status": "verified",
+      "previous_ja": "カルミネーション II"
     },
     "Cunning Fox": {
       "ja": "カニング・フォックス",
@@ -953,52 +985,58 @@
       "status": "provisional"
     },
     "Death's Harp": {
-      "ja": "デスハープ",
+      "ja": "死の竪琴",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Death's_Harp",
+      "status": "verified",
+      "previous_ja": "デスハープ"
     },
     "Decaying Hex": {
-      "ja": "ディケイング・ヘックス",
+      "ja": "腐敗の呪術",
       "category": "support",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Decaying_Hex",
+      "status": "verified",
+      "previous_ja": "ディケイング・ヘックス"
     },
     "Decree of Acuity": {
       "ja": "鋭敏なる詔",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Decree_of_Acuity",
+      "status": "verified"
     },
     "Decree of Flight": {
       "ja": "飛翔の詔",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Decree_of_Flight",
+      "status": "verified"
     },
     "Decree of Loyalty": {
-      "ja": "忠誠の詔",
+      "ja": "デクリー・オブ・ロイヤルティ",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Decree_of_Loyalty",
+      "status": "verified",
+      "previous_ja": "忠誠の詔"
     },
     "Defences": {
-      "ja": "ディフェンス（廃止語）",
+      "ja": "防御力",
       "category": "mechanic",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Defences",
+      "status": "verified",
+      "previous_ja": "ディフェンス（廃止語）"
     },
     "Defiance Banner": {
-      "ja": "ディファイアンス・バナー",
+      "ja": "ディファイアンスバナー",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Defiance_Banner",
+      "status": "verified",
+      "previous_ja": "ディファイアンス・バナー"
     },
     "Deflect": {
-      "ja": "ディフレクト",
+      "ja": "受け流す",
       "category": "mechanic",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Deflect",
+      "status": "verified",
+      "previous_ja": "ディフレクト"
     },
     "Deflection Rating": {
       "ja": "ディフレクションレーティング",
@@ -1013,10 +1051,11 @@
       "status": "provisional"
     },
     "Delirium": {
-      "ja": "ディリリアム",
+      "ja": "デリリウム",
       "category": "mechanic",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Delirium",
+      "status": "verified",
+      "previous_ja": "ディリリアム"
     },
     "Delirium Atlas Passive Tree": {
       "ja": "デリリウム・アトラスパッシブツリー",
@@ -1055,10 +1094,11 @@
       "status": "provisional"
     },
     "Desecrated Modifiers": {
-      "ja": "デセクレーテッド・モッド",
+      "ja": "保存された骨",
       "category": "modifier",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Desecrated_Modifiers",
+      "status": "verified",
+      "previous_ja": "デセクレーテッド・モッド"
     },
     "Desert Rune": {
       "ja": "デザートルーン",
@@ -1073,10 +1113,11 @@
       "status": "provisional"
     },
     "Detonating Arrow": {
-      "ja": "デトネイティング・アロー",
+      "ja": "デトネーティングアロー",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Detonating_Arrow",
+      "status": "verified",
+      "previous_ja": "デトネイティング・アロー"
     },
     "Devoted Protector": {
       "ja": "デヴォーテッド・プロテクター",
@@ -1085,10 +1126,11 @@
       "status": "provisional"
     },
     "Devour": {
-      "ja": "デバウア",
+      "ja": "デバウアー",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Devour",
+      "status": "verified",
+      "previous_ja": "デバウア"
     },
     "Dialla's Desire": {
       "ja": "ディアラの渇望",
@@ -1127,28 +1169,30 @@
       "status": "verified"
     },
     "Dread Banner": {
-      "ja": "ドレッド・バナー",
+      "ja": "ドレッドバナー",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Dread_Banner",
+      "status": "verified",
+      "previous_ja": "ドレッド・バナー"
     },
     "Duality": {
       "ja": "デュアリティ（二重性）",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Duality",
+      "status": "verified"
     },
     "Earthquake": {
       "ja": "アースクエイク",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Earthquake",
+      "status": "verified"
     },
     "Echoing Cry": {
-      "ja": "エコーイング・クライ",
+      "ja": "反響のクライ",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Echoing_Cry",
+      "status": "verified",
+      "previous_ja": "エコーイング・クライ"
     },
     "Echoing Pulse": {
       "ja": "エコーイング・パルス",
@@ -1169,16 +1213,18 @@
       "status": "provisional"
     },
     "Elemental Archon": {
-      "ja": "エレメンタルアーコン",
+      "ja": "エレメンタルアルコン",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Elemental_Archon",
+      "status": "verified",
+      "previous_ja": "エレメンタルアーコン"
     },
     "Elevore": {
-      "ja": "エレヴォア",
+      "ja": "エレボアー",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Elevore",
+      "status": "verified",
+      "previous_ja": "エレヴォア"
     },
     "Elite Delirium Monsters": {
       "ja": "エリート・デリリウム・モンスター",
@@ -1225,8 +1271,8 @@
     "Enezun's Charge": {
       "ja": "エネズンの突撃",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Enezun's_Charge",
+      "status": "verified"
     },
     "Enigma chambers": {
       "ja": "エニグマの間",
@@ -1301,16 +1347,17 @@
       "status": "provisional"
     },
     "Eternal Rage": {
-      "ja": "エターナル・レイジ",
+      "ja": "エターナルレイジ",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Eternal_Rage",
+      "status": "verified",
+      "previous_ja": "エターナル・レイジ"
     },
     "Eventide Petals": {
       "ja": "宵闇の花弁",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Eventide_Petals",
+      "status": "verified"
     },
     "Exalted Orb": {
       "ja": "エクサルテッドオーブ",
@@ -1325,10 +1372,11 @@
       "status": "provisional"
     },
     "Expand": {
-      "ja": "エクスパンド",
+      "ja": "拡張",
       "category": "support",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Expand",
+      "status": "verified",
+      "previous_ja": "エクスパンド"
     },
     "Expedition": {
       "ja": "エクスペディション",
@@ -1369,8 +1417,8 @@
     "Eyes of the Runefather": {
       "ja": "ルーンの父の眼",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Eyes_of_the_Runefather",
+      "status": "verified"
     },
     "Eyrie Armour Set": {
       "ja": "エアリー・アーマーセット",
@@ -1379,10 +1427,11 @@
       "status": "provisional"
     },
     "Facebreaker": {
-      "ja": "フェイスブレイカー",
+      "ja": "フェイスブレーカー",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Facebreaker",
+      "status": "verified",
+      "previous_ja": "フェイスブレイカー"
     },
     "Farrow": {
       "ja": "ファロー",
@@ -1393,8 +1442,8 @@
     "Farrow's Gift": {
       "ja": "ファローの贈り物",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Farrow's_Gift",
+      "status": "verified"
     },
     "Fast Metabolism": {
       "ja": "ファスト・メタボリズム",
@@ -1405,14 +1454,15 @@
     "Fate of the Vaal": {
       "ja": "ヴァールの運命",
       "category": "mechanic",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Fate_of_the_Vaal",
+      "status": "verified"
     },
     "Feral Invocation": {
-      "ja": "フェラル・インヴォケーション",
+      "ja": "フェラルインヴォケーション",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Feral_Invocation",
+      "status": "verified",
+      "previous_ja": "フェラル・インヴォケーション"
     },
     "Fevered prefix": {
       "ja": "フィーバード（プレフィックス）",
@@ -1447,8 +1497,8 @@
     "Flame Breath": {
       "ja": "フレイムブレス",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Flame_Breath",
+      "status": "verified"
     },
     "Flames of Chayula": {
       "ja": "チャユラの炎",
@@ -1459,8 +1509,8 @@
     "Flicker Strike": {
       "ja": "フリッカーストライク",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Flicker_Strike",
+      "status": "verified"
     },
     "Fluxes": {
       "ja": "フラックス",
@@ -1481,16 +1531,17 @@
       "status": "provisional"
     },
     "Forgotten By Time": {
-      "ja": "時に忘れられし者",
+      "ja": "時に忘れられし物",
       "category": "other",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Forgotten_By_Time",
+      "status": "verified",
+      "previous_ja": "時に忘れられし者"
     },
     "Forgotten Warden": {
       "ja": "忘れられし守護者",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Forgotten_Warden",
+      "status": "verified"
     },
     "Fortified Aegis": {
       "ja": "フォーティファイド・イージス",
@@ -1505,10 +1556,11 @@
       "status": "provisional"
     },
     "Fortifying Cry": {
-      "ja": "フォーティファイング・クライ",
+      "ja": "フォティファイイングクライ",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Fortifying_Cry",
+      "status": "verified",
+      "previous_ja": "フォーティファイング・クライ"
     },
     "Fortress": {
       "ja": "要塞",
@@ -1535,10 +1587,11 @@
       "status": "provisional"
     },
     "Fragmentation Rounds": {
-      "ja": "フラグメンテーション・ラウンズ",
+      "ja": "フラグメンテーション弾",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Fragmentation_Rounds",
+      "status": "verified",
+      "previous_ja": "フラグメンテーション・ラウンズ"
     },
     "Fragments of the Past": {
       "ja": "過去の断片",
@@ -1547,10 +1600,11 @@
       "status": "provisional"
     },
     "Freezing Salvo": {
-      "ja": "フリージング・サルヴォ",
+      "ja": "フリージングサルヴォ",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Freezing_Salvo",
+      "status": "verified",
+      "previous_ja": "フリージング・サルヴォ"
     },
     "Freezing Shrine": {
       "ja": "冷却のシュライン",
@@ -1559,10 +1613,11 @@
       "status": "provisional"
     },
     "Freythorn": {
-      "ja": "フレイソーン",
+      "ja": "Freythorn",
       "category": "location",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Freythorn",
+      "status": "verified",
+      "previous_ja": "フレイソーン"
     },
     "Frostflame Nova": {
       "ja": "氷炎ノヴァ",
@@ -1571,10 +1626,11 @@
       "status": "provisional"
     },
     "Frozen Locus": {
-      "ja": "フローズン・ローカス",
+      "ja": "フローズンローカス",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Frozen_Locus",
+      "status": "verified",
+      "previous_ja": "フローズン・ローカス"
     },
     "Fury Talisman": {
       "ja": "フューリー・タリスマン",
@@ -1585,8 +1641,8 @@
     "Gatecrasher": {
       "ja": "ゲートクラッシャー",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Gatecrasher",
+      "status": "verified"
     },
     "Gates": {
       "ja": "ゲート",
@@ -1601,28 +1657,32 @@
       "status": "provisional"
     },
     "Gathering Storm": {
-      "ja": "ギャザリング・ストーム",
+      "ja": "ギャザリングストーム",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Gathering_Storm",
+      "status": "verified",
+      "previous_ja": "ギャザリング・ストーム"
     },
     "Gemling Legionnaire": {
-      "ja": "ジェムリング・リージョネア",
+      "ja": "ジェムリングリージョネア",
       "category": "ascendancy",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Gemling_Legionnaire",
+      "status": "verified",
+      "previous_ja": "ジェムリング・リージョネア"
     },
     "Geofri's Sanctuary": {
-      "ja": "ジオフリの聖域",
+      "ja": "ジェフリの聖所",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Geofri's_Sanctuary",
+      "status": "verified",
+      "previous_ja": "ジオフリの聖域"
     },
     "Ghost Dance": {
-      "ja": "ゴースト・ダンス",
+      "ja": "ゴーストダンス",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Ghost_Dance",
+      "status": "verified",
+      "previous_ja": "ゴースト・ダンス"
     },
     "Ghost Shroud": {
       "ja": "ゴースト・シュラウド",
@@ -1631,16 +1691,18 @@
       "status": "provisional"
     },
     "Glacial Bolt": {
-      "ja": "グレイシャル・ボルト",
+      "ja": "グレイシャルボルト",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Glacial_Bolt",
+      "status": "verified",
+      "previous_ja": "グレイシャル・ボルト"
     },
     "Glacial Lance": {
-      "ja": "グレイシャル・ランス",
+      "ja": "グレイシャルランス",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Glacial_Lance",
+      "status": "verified",
+      "previous_ja": "グレイシャル・ランス"
     },
     "Glacial Rune": {
       "ja": "グレイシャルルーン",
@@ -1661,10 +1723,11 @@
       "status": "provisional"
     },
     "Glowswarm": {
-      "ja": "グロースウォーム",
+      "ja": "グロウスウォーム",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Glowswarm",
+      "status": "verified",
+      "previous_ja": "グロースウォーム"
     },
     "Goring": {
       "ja": "ゴアリング",
@@ -1715,10 +1778,11 @@
       "status": "provisional"
     },
     "Grim Feast": {
-      "ja": "グリム・フィースト",
+      "ja": "グリムフィースト",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Grim_Feast",
+      "status": "verified",
+      "previous_ja": "グリム・フィースト"
     },
     "Grim Pillars": {
       "ja": "不吉なる柱",
@@ -1733,10 +1797,11 @@
       "status": "provisional"
     },
     "Grip of Kulemak": {
-      "ja": "クレマクの掌握",
+      "ja": "クーラマクの掌握",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Grip_of_Kulemak",
+      "status": "verified",
+      "previous_ja": "クレマクの掌握"
     },
     "Guardian Bow": {
       "ja": "ガーディアン・ボウ",
@@ -1751,16 +1816,17 @@
       "status": "provisional"
     },
     "Halls of the Dead": {
-      "ja": "死者の広間",
+      "ja": "Halls of the Dead",
       "category": "location",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Halls_of_the_Dead",
+      "status": "verified",
+      "previous_ja": "死者の広間"
     },
     "Hateforge": {
       "ja": "ヘイトフォージ",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Hateforge",
+      "status": "verified"
     },
     "Hayoxi's Fulmination Lineage Support": {
       "ja": "ハヨキシの劫雷・血統サポート",
@@ -1783,8 +1849,8 @@
     "Heavy Stun": {
       "ja": "ヘビースタン",
       "category": "mechanic",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Heavy_Stun",
+      "status": "verified"
     },
     "Heightened Charges Support": {
       "ja": "高揚チャージサポート",
@@ -1805,10 +1871,11 @@
       "status": "provisional"
     },
     "Herald of Blood": {
-      "ja": "ヘラルド・オブ・ブラッド",
+      "ja": "ヘラルドオブブラッド",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Herald_of_Blood",
+      "status": "verified",
+      "previous_ja": "ヘラルド・オブ・ブラッド"
     },
     "Herald of the Royal Queen": {
       "ja": "王妃のヘラルド",
@@ -1865,64 +1932,69 @@
       "status": "provisional"
     },
     "Honour": {
-      "ja": "オナー",
+      "ja": "名誉",
       "category": "mechanic",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Honour",
+      "status": "verified",
+      "previous_ja": "オナー"
     },
     "Horror's Flight": {
       "ja": "恐怖の飛翔",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Horror's_Flight",
+      "status": "verified"
     },
     "Huntress": {
       "ja": "ハントレス",
       "category": "class",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Huntress",
+      "status": "verified"
     },
     "Husk of Dreams": {
-      "ja": "ハスク・オブ・ドリームス",
+      "ja": "夢の殻",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Husk_of_Dreams",
+      "status": "verified",
+      "previous_ja": "ハスク・オブ・ドリームス"
     },
     "Hyrri's Ire": {
-      "ja": "ヒリの憤怒",
+      "ja": "ハイリの怒り",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Hyrri's_Ire",
+      "status": "verified",
+      "previous_ja": "ヒリの憤怒"
     },
     "Hysseg's Claw": {
-      "ja": "ヒセグの爪",
+      "ja": "ヒッセグの爪",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Hysseg's_Claw",
+      "status": "verified",
+      "previous_ja": "ヒセグの爪"
     },
     "Ice Nova": {
-      "ja": "アイス・ノヴァ",
+      "ja": "アイスノヴァ",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Ice_Nova",
+      "status": "verified",
+      "previous_ja": "アイス・ノヴァ"
     },
     "Ice Shards": {
       "ja": "アイスシャード",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Ice_Shards",
+      "status": "verified"
     },
     "Ice Shot": {
       "ja": "アイスショット",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Ice_Shot",
+      "status": "verified"
     },
     "Ice Strike": {
       "ja": "アイスストライク",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Ice_Strike",
+      "status": "verified"
     },
     "Icy Blast": {
       "ja": "アイシーブラスト",
@@ -1979,10 +2051,11 @@
       "status": "provisional"
     },
     "Ignite": {
-      "ja": "イグナイト",
+      "ja": "発火",
       "category": "mechanic",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Ignite",
+      "status": "verified",
+      "previous_ja": "イグナイト"
     },
     "Immortal Infamy": {
       "ja": "イモータル・インファミー",
@@ -1997,10 +2070,11 @@
       "status": "provisional"
     },
     "Incinerate": {
-      "ja": "インシネレイト",
+      "ja": "インシネレート",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Incinerate",
+      "status": "verified",
+      "previous_ja": "インシネレイト"
     },
     "Inevitability": {
       "ja": "イネビタビリティ",
@@ -2009,10 +2083,11 @@
       "status": "provisional"
     },
     "Inevitable Agony": {
-      "ja": "イネビタブル・アゴニー",
+      "ja": "インエビタブルアゴニー",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Inevitable_Agony",
+      "status": "verified",
+      "previous_ja": "イネビタブル・アゴニー"
     },
     "Infernal Legion": {
       "ja": "インファーナル・リージョン",
@@ -2021,22 +2096,25 @@
       "status": "provisional"
     },
     "Infernal Legion I": {
-      "ja": "インファーナル・リージョン I",
+      "ja": "インファーナルリージョン I",
       "category": "support",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Infernal_Legion_I",
+      "status": "verified",
+      "previous_ja": "インファーナル・リージョン I"
     },
     "Infernal Legion II": {
-      "ja": "インファーナル・リージョン II",
+      "ja": "インファーナルリージョン II",
       "category": "support",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Infernal_Legion_II",
+      "status": "verified",
+      "previous_ja": "インファーナル・リージョン II"
     },
     "Infernal Legion III": {
-      "ja": "インファーナル・リージョン III",
+      "ja": "インファーナルリージョン III",
       "category": "support",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Infernal_Legion_III",
+      "status": "verified",
+      "previous_ja": "インファーナル・リージョン III"
     },
     "Inscribed Ultimatums": {
       "ja": "刻印されしアルティメイタム",
@@ -2063,28 +2141,31 @@
       "status": "provisional"
     },
     "Into the Breach": {
-      "ja": "イン・ザ・ブリーチ",
+      "ja": "ブリーチ侵入",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Into_the_Breach",
+      "status": "verified",
+      "previous_ja": "イン・ザ・ブリーチ"
     },
     "Iron Ward": {
-      "ja": "アイアン・ウォード",
+      "ja": "アイアンワード",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Iron_Ward",
+      "status": "verified",
+      "previous_ja": "アイアン・ウォード"
     },
     "Ironbound": {
       "ja": "アイアンバウンド",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Ironbound",
+      "status": "verified"
     },
     "Item Rarity": {
-      "ja": "アイテム・レアリティ",
+      "ja": "ノーマル",
       "category": "mechanic",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Item_Rarity",
+      "status": "verified",
+      "previous_ja": "アイテム・レアリティ"
     },
     "Jado": {
       "ja": "ジャド",
@@ -2111,10 +2192,11 @@
       "status": "provisional"
     },
     "Keeper of the Arc": {
-      "ja": "キーパー・オブ・ジ・アーク",
+      "ja": "弧の守りて",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Keeper_of_the_Arc",
+      "status": "verified",
+      "previous_ja": "キーパー・オブ・ジ・アーク"
     },
     "Keepers of the Flame": {
       "ja": "炎の守護者",
@@ -2147,10 +2229,11 @@
       "status": "provisional"
     },
     "Last Gasp": {
-      "ja": "ラストガスプ",
+      "ja": "死に際",
       "category": "mechanic",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Last_Gasp",
+      "status": "verified",
+      "previous_ja": "ラストガスプ"
     },
     "Last Gasp Support": {
       "ja": "ラストガスプ・サポート",
@@ -2179,8 +2262,8 @@
     "Levinstone": {
       "ja": "レヴィンストーン",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Levinstone",
+      "status": "verified"
     },
     "Leylines": {
       "ja": "レイライン",
@@ -2203,8 +2286,8 @@
     "Lightning Arrow": {
       "ja": "ライトニングアロー",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Lightning_Arrow",
+      "status": "verified"
     },
     "Lightning Doryani's": {
       "ja": "ライトニング・ドリヤニ",
@@ -2219,16 +2302,17 @@
       "status": "provisional"
     },
     "Lightning Rod": {
-      "ja": "ライトニング・ロッド",
+      "ja": "ライトニングロッド",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Lightning_Rod",
+      "status": "verified",
+      "previous_ja": "ライトニング・ロッド"
     },
     "Lightning Warp": {
       "ja": "ライトニングワープ",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Lightning_Warp",
+      "status": "verified"
     },
     "Lightning-Charged Rend": {
       "ja": "ライトニングチャージ・レンド",
@@ -2239,8 +2323,8 @@
     "Liminal Coil": {
       "ja": "リミナル・コイル",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Liminal_Coil",
+      "status": "verified"
     },
     "Liquid Emotions": {
       "ja": "リキッド・エモーション",
@@ -2261,16 +2345,18 @@
       "status": "provisional"
     },
     "Living Lightning": {
-      "ja": "リビング・ライトニング",
+      "ja": "リビングライトニング",
       "category": "support",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Living_Lightning",
+      "status": "verified",
+      "previous_ja": "リビング・ライトニング"
     },
     "Living Lightning II": {
-      "ja": "リビング・ライトニング II",
+      "ja": "リビングライトニング II",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Living_Lightning_II",
+      "status": "verified",
+      "previous_ja": "リビング・ライトニング II"
     },
     "Loathsome Mire": {
       "ja": "忌まわしき沼地",
@@ -2287,8 +2373,8 @@
     "Loreweave": {
       "ja": "ロアウィーヴ",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Loreweave",
+      "status": "verified"
     },
     "Low Tolerance": {
       "ja": "ロー・トレランス",
@@ -2297,16 +2383,17 @@
       "status": "provisional"
     },
     "Lunar Blessing": {
-      "ja": "ルナー・ブレッシング",
+      "ja": "ルナーブレッシング",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Lunar_Blessing",
+      "status": "verified",
+      "previous_ja": "ルナー・ブレッシング"
     },
     "Mageblood": {
       "ja": "メイジブラッド",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Mageblood",
+      "status": "verified"
     },
     "Mageguard Armour Set": {
       "ja": "メイジガード・アーマーセット",
@@ -2315,10 +2402,11 @@
       "status": "provisional"
     },
     "Magma Barrier": {
-      "ja": "マグマ・バリア",
+      "ja": "マグマバリアー",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Magma_Barrier",
+      "status": "verified",
+      "previous_ja": "マグマ・バリア"
     },
     "Maji Talisman": {
       "ja": "マジ・タリスマン",
@@ -2347,8 +2435,8 @@
     "Mastered Domain": {
       "ja": "支配されし領域",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Mastered_Domain",
+      "status": "verified"
     },
     "Masters of the Atlas": {
       "ja": "アトラスの導師",
@@ -2371,14 +2459,15 @@
     "Megalomaniac": {
       "ja": "メガロマニアック",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Megalomaniac",
+      "status": "verified"
     },
     "Melting Maelstrom": {
-      "ja": "メルティング・メイルストロム",
+      "ja": "溶解する大渦",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Melting_Maelstrom",
+      "status": "verified",
+      "previous_ja": "メルティング・メイルストロム"
     },
     "Merchant Tab Shop": {
       "ja": "マーチャント・タブ・ショップ",
@@ -2411,10 +2500,11 @@
       "status": "provisional"
     },
     "Minion Instability": {
-      "ja": "ミニオン・インスタビリティ",
+      "ja": "ミニオンインスタビリティ",
       "category": "passive",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Minion_Instability",
+      "status": "verified",
+      "previous_ja": "ミニオン・インスタビリティ"
     },
     "Minion Splash": {
       "ja": "ミニオン・スプラッシュ",
@@ -2435,22 +2525,25 @@
       "status": "provisional"
     },
     "Mirage Archer": {
-      "ja": "ミラージュ・アーチャー",
+      "ja": "ミラージュアーチャー",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Mirage_Archer",
+      "status": "verified",
+      "previous_ja": "ミラージュ・アーチャー"
     },
     "Mirage Deadeye": {
-      "ja": "ミラージュ・デッドアイ",
+      "ja": "ミラージュデッドアイ",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Mirage_Deadeye",
+      "status": "verified",
+      "previous_ja": "ミラージュ・デッドアイ"
     },
     "Mirror of Refraction": {
-      "ja": "ミラー・オブ・リフラクション",
+      "ja": "屈折の鏡",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Mirror_of_Refraction",
+      "status": "verified",
+      "previous_ja": "ミラー・オブ・リフラクション"
     },
     "Mirror Shards": {
       "ja": "ミラーシャード",
@@ -2459,10 +2552,11 @@
       "status": "provisional"
     },
     "Molten Blast": {
-      "ja": "モルテン・ブラスト",
+      "ja": "モルテンブラスト",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Molten_Blast",
+      "status": "verified",
+      "previous_ja": "モルテン・ブラスト"
     },
     "Monastery of the Keepers": {
       "ja": "守護者の修道院",
@@ -2473,8 +2567,8 @@
     "Monk": {
       "ja": "モンク",
       "category": "class",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Monk",
+      "status": "verified"
     },
     "Monster Effectiveness": {
       "ja": "モンスター効力",
@@ -2527,8 +2621,8 @@
     "Nightfall": {
       "ja": "ナイトフォール",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Nightfall",
+      "status": "verified"
     },
     "Now and Again": {
       "ja": "ナウ・アンド・アゲイン",
@@ -2597,16 +2691,18 @@
       "status": "provisional"
     },
     "Ogham Village": {
-      "ja": "オーガム村",
+      "ja": "Ogham Village",
       "category": "location",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Ogham_Village",
+      "status": "verified",
+      "previous_ja": "オーガム村"
     },
     "Oil Barrage": {
-      "ja": "オイルバラージュ",
+      "ja": "オイルバラージ",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Oil_Barrage",
+      "status": "verified",
+      "previous_ja": "オイルバラージュ"
     },
     "Oil Ground": {
       "ja": "オイル地面",
@@ -2657,16 +2753,17 @@
       "status": "provisional"
     },
     "Omens": {
-      "ja": "オーメン",
+      "ja": "お告げ",
       "category": "currency",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Omens",
+      "status": "verified",
+      "previous_ja": "オーメン"
     },
     "Opportunity": {
       "ja": "オポチュニティ",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Opportunity",
+      "status": "verified"
     },
     "Orb of Augmentation": {
       "ja": "オーグメンテーションオーブ",
@@ -2699,16 +2796,18 @@
       "status": "provisional"
     },
     "Oswald": {
-      "ja": "オズワルド",
+      "ja": "Oswald",
       "category": "npc",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Oswald",
+      "status": "verified",
+      "previous_ja": "オズワルド"
     },
     "Overabundance III": {
-      "ja": "オーバーアバンダンス III",
+      "ja": "上限超過 III",
       "category": "support",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Overabundance_III",
+      "status": "verified",
+      "previous_ja": "オーバーアバンダンス III"
     },
     "Overencumbrance": {
       "ja": "オーバーエンカンブランス",
@@ -2717,10 +2816,11 @@
       "status": "provisional"
     },
     "Overextend": {
-      "ja": "オーバーエクステンド",
+      "ja": "無理の代償",
       "category": "support",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Overextend",
+      "status": "verified",
+      "previous_ja": "オーバーエクステンド"
     },
     "Overseer Precursor Tablets": {
       "ja": "オーバーシーア先人タブレット",
@@ -2767,14 +2867,14 @@
     "Parry": {
       "ja": "パリィ",
       "category": "mechanic",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Parry",
+      "status": "verified"
     },
     "Pathfinder": {
       "ja": "パスファインダー",
       "category": "ascendancy",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Pathfinder",
+      "status": "verified"
     },
     "Patient Barrier": {
       "ja": "ペイシェント・バリア",
@@ -2803,14 +2903,15 @@
     "Periphery": {
       "ja": "ペリフェリー",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Periphery",
+      "status": "verified"
     },
     "Persistent Skills": {
-      "ja": "持続スキル",
+      "ja": "永続",
       "category": "mechanic",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Persistent_Skills",
+      "status": "verified",
+      "previous_ja": "持続スキル"
     },
     "Phased Form": {
       "ja": "フェイズド・フォーム",
@@ -2825,16 +2926,17 @@
       "status": "provisional"
     },
     "Plaguefinger": {
-      "ja": "プレイグフィンガー",
+      "ja": "疫病の指",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Plaguefinger",
+      "status": "verified",
+      "previous_ja": "プレイグフィンガー"
     },
     "Plasma Blast": {
       "ja": "プラズマブラスト",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Plasma_Blast",
+      "status": "verified"
     },
     "Plunder's Point": {
       "ja": "プランダーズ・ポイント",
@@ -2849,10 +2951,11 @@
       "status": "provisional"
     },
     "Poisonburst Arrow": {
-      "ja": "ポイズンバースト・アロー",
+      "ja": "ポイズンバーストアロー",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Poisonburst_Arrow",
+      "status": "verified",
+      "previous_ja": "ポイズンバースト・アロー"
     },
     "Potent Emotions": {
       "ja": "ポテント・エモーション",
@@ -2863,8 +2966,8 @@
     "Pounce": {
       "ja": "パウンス",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Pounce",
+      "status": "verified"
     },
     "Power Charged Falling Thunder": {
       "ja": "パワーチャージド・フォーリング・サンダー",
@@ -2927,16 +3030,18 @@
       "status": "provisional"
     },
     "Prism of Belief": {
-      "ja": "プリズム・オブ・ビリーフ",
+      "ja": "信仰のプリズム",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Prism_of_Belief",
+      "status": "verified",
+      "previous_ja": "プリズム・オブ・ビリーフ"
     },
     "Prized Pain": {
-      "ja": "プライズド・ペイン",
+      "ja": "尊ばれし苦痛",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Prized_Pain",
+      "status": "verified",
+      "previous_ja": "プライズド・ペイン"
     },
     "Prototype Seventeen": {
       "ja": "プロトタイプ・セブンティーン",
@@ -2993,40 +3098,45 @@
       "status": "provisional"
     },
     "Radiant Grief": {
-      "ja": "ラディアント・グリーフ",
+      "ja": "輝く嘆き",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Radiant_Grief",
+      "status": "verified",
+      "previous_ja": "ラディアント・グリーフ"
     },
     "Rage I": {
-      "ja": "レイジ I",
+      "ja": "憤怒 I",
       "category": "support",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Rage_I",
+      "status": "verified",
+      "previous_ja": "レイジ I"
     },
     "Rage II": {
-      "ja": "レイジ II",
+      "ja": "憤怒 II",
       "category": "support",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Rage_II",
+      "status": "verified",
+      "previous_ja": "レイジ II"
     },
     "Rage III": {
-      "ja": "レイジ III",
+      "ja": "憤怒 III",
       "category": "support",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Rage_III",
+      "status": "verified",
+      "previous_ja": "レイジ III"
     },
     "Rain of Arrows": {
-      "ja": "レイン・オブ・アロウズ",
+      "ja": "レインオブアロー",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Rain_of_Arrows",
+      "status": "verified",
+      "previous_ja": "レイン・オブ・アロウズ"
     },
     "Raise Shield": {
       "ja": "レイズシールド",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Raise_Shield",
+      "status": "verified"
     },
     "Rapid Recharge": {
       "ja": "ラピッド・リチャージ",
@@ -3043,8 +3153,8 @@
     "Rapid Shot": {
       "ja": "ラピッドショット",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Rapid_Shot",
+      "status": "verified"
     },
     "Ratha's Assault": {
       "ja": "ラサの強襲",
@@ -3053,10 +3163,11 @@
       "status": "provisional"
     },
     "Rathpith Globe": {
-      "ja": "ラスピス・グローブ",
+      "ja": "ラスピスの球体",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Rathpith_Globe",
+      "status": "verified",
+      "previous_ja": "ラスピス・グローブ"
     },
     "Raven-Touched": {
       "ja": "レイヴン・タッチド",
@@ -3065,10 +3176,11 @@
       "status": "provisional"
     },
     "Ravenous Swarm": {
-      "ja": "レイヴァナス・スウォーム",
+      "ja": "ラヴェナススウォーム",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Ravenous_Swarm",
+      "status": "verified",
+      "previous_ja": "レイヴァナス・スウォーム"
     },
     "Rebirth Rune": {
       "ja": "リバースルーン",
@@ -3091,8 +3203,8 @@
     "Redemption": {
       "ja": "リデンプション",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Redemption",
+      "status": "verified"
     },
     "Refocus": {
       "ja": "リフォーカス",
@@ -3113,16 +3225,18 @@
       "status": "provisional"
     },
     "Refraction I": {
-      "ja": "リフラクション I",
+      "ja": "屈折装甲 I",
       "category": "support",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Refraction_I",
+      "status": "verified",
+      "previous_ja": "リフラクション I"
     },
     "Refraction II": {
-      "ja": "リフラクション II",
+      "ja": "屈折装甲 II",
       "category": "support",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Refraction_II",
+      "status": "verified",
+      "previous_ja": "リフラクション II"
     },
     "Refutation": {
       "ja": "反駁",
@@ -3145,8 +3259,8 @@
     "Remnants": {
       "ja": "レムナント",
       "category": "mechanic",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Remnants",
+      "status": "verified"
     },
     "Remnants of Kalguur": {
       "ja": "カルグールの遺物",
@@ -3179,22 +3293,24 @@
       "status": "provisional"
     },
     "Resonating Shield": {
-      "ja": "レゾネーティングシールド",
+      "ja": "レゾーネーティングシールド",
       "category": "mechanic",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Resonating_Shield",
+      "status": "verified",
+      "previous_ja": "レゾネーティングシールド"
     },
     "Reverie": {
       "ja": "レヴェリー",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Reverie",
+      "status": "verified"
     },
     "Rhoa Mount": {
-      "ja": "ローア騎乗",
+      "ja": "ロア騎乗",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Rhoa_Mount",
+      "status": "verified",
+      "previous_ja": "ローア騎乗"
     },
     "Ricochet III Support": {
       "ja": "リコシェ III サポート",
@@ -3211,8 +3327,8 @@
     "Rite of Passage": {
       "ja": "通過儀礼",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Rite_of_Passage",
+      "status": "verified"
     },
     "Rite of Restoration": {
       "ja": "回復の儀式",
@@ -3229,8 +3345,8 @@
     "Ritual": {
       "ja": "リチュアル",
       "category": "mechanic",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Ritual",
+      "status": "verified"
     },
     "Ritual Altar": {
       "ja": "リチュアル・アルター",
@@ -3265,8 +3381,8 @@
     "Rogue Exile": {
       "ja": "ローグエグザイル",
       "category": "mechanic",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Rogue_Exile",
+      "status": "verified"
     },
     "Rogue Exiles": {
       "ja": "ローグ・エグザイル",
@@ -3275,16 +3391,17 @@
       "status": "provisional"
     },
     "Rolling Magma": {
-      "ja": "ローリング・マグマ",
+      "ja": "ローリングマグマ",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Rolling_Magma",
+      "status": "verified",
+      "previous_ja": "ローリング・マグマ"
     },
     "Rolling Slam": {
       "ja": "ローリングスラム",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Rolling_Slam",
+      "status": "verified"
     },
     "Ruby Jewel": {
       "ja": "ルビー・ジュエル",
@@ -3373,8 +3490,8 @@
     "Sadist's Mercy": {
       "ja": "サディストの慈悲",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Sadist's_Mercy",
+      "status": "verified"
     },
     "Safrin's Resolve": {
       "ja": "サフリンの決意",
@@ -3419,10 +3536,11 @@
       "status": "provisional"
     },
     "Seed of Cataclysm": {
-      "ja": "シード・オブ・カタクリズム",
+      "ja": "災厄の種子",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Seed_of_Cataclysm",
+      "status": "verified",
+      "previous_ja": "シード・オブ・カタクリズム"
     },
     "Seeker Armour Set": {
       "ja": "シーカー・アーマーセット",
@@ -3433,8 +3551,8 @@
     "Sekhema's Resolve": {
       "ja": "セケマの決意",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Sekhema's_Resolve",
+      "status": "verified"
     },
     "Selfless Remnants Support": {
       "ja": "献身レムナント・サポート",
@@ -3451,14 +3569,15 @@
     "Serle's Grit": {
       "ja": "サールの気骨",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Serle's_Grit",
+      "status": "verified"
     },
     "Shackles of the Wretched": {
-      "ja": "哀れなる者の枷",
+      "ja": "哀れな者の手枷",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Shackles_of_the_Wretched",
+      "status": "verified",
+      "previous_ja": "哀れなる者の枷"
     },
     "Shatter Palm": {
       "ja": "シャター・パーム",
@@ -3467,10 +3586,11 @@
       "status": "provisional"
     },
     "Shattering Spite": {
-      "ja": "シャタリング・スパイト",
+      "ja": "シャタリングスパイト",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Shattering_Spite",
+      "status": "verified",
+      "previous_ja": "シャタリング・スパイト"
     },
     "Shield Block": {
       "ja": "シールドブロック",
@@ -3481,8 +3601,8 @@
     "Shield Wall": {
       "ja": "シールドウォール",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Shield_Wall",
+      "status": "verified"
     },
     "Shield Wave": {
       "ja": "シールドウェーブ",
@@ -3503,22 +3623,24 @@
       "status": "provisional"
     },
     "Shock Conduction II": {
-      "ja": "ショック・コンダクション II",
+      "ja": "感電伝染 II",
       "category": "support",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Shock_Conduction_II",
+      "status": "verified",
+      "previous_ja": "ショック・コンダクション II"
     },
     "Shocked Ground": {
-      "ja": "ショックド・グラウンド",
+      "ja": "感電領域",
       "category": "mechanic",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Shocked_Ground",
+      "status": "verified",
+      "previous_ja": "ショックド・グラウンド"
     },
     "Shockwave Totem": {
       "ja": "ショックウェーブトーテム",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Shockwave_Totem",
+      "status": "verified"
     },
     "Shred": {
       "ja": "シュレッド",
@@ -3533,10 +3655,10 @@
       "status": "provisional"
     },
     "Sierran Inheritance": {
-      "ja": "シエラの継承",
+      "ja": "シエラの遺産",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Sierran_Inheritance",
+      "status": "verified"
     },
     "Simulacrum": {
       "ja": "シミュラクラム",
@@ -3551,10 +3673,11 @@
       "status": "provisional"
     },
     "Sine Aequo": {
-      "ja": "シネ・アエクオ",
+      "ja": "不平等",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Sine_Aequo",
+      "status": "verified",
+      "previous_ja": "シネ・アエクオ"
     },
     "Skill Gem": {
       "ja": "スキルジェム",
@@ -3595,14 +3718,15 @@
     "Snipe": {
       "ja": "スナイプ",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Snipe",
+      "status": "verified"
     },
     "Solar Orb": {
-      "ja": "ソーラー・オーブ",
+      "ja": "ソーラーオーブ",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Solar_Orb",
+      "status": "verified",
+      "previous_ja": "ソーラー・オーブ"
     },
     "Soul Core Ultimatum": {
       "ja": "ソウルコア・アルティメイタム",
@@ -3611,16 +3735,18 @@
       "status": "provisional"
     },
     "Soul Mantle": {
-      "ja": "ソウルマントル",
+      "ja": "魂の外套",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Soul_Mantle",
+      "status": "verified",
+      "previous_ja": "ソウルマントル"
     },
     "Spell Totem": {
-      "ja": "スペル・トーテム",
+      "ja": "スペルトーテム",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Spell_Totem",
+      "status": "verified",
+      "previous_ja": "スペル・トーテム"
     },
     "Spirit Walker": {
       "ja": "スピリットウォーカー",
@@ -3631,8 +3757,8 @@
     "Spiteful Floret": {
       "ja": "悪意の小花",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Spiteful_Floret",
+      "status": "verified"
     },
     "Splash Damage": {
       "ja": "スプラッシュダメージ",
@@ -3641,10 +3767,11 @@
       "status": "provisional"
     },
     "Split Personality": {
-      "ja": "スプリット・パーソナリティ",
+      "ja": "分裂した人格",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Split_Personality",
+      "status": "verified",
+      "previous_ja": "スプリット・パーソナリティ"
     },
     "Squire's": {
       "ja": "スクワイアズ",
@@ -3671,16 +3798,18 @@
       "status": "provisional"
     },
     "Staggering Palm": {
-      "ja": "スタッガリング・パーム",
+      "ja": "スタッガリングパーム",
       "category": "passive",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Staggering_Palm",
+      "status": "verified",
+      "previous_ja": "スタッガリング・パーム"
     },
     "Static Shocks": {
-      "ja": "スタティック・ショックス",
+      "ja": "スタティックショック",
       "category": "support",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Static_Shocks",
+      "status": "verified",
+      "previous_ja": "スタティック・ショックス"
     },
     "Stoicism Support": {
       "ja": "ストイシズム・サポート",
@@ -3749,10 +3878,11 @@
       "status": "provisional"
     },
     "Supercharged Slam": {
-      "ja": "スーパーチャージド・スラム",
+      "ja": "スーパーチャージドスラム",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Supercharged_Slam",
+      "status": "verified",
+      "previous_ja": "スーパーチャージド・スラム"
     },
     "Support Gem": {
       "ja": "サポートジェム",
@@ -3761,10 +3891,11 @@
       "status": "provisional"
     },
     "Surge of the Tide": {
-      "ja": "潮のサージ",
+      "ja": "潮の奔流",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Surge_of_the_Tide",
+      "status": "verified",
+      "previous_ja": "潮のサージ"
     },
     "Surpassing Chance": {
       "ja": "サーパッシング・チャンス",
@@ -3775,14 +3906,15 @@
     "Svalinn": {
       "ja": "スヴァリン",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Svalinn",
+      "status": "verified"
     },
     "Sylvan's Effigy": {
-      "ja": "シルヴァンの偶像",
+      "ja": "シルヴァンの像",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Sylvan's_Effigy",
+      "status": "verified",
+      "previous_ja": "シルヴァンの偶像"
     },
     "Synthflesh Lab": {
       "ja": "シンスフレッシュ・ラボ",
@@ -3799,14 +3931,15 @@
     "Tactician": {
       "ja": "タクティシャン",
       "category": "passive",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Tactician",
+      "status": "verified"
     },
     "Tame Beast": {
-      "ja": "テイム・ビースト",
+      "ja": "テイムビースト",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Tame_Beast",
+      "status": "verified",
+      "previous_ja": "テイム・ビースト"
     },
     "Tangmazu's Thurible": {
       "ja": "タングマズの香炉",
@@ -3827,10 +3960,11 @@
       "status": "provisional"
     },
     "Tempest Bell": {
-      "ja": "テンペスト・ベル",
+      "ja": "テンペストベル",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Tempest_Bell",
+      "status": "verified",
+      "previous_ja": "テンペスト・ベル"
     },
     "Tempest Shockwave": {
       "ja": "テンペスト・ショックウェーブ",
@@ -3851,10 +3985,11 @@
       "status": "provisional"
     },
     "Temporal Rift": {
-      "ja": "テンポラル・リフト",
+      "ja": "テンポラルリフト",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Temporal_Rift",
+      "status": "verified",
+      "previous_ja": "テンポラル・リフト"
     },
     "Thane Leld's Rune of Spring": {
       "ja": "レルドの春のルーン",
@@ -3877,8 +4012,8 @@
     "The Auspex": {
       "ja": "オースペックス",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/The_Auspex",
+      "status": "verified"
     },
     "The Bloated Miller": {
       "ja": "膨満の粉屋",
@@ -3893,10 +4028,11 @@
       "status": "provisional"
     },
     "The Covenant": {
-      "ja": "誓約",
+      "ja": "契約",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/The_Covenant",
+      "status": "verified",
+      "previous_ja": "誓約"
     },
     "The Dreadnaught": {
       "ja": "ドレッドノート",
@@ -3929,10 +4065,11 @@
       "status": "provisional"
     },
     "The Hollow Mask": {
-      "ja": "うつろの仮面",
+      "ja": "虚ろの仮面",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/The_Hollow_Mask",
+      "status": "verified",
+      "previous_ja": "うつろの仮面"
     },
     "The Iron Count": {
       "ja": "アイアン・カウント",
@@ -3943,8 +4080,8 @@
     "The Ordained": {
       "ja": "聖別されし者",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/The_Ordained",
+      "status": "verified"
     },
     "The Quick Fox": {
       "ja": "ザ・クイック・フォックス",
@@ -3953,10 +4090,11 @@
       "status": "provisional"
     },
     "The Raven's Flock": {
-      "ja": "大鴉の群れ",
+      "ja": "ザ・レイヴンズ・フロック",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/The_Raven's_Flock",
+      "status": "verified",
+      "previous_ja": "大鴉の群れ"
     },
     "The Ruins of Kingsmarch": {
       "ja": "キングスマーチ廃墟",
@@ -3967,26 +4105,29 @@
     "The Sunken Vessel": {
       "ja": "沈みし器",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/The_Sunken_Vessel",
+      "status": "verified"
     },
     "The Unborn Lich": {
-      "ja": "ザ・アンボーン・リッチ",
+      "ja": "産まれ出でぬリッチ",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/The_Unborn_Lich",
+      "status": "verified",
+      "previous_ja": "ザ・アンボーン・リッチ"
     },
     "The Unleashed": {
-      "ja": "解き放たれし者",
+      "ja": "The Unleashed",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/The_Unleashed",
+      "status": "verified",
+      "previous_ja": "ザ・アンリーシュド"
     },
     "The Vertex": {
-      "ja": "頂点",
+      "ja": "バーテックス",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/The_Vertex",
+      "status": "verified",
+      "previous_ja": "頂点"
     },
     "The Withered Willow": {
       "ja": "枯れし柳",
@@ -3995,16 +4136,18 @@
       "status": "provisional"
     },
     "Thorns": {
-      "ja": "ソーンズ",
+      "ja": "棘",
       "category": "mechanic",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Thorns",
+      "status": "verified",
+      "previous_ja": "ソーンズ"
     },
     "Thrashing Vines": {
-      "ja": "スラッシング・ヴァインズ",
+      "ja": "スラッシングヴァイン",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Thrashing_Vines",
+      "status": "verified",
+      "previous_ja": "スラッシング・ヴァインズ"
     },
     "Thunder Talisman": {
       "ja": "サンダー・タリスマン",
@@ -4015,14 +4158,15 @@
     "Thunderstorm": {
       "ja": "サンダーストーム",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Thunderstorm",
+      "status": "verified"
     },
     "Time of Need": {
-      "ja": "タイム・オブ・ニード",
+      "ja": "タイムオブニード",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Time_of_Need",
+      "status": "verified",
+      "previous_ja": "タイム・オブ・ニード"
     },
     "Time-Lost Sapphire": {
       "ja": "タイムロスト・サファイア",
@@ -4045,14 +4189,15 @@
     "Toughness": {
       "ja": "タフネス",
       "category": "mechanic",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Toughness",
+      "status": "verified"
     },
     "Toxic Growth": {
-      "ja": "トキシック・グロウス",
+      "ja": "トキシックグロース",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Toxic_Growth",
+      "status": "verified",
+      "previous_ja": "トキシック・グロウス"
     },
     "Tracking Scroll": {
       "ja": "追跡スクロール",
@@ -4093,8 +4238,8 @@
     "Trinity": {
       "ja": "トリニティ",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Trinity",
+      "status": "verified"
     },
     "Triskelion Cascade": {
       "ja": "トリスケリオン・カスケード",
@@ -4135,8 +4280,8 @@
     "Twisted Empyrean": {
       "ja": "捻じれし天界",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Twisted_Empyrean",
+      "status": "verified"
     },
     "Uhtred": {
       "ja": "強欲な反逆者、ウートレッド",
@@ -4195,8 +4340,8 @@
     "Unleash": {
       "ja": "アンリーシュ",
       "category": "support",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Unleash",
+      "status": "verified"
     },
     "Unnamed Heartwood Oracle": {
       "ja": "名もなき心木の神託",
@@ -4273,8 +4418,8 @@
     "Veilpiercer": {
       "ja": "ヴェイルピアサー",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Veilpiercer",
+      "status": "verified"
     },
     "Verisium": {
       "ja": "ヴェリシウム",
@@ -4303,8 +4448,8 @@
     "Vestige of Darkness": {
       "ja": "闇の残滓",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Vestige_of_Darkness",
+      "status": "verified"
     },
     "Vile Robe": {
       "ja": "ヴァイルローブ",
@@ -4315,8 +4460,8 @@
     "Viper Napuatzi": {
       "ja": "ヴァイパー・ナプアツィ",
       "category": "boss",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Viper_Napuatzi",
+      "status": "verified"
     },
     "Virtuous Barrier": {
       "ja": "ヴァーチュアス・バリア",
@@ -4337,10 +4482,11 @@
       "status": "provisional"
     },
     "Voices": {
-      "ja": "ヴォイシズ",
+      "ja": "声",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Voices",
+      "status": "verified",
+      "previous_ja": "ヴォイシズ"
     },
     "Void Emperor Armour Set": {
       "ja": "ヴォイドエンペラー・アーマーセット",
@@ -4349,16 +4495,18 @@
       "status": "provisional"
     },
     "Volcano": {
-      "ja": "ヴォルケーノ",
+      "ja": "ボルケーノ",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Volcano",
+      "status": "verified",
+      "previous_ja": "ヴォルケーノ"
     },
     "Volt": {
-      "ja": "ヴォルト",
+      "ja": "ボルト",
       "category": "support",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Volt",
+      "status": "verified",
+      "previous_ja": "ヴォルト"
     },
     "Volt Support": {
       "ja": "ヴォルト・サポート",
@@ -4433,10 +4581,11 @@
       "status": "provisional"
     },
     "War Banner": {
-      "ja": "ウォー・バナー",
+      "ja": "ウォーバナー",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/War_Banner",
+      "status": "verified",
+      "previous_ja": "ウォー・バナー"
     },
     "Warden Bow": {
       "ja": "ウォーデン・ボウ",
@@ -4469,10 +4618,11 @@
       "status": "provisional"
     },
     "Whirling Assault": {
-      "ja": "ワーリング・アサルト",
+      "ja": "ワーリングアサルト",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Whirling_Assault",
+      "status": "verified",
+      "previous_ja": "ワーリング・アサルト"
     },
     "Wide Barrier": {
       "ja": "ワイド・バリア",
@@ -4501,14 +4651,14 @@
     "Wing Blast": {
       "ja": "ウィングブラスト",
       "category": "skill",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Wing_Blast",
+      "status": "verified"
     },
     "Witchhunter": {
       "ja": "ウィッチハンター",
       "category": "ascendancy",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Witchhunter",
+      "status": "verified"
     },
     "Witchtoad": {
       "ja": "ウィッチトード",
@@ -4517,10 +4667,11 @@
       "status": "provisional"
     },
     "Withered": {
-      "ja": "ウィザード",
+      "ja": "衰弱",
       "category": "mechanic",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Withered",
+      "status": "verified",
+      "previous_ja": "ウィザード"
     },
     "Wolf Idol": {
       "ja": "ウルフ・アイドル",
@@ -4559,10 +4710,11 @@
       "status": "provisional"
     },
     "Zerphi's Genesis": {
-      "ja": "ザーフィの創世",
+      "ja": "ゼルフィの誕生",
       "category": "unique",
-      "url": null,
-      "status": "provisional"
+      "url": "https://poe2db.tw/jp/Zerphi's_Genesis",
+      "status": "verified",
+      "previous_ja": "ザーフィの創世"
     }
   }
 }

@@ -33,3 +33,8 @@ merge_*.py
 *.pem
 secrets/
 credentials*
+
+# Agent temporary state
+assets/_*.json
+.work_crawl/
+.poe2db_mapping.json
