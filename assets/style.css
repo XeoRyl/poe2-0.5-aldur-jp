@@ -472,6 +472,50 @@ a.term-link:hover::after {
   opacity: 1;
 }
 
+/* ---------- Component: a.anchor-link (内部ジャンプ) ---------- */
+a.anchor-link {
+  border-bottom: none;
+  text-decoration: none;
+  display: inline;
+  color: inherit;
+}
+
+a.anchor-link .term {
+  cursor: pointer;
+  border-bottom: 1px solid var(--gold-dim);
+  color: var(--gold-bright);
+}
+
+a.anchor-link:hover .term {
+  background-color: rgba(201,169,97,0.12);
+  border-bottom-color: var(--gold);
+}
+
+/* 内部ジャンプは ↓ 風アイコン（控えめ） */
+a.anchor-link::after {
+  content: "§";
+  display: inline-block;
+  font-size: 0.7em;
+  margin-left: 0.15em;
+  color: var(--gold-dim);
+  opacity: 0.5;
+  vertical-align: baseline;
+  transition: opacity 0.15s ease, color 0.15s ease;
+}
+
+a.anchor-link:hover::after {
+  color: var(--gold);
+  opacity: 1;
+}
+
+/* h4 隣接の DB バッジを上品に配置 */
+h4 > a.poe2db-link,
+h3 > a.poe2db-link {
+  vertical-align: middle;
+  margin-left: 0.6em;
+  font-size: 0.6em;
+}
+
 .term[data-en]::before {
   content: attr(data-en);
   position: absolute;
@@ -1019,6 +1063,98 @@ footer {
   text-align: center;
   font-size: 0.85em;
   color: var(--text-muted);
+}
+
+/* ---------- index.html: Source Cards Grid ---------- */
+.source-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.4em;
+  margin: 2em 0 3em;
+}
+
+.source-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.4em 1.5em;
+  background: linear-gradient(180deg, var(--bg-elevated), var(--bg-surface));
+  border: 1px solid var(--gold-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid var(--gold-border);
+  position: relative;
+  overflow: hidden;
+}
+
+.source-card::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  opacity: 0.6;
+}
+
+.source-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--gold);
+  box-shadow: var(--shadow-md), 0 0 0 1px var(--gold-dim);
+}
+
+.source-card .source-no {
+  font-family: var(--font-display);
+  font-size: 0.82rem;
+  letter-spacing: 0.18em;
+  color: var(--gold-dim);
+  text-transform: uppercase;
+  margin-bottom: 0.4em;
+}
+
+.source-card .source-title {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  color: var(--gold-bright);
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0 0 0.6em;
+  letter-spacing: 0.02em;
+}
+
+.source-card .source-summary {
+  color: var(--text-secondary);
+  font-size: 0.92rem;
+  line-height: 1.65;
+  margin: 0 0 1em;
+  flex: 1;
+}
+
+.source-card .source-tags {
+  margin-top: auto;
+}
+
+.source-card.placeholder {
+  background: transparent;
+  border: 1px dashed var(--gold-border);
+  opacity: 0.55;
+  cursor: default;
+  pointer-events: none;
+}
+
+.source-card.placeholder .source-title {
+  color: var(--text-muted);
+  font-style: italic;
+}
+.source-card.placeholder::before { display: none; }
+
+/* hero stat row (index.html) */
+.hero-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1em;
+  margin: 2em 0 3em;
 }
 
 /* Footer with back-to-top link */
