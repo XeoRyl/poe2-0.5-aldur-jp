@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>キャンペーン再プレイ性・プレイヤー仕様・新コンテンツ | PoE2 0.5.0</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<main>
+
+
+<nav class="breadcrumb" aria-label="パンくずリスト">
+  <a href="../index.html" class="home-icon">アルダーのルーン リーグ ホーム</a>
+  <span class="breadcrumb-sep">/</span>
+  <span class="breadcrumb-current">ソース 04: キャンペーン ＆ プレイヤー</span>
+</nav>
+<header>
+  <h1>キャンペーン再プレイ性 ＆ プレイヤー仕様 ＆ 新コンテンツ</h1>
+  <p class="subtitle">再走の高速化・防御まわりの再設計・新アセンダンシー2種・新リネージサポート21種・新ユニーク42点</p>
+  <div class="meta">
+    <span class="meta-item">バージョン 0.5.0</span>
+    <span class="meta-item">ソース 04</span>
+    <span class="meta-item">対応セクション: Campaign Replayability / Player Changes / New Content and Features</span>
+  </div>
+</header>
+
+<div class="callout info">
+  <div>
+    <span class="callout-title">本ドキュメントの位置付け</span>
+    0.5.0 が新リーグ初プレイ／再走の体験を整えるために行った3領域の変更を整理する。
+    <strong>キャンペーン再プレイ性</strong>（経験者の高速再走支援）、<strong>プレイヤー仕様変更</strong>（Bleed/Leech/Deflect/Splash 等の挙動再設計）、
+    <strong>新コンテンツ</strong>（<span class="term" data-en="Martial Artist">マーシャルアーティスト</span> ／ <span class="term" data-en="Spirit Walker">スピリットウォーカー</span> の2アセンダンシー、21種のリネージサポート、42点のユニークアイテム、QoL機能群）。
+  </div>
+</div>
+
+<nav class="toc" aria-label="目次">
+  <div class="toc-title">目次</div>
+  <ol>
+    <li><a href="#sec-replay">12. キャンペーン再プレイ性</a></li>
+    <li><a href="#sec-player">13. プレイヤー仕様変更</a></li>
+    <li><a href="#sec-new">14. 新コンテンツ・機能</a>
+      <ol>
+        <li><a href="#sec-ascendancy">14-1. 新アセンダンシー（マーシャルアーティスト ／ スピリットウォーカー）</a></li>
+        <li><a href="#sec-lineage">14-2. 新リネージサポート 21 種</a></li>
+        <li><a href="#sec-unique">14-3. 新ユニークアイテム 42 点</a></li>
+        <li><a href="#sec-features">14-4. 新機能・QoL</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+
+<!-- ============================================================
+     §12 Campaign Replayability
+     ============================================================ -->
+<section id="sec-replay">
+<h2>12. キャンペーン再プレイ性</h2>
+
+<div class="callout">
+  <div>
+    <span class="callout-title">設計意図</span>
+    新リーグごとに <strong>経験豊富なプレイヤーがキャンペーンを再走する時間を短縮</strong> することが狙い。
+    エリア構造の整理／導線ヒントの追加／後半のモンスター密度調整を組み合わせる。
+  </div>
+</div>
+
+<h3>主な変更点</h3>
+<ul>
+  <li>複数のキャンペーンエリアに <strong>「どこへ行けばよいか」が分かる手掛かり</strong> を追加した（知っている人だけが気付ける形）。導線の例は公式動画で紹介されている <a class="poe2db-link" href="https://www.youtube.com/watch?v=miL0Ms-VwGI" target="_blank" rel="noopener">YouTube デモ</a></li>
+  <li>ゲーム全体を通じて、<strong>一部のエリアを短縮</strong>した</li>
+  <li>第2ドレッドノートエリア <span class="term" data-en="The Dreadnaught Vanguard">ドレッドノート前衛部隊</span> を <strong>削除</strong>。Act 2 ボスは <span class="term" data-en="The Dreadnaught">ドレッドノート</span> に配置される</li>
+  <li>Act 3 の<strong>エリア順序を一部並び替え</strong>、進行をよりスムーズに</li>
+  <li><span class="term" data-en="Waterways">水路</span> のレバーを <strong>歩いて踏むだけの圧力パッド</strong>に変更。最終パートの水は<strong>あらかじめ排水済み</strong>の状態でスタート</li>
+  <li>キャンペーン後半、特に <span class="term" data-en="Interludes">幕間エリア</span> の<strong>モンスター密度を低減</strong>し、通過時間を短縮</li>
+</ul>
+
+<div class="callout new">
+  <div>
+    <span class="callout-title">再走 UX の方向性</span>
+    「迷う時間」「無駄に長い区間」「ギミック解除の手間」を計画的に削る方針。<strong>初見の体験は損なわず</strong>、経験者だけが恩恵を受ける作りになっている。
+  </div>
+</div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ============================================================
+     §13 Player Changes
+     ============================================================ -->
+<section id="sec-player">
+<h2>13. プレイヤー仕様変更</h2>
+
+<h3>13-1. 出血（Bleed）の移動補正撤廃</h3>
+<div class="compare">
+  <div class="compare-side before">
+    <span class="compare-label">これまで</span>
+    <h4>プレイヤーが移動中は Bleed ダメージが増加</h4>
+    <p>移動するほどプレイヤー側の出血ダメージが膨らみ、即死リスクを高めていた。</p>
+  </div>
+  <div class="compare-arrow">→</div>
+  <div class="compare-side after">
+    <span class="compare-label">0.5.0 から</span>
+    <h4>プレイヤーへの Bleed は移動で増えない</h4>
+    <p>プレイヤーがモンスターに与える Bleed には影響なし。あくまで<strong>プレイヤーが受ける側</strong>のみ変更。</p>
+  </div>
+</div>
+
+<h3>13-2. <span class="term" data-en="Trial of the Sekhemas">セケマの試練</span> 開始時の <span class="term" data-en="Honour">オナー</span> 仕様</h3>
+<ul>
+  <li>セケマの試練を開始した際、プレイヤーの <strong>最大 <span class="term" data-en="Runic Ward">ルニックウォード</span> 量が開始時 <span class="term" data-en="Honour">オナー</span> に加算</strong>される</li>
+</ul>
+
+<h3>13-3. 「<span class="term" data-en="Defences">ディフェンス</span>」キーワードの廃止</h3>
+<div class="callout info">
+  <div>
+    <span class="callout-title">用語整理（説明文の変更のみ）</span>
+    キーワード <span class="term" data-en="Defences">Defences</span> の使用を停止。既存の「Defences」を含むモッド文言は、すべて
+    <strong>「Armour, Evasion and Energy Shield」（アーマー / イベイジョン / エナジーシールド）</strong> と明示的に書き換えられる。<br>
+    これらのモッドが <span class="term" data-en="Runic Ward">ルニックウォード</span> ／ レジスタンス ／ ブロック ／ その他の防御手段には<strong>適用されない</strong>ことを明確化する目的。挙動変更はない。
+  </div>
+</div>
+
+<h3>13-4. <span class="term" data-en="Leech">リーチ</span> の同時適用ルールとダメージ上限</h3>
+<ul>
+  <li>リソース（Life / Mana / Energy Shield）<strong>1種につき、同時に有効な Leech インスタンスは1つだけ</strong></li>
+  <li>複数の Leech が走った場合は、<strong>回復レートが最高のもの</strong>のみが回復に作用。それが終了したら、次に高いレートのものが引き継ぐ</li>
+  <li>Leech 計算における <strong>1ヒットの最大ダメージに上限</strong>を設定:
+    <ul>
+      <li>ヒット総ダメージが <code>40,000 未満</code>: 影響なし</li>
+      <li>ヒット総ダメージが <code>40,000 超</code>: Leech 計算上は <code>40,000 ダメージ扱い</code>。各ダメージタイプは比例して縮小</li>
+    </ul>
+  </li>
+  <li>結果: <strong>極端な高ダメージヒットは Leech を伸ばさなくなる</strong> が、Leech 率（％）への投資は引き続き効果あり</li>
+</ul>
+
+<div class="callout warn">
+  <div>
+    <span class="callout-title">設計意図</span>
+    1ヒット数百万ダメージ級のスパイクで生命線を全回復してしまう挙動を抑制。<strong>「率（％）」への投資ルートを正当な強化軸として残す</strong>。
+  </div>
+</div>
+
+<h3>13-5. <span class="term" data-en="Deflect">ディフレクト</span> 新公式</h3>
+<ul>
+  <li>ディフレクト確率の公式が改定され、<span class="term" data-en="Deflection Rating">ディフレクションレーティング</span> への投資効率が改善</li>
+  <li>上限は <code>95%</code>（Evade の上限と同様）</li>
+  <li>新公式: <code>chance to Deflect = 150 × (1 − A / (A + 0.12 × D))</code>
+    <br><small>A = attacker accuracy rating, D = defender deflection rating</small></li>
+  <li>線形的な投資カーブとなり、<strong>高投資ほどリターンが大きくなる</strong>設計</li>
+</ul>
+
+<h3>13-6. <span class="term" data-en="Heavy Stun">ヘビースタン</span> 蓄積の減衰タイミング修正</h3>
+<ul>
+  <li><span class="term" data-en="Parry">パリィ</span> / <span class="term" data-en="Shield Block">シールドブロック</span> / <span class="term" data-en="Resonating Shield">レゾネーティングシールド</span> が、<strong>ヘビースタン蓄積の減衰を想定以上に遅延させる不具合</strong>を修正</li>
+</ul>
+
+<h3>13-7. 近接攻撃の <span class="term" data-en="Splash Damage">スプラッシュダメージ</span> 仕様</h3>
+<ul>
+  <li>近接攻撃は <strong>1つのダメージエリアにつき、Splash の適用は1回のみ</strong></li>
+  <li>例: <span class="term" data-en="Whirling Assault">ワーリング・アサルト</span> は移動中に<strong>複数のダメージエリアを生成</strong>するため、エリアごとに Splash が乗る</li>
+</ul>
+
+<h3>13-8. ミニオン除去時の優先順位</h3>
+<ul>
+  <li>リソース変動（武器スワップ等）でミニオンが除去される際、<strong>新しい（younger）ミニオンを優先的に除去</strong></li>
+  <li>クールダウン能力を持つ古いミニオンを無駄にしないための変更</li>
+</ul>
+
+<h3>13-9. ミニオン／トーテムの「効果中は死なない」保証</h3>
+<ul>
+  <li><span class="term" data-en="Last Gasp Support">ラストガスプ・サポート</span> もしくは <span class="term" data-en="Tecrod's Revenge Lineage Support">テクロドの復讐 リネージサポート</span> の影響を受けたミニオン、および <span class="term" data-en="Unnamed Heartwood Oracle">名もなき心木の神託</span> ノータブルパッシブの影響を受けたトーテムは、<strong>効果中、最大ライフを超過するダメージで死ななくなる</strong></li>
+</ul>
+
+<h3>13-10. <span class="term" data-en="Remnant">レムナント</span> 収集トリガーの仲間共有</h3>
+<ul>
+  <li>「<span class="term" data-en="Remnant">レムナント</span> を回収したとき」と書かれたスタッツは、<strong>仲間（Ally）が Remnant 効果を共有してきた場合にはトリガーしなくなる</strong></li>
+</ul>
+
+<h3>13-11. <span class="term" data-en="Trinity">トリニティ</span> 付与バフのリネーム</h3>
+<ul>
+  <li><span class="term" data-en="Trinity">トリニティ</span> が付与するバフ名が <strong><span class="term" data-en="Affinity">アフィニティ</span></strong> に変更（<span class="term" data-en="Resonance">レゾナンス</span> がキーストーンパッシブ名と重複していたため）。表記のみの変更</li>
+</ul>
+
+<h3>13-12. <span class="term" data-en="Archon Buffs">アーコンバフ</span> の挙動変更</h3>
+<ul>
+  <li>アーコンバフは <strong>もはや「攻撃しただけで失われる」性質を持たない</strong></li>
+  <li>これは <strong><span class="term" data-en="Elemental Archon">エレメンタルアーコン</span> 固有のプロパティ</strong>となる</li>
+</ul>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ============================================================
+     §14 New Content and Features
+     ============================================================ -->
+<section id="sec-new">
+<h2>14. 新コンテンツ・機能</h2>
+
+<!-- 14-1 Ascendancy -->
+<section id="sec-ascendancy">
+<h3>14-1. 新アセンダンシークラス 2 種</h3>
+
+<div class="stat-grid">
+  <div class="stat-card">
+    <span class="stat-value">2</span>
+    <span class="stat-label">新アセンダンシー</span>
+    <span class="stat-sub">Monk / Huntress 各1</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-value">21</span>
+    <span class="stat-label">新リネージサポート</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-value">42</span>
+    <span class="stat-label">新ユニークアイテム</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-value">8</span>
+    <span class="stat-label">新アイドル</span>
+    <span class="stat-sub">Azmerian Spirits 憑依個体限定</span>
+  </div>
+</div>
+
+<div class="callout new">
+  <div>
+    <span class="callout-title"><span class="term" data-en="Monk">モンク</span> 用新アセンダンシー: <span class="term" data-en="Martial Artist">マーシャルアーティスト</span></span>
+    <strong>数十年の修練の末、幻術の達人</strong>となったクラス。
+    肉体に刻まれたルーンに力を得て、<strong>強力な幻影を作り出し、補助となる幻影の鐘（illusory bells）を召喚</strong>し、
+    <strong>素手を武器として極める</strong>。
+  </div>
+</div>
+
+<div class="callout new">
+  <div>
+    <span class="callout-title"><span class="term" data-en="Huntress">ハントレス</span> 用新アセンダンシー: <span class="term" data-en="Spirit Walker">スピリットウォーカー</span></span>
+    <strong>野生と結ばれた</strong>クラス。
+    自らの意思に応じる精霊を呼び出し、<span class="term" data-en="Stag">スタッグ（雄鹿）</span> ／ <span class="term" data-en="Owl">アウル（梟）</span> ／ <span class="term" data-en="Bear">ベア（熊）</span> それぞれに対応した能力を授かる。
+    導きを通じて<strong>強大な獣をも従わせ、霊として束ねる</strong>か、あるいは <strong>霊体の同行者（spectral companion）</strong> を呼び出して共に戦わせる。
+  </div>
+</div>
+
+<div class="compare">
+  <div class="compare-side after" style="flex:1;">
+    <span class="compare-label">マーシャルアーティスト の核</span>
+    <h4>幻影 × 素手 × 鐘</h4>
+    <p>ルーン駆動の幻術。<strong>illusory bells</strong> による補助、<strong>unarmed</strong>（素手）強化。Monk の新ルート。</p>
+  </div>
+  <div class="compare-arrow">/</div>
+  <div class="compare-side after" style="flex:1;">
+    <span class="compare-label">スピリットウォーカー の核</span>
+    <h4>3霊の選択 + spectral companion</h4>
+    <p>Stag / Owl / Bear で性格付け。獣を霊として束ねる、あるいは霊体の供を呼ぶ。Huntress の新ルート。</p>
+  </div>
+</div>
+</section>
+
+<!-- 14-2 Lineage Supports -->
+<section id="sec-lineage">
+<h3>14-2. 新リネージサポート 21 種</h3>
+
+<p><strong>リネージサポート（Lineage Support）</strong> は、特定のサポートジェムスロットに紐づく強力な固有スキル。0.5.0 では以下の <strong>21 種</strong> が新規追加された。</p>
+
+<details open>
+<summary>新リネージサポート 21 種（クリックで開閉）</summary>
+<ol>
+  <li><span class="term" data-en="Arbiter's Reach">アービターズ・リーチ</span></li>
+  <li><span class="term" data-en="Breachlord's Amalgam">ブリーチロード・アマルガム</span></li>
+  <li><span class="term" data-en="Catha's Brilliance">カサの輝き</span></li>
+  <li><span class="term" data-en="Eonyr's Thunder">エオニアの雷</span></li>
+  <li><span class="term" data-en="Esh's Prowess">エシュの威力</span></li>
+  <li><span class="term" data-en="Helbrym's Hide">ヘルブリムの皮</span></li>
+  <li><span class="term" data-en="Her Declaration">彼女の宣言</span></li>
+  <li><span class="term" data-en="Medved's Felling">メドヴェドの伐倒</span></li>
+  <li><span class="term" data-en="Mórrigan's Insight">モリガンの洞察</span></li>
+  <li><span class="term" data-en="Prototype Seventeen">プロトタイプ・セブンティーン</span></li>
+  <li><span class="term" data-en="Seraph's Heart">セラフの心臓</span></li>
+  <li><span class="term" data-en="Styrn's Ferocity">ステュルンの猛威</span></li>
+  <li><span class="term" data-en="Styrn's Mountain">ステュルンの山</span></li>
+  <li><span class="term" data-en="Tangmazu's Thurible">タングマズの香炉</span></li>
+  <li><span class="term" data-en="Trickster's Shard">トリックスターの欠片</span></li>
+  <li><span class="term" data-en="Tul's Avalanche">トゥルの雪崩</span></li>
+  <li><span class="term" data-en="Uhtred's Constellation">ウートレッドの星座</span></li>
+  <li><span class="term" data-en="Uhtred's Rite">ウートレッドの儀式</span></li>
+  <li><span class="term" data-en="Vorana's Siege">ヴォラナの包囲</span></li>
+  <li><span class="term" data-en="Vruun's Inevitability">ヴルーンの必然</span></li>
+  <li><span class="term" data-en="Vruun's Aftermath">ヴルーンの余波</span></li>
+</ol>
+</details>
+</section>
+
+<!-- 14-3 Uniques -->
+<section id="sec-unique">
+<h3>14-3. 新ユニークアイテム 42 点</h3>
+
+<p>0.5.0 ではユニークアイテムが <strong>42 点</strong> 新規追加された。固有名はすべて暫定訳。</p>
+
+<details open>
+<summary>新ユニークアイテム 42 点（クリックで開閉）</summary>
+<ol>
+  <li><span class="term" data-en="Berek's Grip">ベレクの掌握</span></li>
+  <li><span class="term" data-en="Berek's Pass">ベレクの通行</span></li>
+  <li><span class="term" data-en="Berek's Respite">ベレクの安息</span></li>
+  <li><span class="term" data-en="Brutus' Lead Sprinkler">ブルータスの鉛散布器</span></li>
+  <li><span class="term" data-en="Cat O' Nine Tails">九尾の鞭</span></li>
+  <li><span class="term" data-en="Decree of Acuity">鋭敏なる詔</span></li>
+  <li><span class="term" data-en="Decree of Flight">飛翔の詔</span></li>
+  <li><span class="term" data-en="Decree of Loyalty">忠誠の詔</span></li>
+  <li><span class="term" data-en="Duality">デュアリティ</span></li>
+  <li><span class="term" data-en="Eventide Petals">宵闇の花弁</span></li>
+  <li><span class="term" data-en="Eyes of the Runefather">ルーンの父の眼</span></li>
+  <li><span class="term" data-en="Facebreaker">フェイスブレイカー</span></li>
+  <li><span class="term" data-en="Farrow's Gift">ファローの贈り物</span></li>
+  <li><span class="term" data-en="Forgotten Warden">忘れられし守護者</span></li>
+  <li><span class="term" data-en="Geofri's Sanctuary">ジオフリの聖域</span></li>
+  <li><span class="term" data-en="Gatecrasher">ゲートクラッシャー</span></li>
+  <li><span class="term" data-en="Horror's Flight">恐怖の飛翔</span></li>
+  <li><span class="term" data-en="Ironbound">アイアンバウンド</span></li>
+  <li><span class="term" data-en="Liminal Coil">リミナル・コイル</span></li>
+  <li><span class="term" data-en="Loreweave">ロアウィーヴ</span></li>
+  <li><span class="term" data-en="Mageblood">メイジブラッド</span></li>
+  <li><span class="term" data-en="Mastered Domain">支配されし領域</span></li>
+  <li><span class="term" data-en="Nightfall">ナイトフォール</span></li>
+  <li><span class="term" data-en="Opportunity">オポチュニティ</span></li>
+  <li><span class="term" data-en="Redemption">リデンプション</span></li>
+  <li><span class="term" data-en="Periphery">ペリフェリー</span></li>
+  <li><span class="term" data-en="Sadist's Mercy">サディストの慈悲</span></li>
+  <li><span class="term" data-en="Serle's Grit">サールの気骨</span></li>
+  <li><span class="term" data-en="Spiteful Floret">悪意の小花</span></li>
+  <li><span class="term" data-en="Split Personality">スプリット・パーソナリティ</span></li>
+  <li><span class="term" data-en="Surge of the Tide">潮のサージ</span></li>
+  <li><span class="term" data-en="Sylvan's Effigy">シルヴァンの偶像</span></li>
+  <li><span class="term" data-en="The Auspex">オースペックス</span></li>
+  <li><span class="term" data-en="The Hollow Mask">うつろの仮面</span></li>
+  <li><span class="term" data-en="The Ordained">聖別されし者</span></li>
+  <li><span class="term" data-en="The Raven's Flock">大鴉の群れ</span></li>
+  <li><span class="term" data-en="The Sunken Vessel">沈みし器</span></li>
+  <li><span class="term" data-en="The Unleashed">解き放たれし者</span></li>
+  <li><span class="term" data-en="Twisted Empyrean">捻じれし天界</span></li>
+  <li><span class="term" data-en="Vestige of Darkness">闇の残滓</span></li>
+  <li><span class="term" data-en="Veilpiercer">ヴェイルピアサー</span></li>
+  <li><span class="term" data-en="Voices">ヴォイシズ</span></li>
+</ol>
+</details>
+</section>
+
+<!-- 14-4 Features -->
+<section id="sec-features">
+<h3>14-4. 新機能・QoL</h3>
+
+<h4>新サポートジェム / 新ドロップ</h4>
+<ul>
+  <li><strong>8 種の新 <span class="term" data-en="Idols">アイドル</span></strong> を追加。これらは <span class="term" data-en="Azmerian Spirits">アズメリアン・スピリット</span> に憑依されたモンスターからのみドロップする</li>
+  <li>新 <strong>Strength サポートジェム</strong> <span class="term" data-en="Minion Splash">ミニオン・スプラッシュ</span> および <span class="term" data-en="Minion Splash II">ミニオン・スプラッシュ II</span> を追加。
+  ミニオンを生成する Strike 系スキルのミニオン達に <strong>Melee Splash を付与</strong>する</li>
+</ul>
+
+<h4>UI / 利便機能</h4>
+<ul>
+  <li><strong><span class="term" data-en="Fragment Stash Tab">フラグメント・スタッシュタブ</span> が PoE2 で利用可能に</strong>。
+    収納可能: <span class="term" data-en="Breach Splinters">ブリーチ・スプリンター</span> ／ <span class="term" data-en="Simulacrums">シミュラクラム</span> ／ <span class="term" data-en="Audience with the King">王との謁見</span> 等の各種フラグメント、
+    <span class="term" data-en="Inscribed Ultimatums">刻印されしアルティメイタム</span>、<span class="term" data-en="Baryas">バーリャ</span>、そして <span class="term" data-en="Tablets">タブレット</span>。
+    <strong>PoE 本家で過去に購入済みのプレイヤーは、0.5.0 デプロイ後に自動的に利用可能</strong>になる。
+    未購入者は 0.5.0 リリース後にマイクロトランザクションストアの Stash Tabs セクションから入手可能。
+  </li>
+  <li><strong><span class="term" data-en="Build Guides">ビルドガイド</span> サポートを追加</strong>。
+    コミュニティのビルド制作者は <span class="term" data-en=".build files">.build ファイル</span> を作ってプレイヤーに配布できる。
+    クライアントで読み込むと、<strong>振るべきパッシブスキル ／ 取るアセンダンシーパッシブ ／ 装備すべきスキルジェム ／ 推奨サポートジェム</strong>がすべて表示される
+  </li>
+  <li><strong>所持アイテムからのトレード即時検索</strong>: アイテムを <span class="term" data-en="Shift-Alt Click">Shift+Alt クリック</span> するとトレードマーケットの検索条件に自動入力され、現在の相場を即確認できる。
+    レアアイテムでは、<strong>各モッドを個別に有効／無効化</strong>して、価格への寄与度を簡単に判別できる</li>
+  <li>パーティプレイで、<strong>ボス撃破後に倒れたパーティメンバーを素早く蘇生</strong>できるようになった</li>
+  <li>NPC との会話シーケンスを <code>Escape キー</code> でスキップ可能に</li>
+  <li><span class="term" data-en="Trial of the Sekhemas">セケマの試練</span> の入口に <strong><span class="term" data-en="Reforging Bench">リフォージング・ベンチ</span> を設置</strong></li>
+  <li>サウンド ／ アート ／ エフェクト ／ 環境表現の<strong>継続的な漸進改善</strong>を実施</li>
+</ul>
+
+<div class="callout info">
+  <div>
+    <span class="callout-title">PoE 本家からの輸入</span>
+    Fragment Stash Tab は PoE 本家で長く使われてきた高級スタッシュの代表格。<strong>本家既購入分が PoE2 側にも自動付与される</strong>ことが明言されており、過去のサポーターに優しい移管設計になっている。
+  </div>
+</div>
+</section>
+</section>
+
+<footer>
+  <p>出典: <a href="https://www.pathofexile.com/forum/view-thread/3932540" target="_blank" rel="noopener">PoE 公式パッチノート 0.5.0</a></p>
+  <p><small>新アセンダンシー2種・新リネージサポート21種・新ユニーク42点を含む 0.5.0 新規用語は poe2db 未収録のため、本ドキュメント中の日本語名はすべて暫定訳。公式日本語名が判明次第更新します。</small></p>
+  <p class="back-to-top-wrap" style="margin-top:2em;"><a href="../index.html" class="back-to-top">← トップへ戻る</a></p>
+</footer>
+
+</main>
+</body>
+</html>

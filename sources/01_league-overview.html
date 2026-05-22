@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>アルダーのルーン リーグ ― 概要 | PoE2 0.5.0</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<main>
+
+
+<nav class="breadcrumb" aria-label="パンくずリスト">
+  <a href="../index.html" class="home-icon">アルダーのルーン リーグ ホーム</a>
+  <span class="breadcrumb-sep">/</span>
+  <span class="breadcrumb-current">ソース 01: リーグ概要</span>
+</nav>
+<header>
+  <h1>アルダーのルーン リーグ</h1>
+  <p class="subtitle">PoE2 0.5.0 ― ルーン・クラフトと新エコノミー</p>
+  <div class="meta">
+    <span class="meta-item">バージョン 0.5.0</span>
+    <span class="meta-item">公式情報の日本語要約</span>
+    <span class="meta-item">用語ソース: poe2db.tw/jp</span>
+  </div>
+</header>
+
+<div class="callout info">
+  <div>
+    <span class="callout-title">表記について</span>
+    本文中の<span class="term" data-en="example" data-tip="ホバーで原語を表示">下線付き用語</span>は固有名詞。ホバーで原語と簡単な説明が表示される。<br>
+    <strong>暫定訳</strong>＝ poe2db.tw/jp に未収録のため当ドキュメント独自訳。正式日本語名が判明次第更新。
+  </div>
+</div>
+
+<nav class="toc" aria-label="目次">
+  <div class="toc-title">目次</div>
+  <ol>
+    <li><a href="#sec-overview">1. リーグ概要</a></li>
+    <li><a href="#sec-runeforging">2. 新クラフト「ヴェリシウム・ルーンフォージング」</a></li>
+    <li><a href="#sec-runes">3. 新ルーン体系</a></li>
+    <li><a href="#sec-gems">4. カルグーラン・スキル ＆ サポート</a></li>
+    <li><a href="#sec-endgame">5. エンドゲーム ＆ 海洋探索</a></li>
+    <li><a href="#sec-challenges">6. チャレンジ ＆ 報酬</a></li>
+    <li><a href="#sec-variants">7. リーグ種別</a></li>
+  </ol>
+</nav>
+
+<!-- ============================================================
+     §1 リーグ概要
+     ============================================================ -->
+<section id="sec-overview">
+<h2>1. リーグ概要</h2>
+
+<p>新たな経済でゼロから始まる「<span class="term" data-en="The Runes of Aldur League" data-tip="バージョン0.5.0の新規チャレンジリーグ">アルダーのルーン リーグ</span>」。中核となるのは、全エリアに出現する <span class="term" data-en="Remnant" data-tip="エリア内に出現する遺物。スロットに刻まれたルニック・レシピでアイテムをクラフトする">レムナント</span> と、それを用いた <strong>選択型クラフト ＋ ボス戦</strong> のループ。</p>
+
+<div class="callout new">
+  <div>
+    <span class="callout-title">コアループ</span>
+    レムナント発見 → スロットに <span class="term" data-en="Runeshapes" data-tip="ルニック・レシピを構成する形状単位（暫定訳）">ルーンシェイプ</span> を選択 → 強敵ウェーブと戦闘 → 勝利でクラフトしたアイテムを獲得
+  </div>
+</div>
+
+<h3>レムナント仕様</h3>
+<ul>
+  <li>各エリアに <strong>必ず 1 つ</strong> 出現</li>
+  <li>スロット数は <strong>2 〜 10</strong>（多いほど希少 / 高レアリティのアイテムをクラフト可能）</li>
+  <li>使用するルーンシェイプの数 ＝ 敵のウェーブ数</li>
+  <li>ウェーブごとに敵に <strong>ルニック・モディファイア</strong> が追加される（多いほど高難度・高報酬）</li>
+  <li>レムナントが召喚したモンスターは新通貨 <span class="term currency" data-en="Verisium" data-tip="リーグの新通貨。ヴェリシウム・アンビルでアイテム変換に使用">ヴェリシウム</span> をドロップ <a class="poe2db-link" href="https://poe2db.tw/jp/Verisium" target="_blank" rel="noopener">Verisium</a></li>
+</ul>
+
+<!-- SVG: Remnant slot concept -->
+<figure class="diagram">
+  <svg viewBox="0 0 720 220" role="img" aria-label="レムナントのスロット数とリスクリターン関係">
+    <defs>
+      <linearGradient id="slotGrad" x1="0" x2="1">
+        <stop offset="0" stop-color="#3a3225"/>
+        <stop offset="1" stop-color="#c9a961"/>
+      </linearGradient>
+      <marker id="arr" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+        <path d="M0,0 L9,5 L0,10 Z" fill="#c9a961"/>
+      </marker>
+    </defs>
+    <line x1="40" y1="160" x2="680" y2="160" stroke="#3a3225" stroke-width="1"/>
+    <g font-family="Cinzel, serif" font-size="13" fill="#c9a961" text-anchor="middle">
+      <g transform="translate(80,110)">
+        <circle r="22" fill="none" stroke="#8a7340" stroke-width="1.5"/>
+        <text y="5">2</text>
+        <text y="80" fill="#a8a39a" font-size="11" font-family="Noto Sans JP, sans-serif">基本</text>
+      </g>
+      <g transform="translate(180,105)">
+        <circle r="24" fill="none" stroke="#8a7340" stroke-width="1.5"/>
+        <text y="5">4</text>
+      </g>
+      <g transform="translate(290,100)">
+        <circle r="26" fill="none" stroke="#a8884a" stroke-width="1.5"/>
+        <text y="5">6</text>
+      </g>
+      <g transform="translate(410,90)">
+        <circle r="30" fill="none" stroke="#c9a961" stroke-width="2"/>
+        <text y="5">8</text>
+      </g>
+      <g transform="translate(560,75)">
+        <circle r="36" fill="none" stroke="url(#slotGrad)" stroke-width="3"/>
+        <text y="5" font-size="16" fill="#d4b87a">10</text>
+        <text y="90" fill="#d4b87a" font-size="11" font-family="Noto Sans JP, sans-serif">最高希少度 / 最強の敵</text>
+      </g>
+    </g>
+    <path d="M 40 195 L 680 195" stroke="#c9a961" stroke-width="1" marker-end="url(#arr)"/>
+    <text x="360" y="212" font-family="Noto Sans JP, sans-serif" font-size="11" fill="#a8a39a" text-anchor="middle">
+      使用するスロット数 → ウェーブ数 ・ 敵の強さ ・ クラフト結果のレアリティ
+    </text>
+  </svg>
+  <figcaption>レムナント: スロット数 2 〜 10 のリスクリターン構造</figcaption>
+</figure>
+
+<h3>新 NPC「ファロー」</h3>
+<p>キャンペーンの全章にわたって計 4 つのクエストを提供する新 NPC <span class="term" data-en="Farrow" data-tip="新追加のキャンペーンNPC。各章で新クラフト機能を解放">ファロー</span> が追加。各クエスト達成で、新しいクラフト機能（ルーンフォージング、アロイ、古代ルーン 等）が段階的に解放される。<a class="poe2db-link" href="https://poe2db.tw/jp/Runes_of_Aldur_league" target="_blank" rel="noopener">Runes of Aldur</a></p>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ============================================================
+     §2 Verisium Runeforging
+     ============================================================ -->
+<section id="sec-runeforging">
+<h2>2. 新クラフト「ヴェリシウム・ルーンフォージング」</h2>
+
+<p>キャンペーン第 1 章で解放される新クラフトシステム。<span class="term currency" data-en="Verisium" data-tip="新通貨">ヴェリシウム</span> を消費して、防具に <strong>新防御値 <span class="term" data-en="Runic Ward">ルニックウォード</span></strong> を付与する。<a class="poe2db-link" href="https://poe2db.tw/jp/Runeforging" target="_blank" rel="noopener">Runeforging</a></p>
+
+<h3>新防御値「ルニックウォード」</h3>
+<div class="callout">
+  <div>
+    <span class="callout-title">挙動</span>
+    <strong>ライフが 1 になった時点で発動</strong>。ルニックウォードがダメージを肩代わりし続ける間、キャラクターは生存できる。<br>
+    ルニックウォードは <strong>ライフとは独立して再生</strong> する。
+  </div>
+</div>
+
+<h3>装備レベルによる挙動の違い</h3>
+<div class="compare">
+  <div class="compare-side before">
+    <span class="compare-label">レベル 55 未満の防具</span>
+    <h4>純粋な上乗せ</h4>
+    <p>ルニックウォードが <strong>デメリットなし</strong> で付与される。既存の防御値は維持。</p>
+  </div>
+  <div class="compare-arrow">⇄</div>
+  <div class="compare-side after">
+    <span class="compare-label">レベル 55 以上の防具</span>
+    <h4>防御値とのトレード</h4>
+    <p>通常防御値の <strong>一部を犠牲</strong> にしてルニックウォードを獲得。配分の再設計が前提となる。</p>
+  </div>
+</div>
+
+<h3>新通貨「アロイ」（13 種類）</h3>
+<p>第 2 章のファロー・クエスト達成後、レムナント遭遇でアンロックされる新通貨。<span class="term currency" data-en="Alloy" data-tip="新クラフト通貨。既存モディファイアを置き換えて新モディファイアを付与">アロイ</span> はアイテムの <strong>既存モディファイアを置き換えて</strong> 新たなクラフト・モディファイアを追加する。挙動としては <span class="term currency" data-en="Perfect Essences">パーフェクトエッセンス</span> に近い。<a class="poe2db-link" href="https://poe2db.tw/jp/Runes_of_Aldur_items" target="_blank" rel="noopener">Alloy</a></p>
+
+<h3>ユニーク・ヴェリシウム・ルーンフォージング（第 3 章）</h3>
+<ul>
+  <li>レベル 55 未満でドロップする <strong>ユニーク防具のベースタイプをアップグレード</strong> 可能</li>
+  <li>これにより低レベル・ユニーク防具がエンドゲームでも通用するようになる</li>
+  <li>レベル 55 以上のユニーク防具もルーンフォージ可能（ベース同様、他の防御値を削ってルニックウォードを獲得）</li>
+  <li><span class="term" data-en="Kalguuran Uniques" data-tip="カルグール陣営由来のユニーク装備群（暫定訳）">カルグーラン・ユニーク</span> に使用した場合は <strong>追加プロパティ</strong> あり</li>
+</ul>
+
+<!-- SVG: Runeforging flow -->
+<figure class="diagram">
+  <svg viewBox="0 0 720 260" role="img" aria-label="ヴェリシウム・ルーンフォージングのフロー">
+    <g font-family="Noto Sans JP, sans-serif" font-size="12" fill="#e8e3d8">
+      <!-- input -->
+      <rect x="30" y="100" width="140" height="60" rx="6" fill="#1f1f26" stroke="#8a7340"/>
+      <text x="100" y="125" text-anchor="middle">防具</text>
+      <text x="100" y="145" text-anchor="middle" fill="#a8a39a" font-size="10">Armour</text>
+
+      <!-- verisium -->
+      <rect x="30" y="20" width="140" height="50" rx="6" fill="#1f1f26" stroke="#9b6dd9"/>
+      <text x="100" y="42" text-anchor="middle" fill="#d8bdf2">ヴェリシウム</text>
+      <text x="100" y="60" text-anchor="middle" fill="#a8a39a" font-size="10">Verisium</text>
+
+      <!-- forge -->
+      <polygon points="240,60 320,40 320,170 240,150" fill="#15151a" stroke="#c9a961" stroke-width="1.5"/>
+      <text x="280" y="100" text-anchor="middle" fill="#d4b87a" font-family="Cinzel, serif" font-size="13">ヴェリシウム</text>
+      <text x="280" y="118" text-anchor="middle" fill="#d4b87a" font-family="Cinzel, serif" font-size="13">ルーンフォージ</text>
+
+      <!-- arrows in -->
+      <path d="M 170 45 L 240 70" stroke="#9b6dd9" stroke-width="1.5" fill="none"/>
+      <path d="M 170 130 L 240 130" stroke="#8a7340" stroke-width="1.5" fill="none"/>
+
+      <!-- output split -->
+      <path d="M 320 80 L 420 50" stroke="#5fa860" stroke-width="1.5" fill="none"/>
+      <path d="M 320 130 L 420 170" stroke="#c84a3a" stroke-width="1.5" fill="none"/>
+
+      <!-- branch low level -->
+      <rect x="420" y="20" width="270" height="70" rx="6" fill="#1a2018" stroke="#5fa860"/>
+      <text x="430" y="42" fill="#8fd090" font-weight="600">レベル 55 未満</text>
+      <text x="430" y="60" fill="#e8e3d8" font-size="11">ルニックウォードを上乗せ付与</text>
+      <text x="430" y="78" fill="#a8a39a" font-size="10">既存防御値はそのまま</text>
+
+      <!-- branch high level -->
+      <rect x="420" y="140" width="270" height="80" rx="6" fill="#1f1814" stroke="#c84a3a"/>
+      <text x="430" y="162" fill="#f0a89e" font-weight="600">レベル 55 以上</text>
+      <text x="430" y="180" fill="#e8e3d8" font-size="11">通常防御値の一部をルニックウォードと</text>
+      <text x="430" y="198" fill="#e8e3d8" font-size="11">トレード（要バランス設計）</text>
+    </g>
+  </svg>
+  <figcaption>ヴェリシウム・ルーンフォージング: 装備レベルで挙動が分岐</figcaption>
+</figure>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ============================================================
+     §3 新ルーン体系
+     ============================================================ -->
+<section id="sec-runes">
+<h2>3. 新ルーン体系</h2>
+<p>レムナント遭遇からクラフト可能な、複数カテゴリの新ルーン群が追加。</p>
+
+<div class="stat-grid">
+  <div class="stat-card">
+    <span class="stat-value">13</span>
+    <span class="stat-label">古代ルーン</span>
+    <span class="stat-sub">第4章 ファロー解放</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-value">13</span>
+    <span class="stat-label">神話ルーン</span>
+    <span class="stat-sub">序盤 (Lv15+)</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-value">3</span>
+    <span class="stat-label">フラックス</span>
+    <span class="stat-sub">耐性属性変換</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-value">15</span>
+    <span class="stat-label">メタクラフト・ルーン</span>
+    <span class="stat-sub">クラフト操作系</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-value">15+</span>
+    <span class="stat-label">ルニックウォード・ルーン</span>
+    <span class="stat-sub">ルニックウォード関連</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-value">60+</span>
+    <span class="stat-label">ユニーク由来ルーン</span>
+    <span class="stat-sub">ユニーク破壊で生成</span>
+  </div>
+</div>
+
+<h3>カテゴリ別の役割</h3>
+<table>
+  <thead>
+    <tr><th>カテゴリ</th><th>解放条件</th><th>用途・特徴</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="tag rune">古代</span></td>
+      <td>第 4 章 ファロー・クエスト</td>
+      <td>各 <strong>武器タイプ別</strong> に強力な専用ボーナス。エンド寄り。</td>
+    </tr>
+    <tr>
+      <td><span class="tag rune">神話</span></td>
+      <td>レムナントクラフト</td>
+      <td><strong>レベル 15 以上のキャラへの大幅ブースト</strong>。序盤強化に直結。</td>
+    </tr>
+    <tr>
+      <td><span class="tag currency">フラックス</span></td>
+      <td>レムナントクラフト</td>
+      <td>装備の<strong>耐性属性</strong>を別属性に変換（火 → 冷 など）。</td>
+    </tr>
+    <tr>
+      <td><span class="tag rune">メタ</span></td>
+      <td>レムナントクラフト</td>
+      <td>15 種の <strong>メタクラフト</strong> 用ルーン。モディファイア操作系。</td>
+    </tr>
+    <tr>
+      <td><span class="tag rune">ルニックウォード</span></td>
+      <td>レムナントクラフト</td>
+      <td>ルニックウォード関連プロパティの<strong>追加 / 修正</strong>用 15+ 種。</td>
+    </tr>
+    <tr>
+      <td><span class="tag unique">ユニーク由来</span></td>
+      <td>ユニーク破壊</td>
+      <td>ユニーク装備を破壊すると、その<strong>プロパティの一部を継承</strong>したルーンが 60+ 種生成可能。</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="callout info">
+  <div>
+    <span class="callout-title">設計の核</span>
+    ユニーク破壊 → ルーン化 のループにより、これまで「持て余す」存在だった低ティアのユニーク装備が <strong>クラフト素材</strong> として再評価される。アイテム経済全体の流動性を狙った設計。
+  </div>
+</div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ============================================================
+     §4 Kalguuran Skills / Supports
+     ============================================================ -->
+<section id="sec-gems">
+<h2>4. カルグーラン・スキル ＆ サポート</h2>
+<p>レムナントからクラフト可能な、カルグール文化由来の新ジェム群。</p>
+
+<div class="stat-grid">
+  <div class="stat-card">
+    <span class="stat-value">21</span>
+    <span class="stat-label">カルグーラン・スキル</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-value">8</span>
+    <span class="stat-label">カルグーラン・サポート</span>
+  </div>
+</div>
+
+<details>
+  <summary>カルグーラン・スキル 全 21 種</summary>
+  <ul>
+    <li><span class="term skill" data-en="Animus Exchange" data-tip="暫定訳">アニムス交換</span></li>
+    <li><span class="term skill" data-en="Animus Splinters" data-tip="暫定訳">アニムスの欠片</span></li>
+    <li><span class="term skill" data-en="Bitter Dead" data-tip="暫定訳">苦き死者</span> <a class="poe2db-link" href="https://poe2db.tw/jp/Bitter_Dead" target="_blank" rel="noopener">Bitter Dead</a></li>
+    <li><span class="term skill" data-en="Conductive Runes" data-tip="暫定訳">導電ルーン</span></li>
+    <li><span class="term skill" data-en="Detonate Living" data-tip="暫定訳">生者爆破</span></li>
+    <li><span class="term skill" data-en="Eternal March" data-tip="暫定訳">永遠の行軍</span></li>
+    <li><span class="term skill" data-en="Explosive Transmutation" data-tip="暫定訳">爆発的変成</span></li>
+    <li><span class="term skill" data-en="Fragments of the Past" data-tip="暫定訳">過去の断片</span></li>
+    <li><span class="term skill" data-en="Frostflame Nova" data-tip="暫定訳">氷炎ノヴァ</span> <a class="poe2db-link" href="https://poe2db.tw/jp/Frostflame_Nova" target="_blank" rel="noopener">Frostflame Nova</a></li>
+    <li><span class="term skill" data-en="Grim Pillars" data-tip="暫定訳">不吉なる柱</span></li>
+    <li><span class="term skill" data-en="Hollow Shell" data-tip="暫定訳">空虚の殻</span></li>
+    <li><span class="term skill" data-en="Leylines" data-tip="暫定訳">レイライン</span></li>
+    <li><span class="term skill" data-en="Powered by Verisium" data-tip="暫定訳">ヴェリシウム駆動</span></li>
+    <li><span class="term skill" data-en="Refutation" data-tip="暫定訳">反駁</span></li>
+    <li><span class="term skill" data-en="Remnants of Kalguur" data-tip="暫定訳">カルグールの遺物</span></li>
+    <li><span class="term skill" data-en="Repulsion" data-tip="暫定訳">反発</span></li>
+    <li><span class="term skill" data-en="Runic Reprieve" data-tip="暫定訳">ルニック・リプリーヴ</span></li>
+    <li><span class="term skill" data-en="Skyfall" data-tip="暫定訳">天よりの落下</span></li>
+    <li><span class="term skill" data-en="Triskelion Cascade" data-tip="暫定訳">トリスケリオン・カスケード</span></li>
+    <li><span class="term skill" data-en="Verisium Manifestations" data-tip="暫定訳">ヴェリシウム顕現</span></li>
+    <li><span class="term skill" data-en="Voltaic Barrier" data-tip="暫定訳">電撃の障壁</span></li>
+  </ul>
+</details>
+
+<details>
+  <summary>カルグーラン・サポート 全 8 種</summary>
+  <ul>
+    <li><span class="term support" data-en="Concussive Runes" data-tip="暫定訳">衝撃ルーン</span> <a class="poe2db-link" href="https://poe2db.tw/jp/Concussive_Runes" target="_blank" rel="noopener">Concussive Runes</a></li>
+    <li><span class="term support" data-en="Fist of Kalguur" data-tip="暫定訳">カルグールの拳</span></li>
+    <li><span class="term support" data-en="Healing Runes" data-tip="暫定訳">治癒ルーン</span></li>
+    <li><span class="term support" data-en="Kalguuran Conviction" data-tip="暫定訳">カルグーランの信念</span></li>
+    <li><span class="term support" data-en="Runeforged Blades" data-tip="暫定訳">ルーン鍛えの刃</span></li>
+    <li><span class="term support" data-en="Runic Extraction" data-tip="暫定訳">ルーン抽出</span></li>
+    <li><span class="term support" data-en="Runic Infusion" data-tip="暫定訳">ルーン注入</span></li>
+    <li><span class="term support" data-en="Scouring Flame" data-tip="暫定訳">焼き払いの炎</span></li>
+  </ul>
+</details>
+
+<div class="callout warn">
+  <div>
+    <span class="callout-title">用語に関する注意</span>
+    上記スキル / サポートは <strong>poe2db.tw/jp での日本語訳が現時点で未収録</strong> のため、<strong>暫定訳</strong>で表記しています。正式日本語名が判明次第、glossary.json と本ドキュメントを更新予定です。
+  </div>
+</div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ============================================================
+     §5 Endgame & Ocean
+     ============================================================ -->
+<section id="sec-endgame">
+<h2>5. エンドゲーム ＆ 海洋探索</h2>
+
+<p>既存の「エクスペディション」システムが大幅刷新され、ファローと共に海洋を探索する新エンドゲームへ統合された。</p>
+
+<h3>主要変更点</h3>
+<div class="compare">
+  <div class="compare-side before">
+    <span class="compare-label">これまで（エクスペディション）</span>
+    <h4>エクスペディション・レムナント</h4>
+    <p>既存のエクスペディションで得られたレムナントが中心。</p>
+    <h4>エクスペディション・ログブック</h4>
+    <p>陸上のエクスペディション拠点を発掘する。</p>
+  </div>
+  <div class="compare-arrow">→</div>
+  <div class="compare-side after">
+    <span class="compare-label">0.5.0 から</span>
+    <h4>アルダーのルーン・レムナント</h4>
+    <p>エクスペディション・レムナントは <strong>アルダーのルーン・レムナントに置き換え</strong>。</p>
+    <h4>海洋探索</h4>
+    <p><span class="term" data-en="Logbook">エクスペディション・ログブック</span> を使うと <strong>海洋の一区画</strong> が開示され、複数の島を探索可能。<a class="poe2db-link" href="https://poe2db.tw/jp/Expedition_Logbook" target="_blank" rel="noopener">Logbook</a></p>
+  </div>
+</div>
+
+<h3>新ハブと探索構造</h3>
+<ul>
+  <li>新ハブエリア <strong><span class="term" data-en="The Ruins of Kingsmarch" data-tip="アトラスの開始地点南東に位置する新ハブ">キングスマーチ廃墟</span></strong>（<span class="term" data-en="Atlas">アトラス</span> の開始地点南東）</li>
+  <li>多数の <strong>新地下エリア</strong> が探検中に発見可能</li>
+  <li>新しい島々で <span class="term" data-en="Grand Expeditions" data-tip="旧ログブックに相当する大規模探検（暫定訳）">グランド・エクスペディション</span>（旧ログブックの発展形）</li>
+</ul>
+
+<!-- SVG: ocean exploration hierarchy -->
+<figure class="diagram">
+  <svg viewBox="0 0 720 280" role="img" aria-label="海洋探索の階層">
+    <g font-family="Noto Sans JP, sans-serif" font-size="12" fill="#e8e3d8">
+      <rect x="280" y="10" width="160" height="40" rx="6" fill="#1f1f26" stroke="#c9a961"/>
+      <text x="360" y="35" text-anchor="middle" fill="#d4b87a" font-family="Cinzel, serif">アトラス</text>
+
+      <path d="M 360 50 L 360 75" stroke="#8a7340"/>
+
+      <rect x="240" y="75" width="240" height="40" rx="6" fill="#1f1f26" stroke="#c9a961"/>
+      <text x="360" y="100" text-anchor="middle" fill="#d4b87a" font-family="Cinzel, serif">キングスマーチ廃墟（ハブ）</text>
+
+      <path d="M 360 115 L 360 140" stroke="#8a7340"/>
+
+      <rect x="200" y="140" width="320" height="40" rx="6" fill="#0f1820" stroke="#4aafc8"/>
+      <text x="360" y="165" text-anchor="middle" fill="#a8dceb" font-family="Cinzel, serif">海洋セクション（ログブックで開示）</text>
+
+      <g>
+        <path d="M 360 180 L 140 210" stroke="#8a7340"/>
+        <path d="M 360 180 L 290 210" stroke="#8a7340"/>
+        <path d="M 360 180 L 430 210" stroke="#8a7340"/>
+        <path d="M 360 180 L 580 210" stroke="#8a7340"/>
+
+        <rect x="80" y="210" width="120" height="40" rx="6" fill="#1f1f26" stroke="#7a1f1f"/>
+        <text x="140" y="235" text-anchor="middle" fill="#d97070">メドヴェド</text>
+
+        <rect x="230" y="210" width="120" height="40" rx="6" fill="#1f1f26" stroke="#7a1f1f"/>
+        <text x="290" y="235" text-anchor="middle" fill="#d97070">ヴォラナ</text>
+
+        <rect x="370" y="210" width="120" height="40" rx="6" fill="#1f1f26" stroke="#7a1f1f"/>
+        <text x="430" y="235" text-anchor="middle" fill="#d97070">ウートレッド</text>
+
+        <rect x="520" y="210" width="120" height="40" rx="6" fill="#1f1f26" stroke="#d4b87a"/>
+        <text x="580" y="235" text-anchor="middle" fill="#d4b87a">オルロス ★</text>
+      </g>
+
+      <text x="360" y="275" text-anchor="middle" fill="#a8a39a" font-size="11">
+        ★ オルロス撃破 → 鍵を入手 → 新ピナクルボスへ
+      </text>
+    </g>
+  </svg>
+  <figcaption>海洋探索の階層と 4 派閥リーダー</figcaption>
+</figure>
+
+<h3>派閥リーダー（4 名）</h3>
+<p>これまでの <span class="term boss" data-en="Olroth" data-tip="エクスペディション陣営の元祖ボス">破滅の元凶、オルロス</span> に加え、新たに以下が島で戦闘可能に。<a class="poe2db-link" href="https://poe2db.tw/jp/Olroth%2C_Origin_of_the_Fall" target="_blank" rel="noopener">Olroth</a></p>
+<ul>
+  <li><span class="term boss" data-en="Medved">メドヴェド</span> <a class="poe2db-link" href="https://poe2db.tw/jp/Runes_of_Aldur_league" target="_blank" rel="noopener">Medved</a></li>
+  <li><span class="term boss" data-en="Vorana">最後に倒れし者、ヴォラナ</span> <a class="poe2db-link" href="https://poe2db.tw/jp/Vorana%2C_Last_to_Fall" target="_blank" rel="noopener">Vorana</a></li>
+  <li><span class="term boss" data-en="Uhtred">強欲な反逆者、ウートレッド</span> <a class="poe2db-link" href="https://poe2db.tw/jp/Uhtred%2C_Covetous_Traitor" target="_blank" rel="noopener">Uhtred</a></li>
+  <li><span class="term boss" data-en="Olroth">破滅の元凶、オルロス</span></li>
+</ul>
+
+<div class="callout new">
+  <div>
+    <span class="callout-title">ピナクルボス解放条件</span>
+    <strong>オルロス撃破 → 鍵入手</strong> ⇒ アルダーのルーン専用の <strong>新ピナクルボス</strong> へアクセス可能。<br>
+    シナリオ目標は「純粋なヴェリシウムで出来た流星のクレーター」を発見し、究極の装備を鍛造すること。
+  </div>
+</div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ============================================================
+     §6 Challenges & Rewards
+     ============================================================ -->
+<section id="sec-challenges">
+<h2>6. チャレンジ ＆ 報酬</h2>
+
+<p>本リーグは <strong>PoE2 で初めての公式チャレンジセット</strong> を導入する。</p>
+
+<h3>達成数と報酬</h3>
+<table>
+  <thead>
+    <tr><th>達成数</th><th>報酬</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>2 / 4 / 6 / 8</td><td><span class="term" data-en="Knight of Aldur Armour Set" data-tip="リーグ限定の防具見た目セット">アルダーの騎士 アーマーセット</span> の各パーツ <a class="poe2db-link" href="https://poe2db.tw/jp/Runes_of_Aldur_challenges" target="_blank" rel="noopener">Challenges</a></td></tr>
+    <tr><td>1 つ目以降 全達成毎</td><td><span class="term" data-en="Runes of Aldur Totem" data-tip="ハイドアウト装飾（暫定訳）">アルダーのルーン記念碑</span> の装飾パーツ（ハイドアウト用）</td></tr>
+  </tbody>
+</table>
+
+<div class="callout warn">
+  <div>
+    <span class="callout-title">限定報酬</span>
+    アルダーの騎士 アーマーセットは <strong>本リーグでしか入手できない</strong>。後追い取得不可。
+  </div>
+</div>
+
+<p><strong>記念碑（トーテムポール）</strong> は本リーグ中に達成したチャレンジ数を <strong>永続的に記録</strong> し、ハイドアウト内で表示し続ける（後のリーグでも見える）。</p>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ============================================================
+     §7 League Variants
+     ============================================================ -->
+<section id="sec-variants">
+<h2>7. リーグ種別</h2>
+
+<h3>既存キャラクターへの対応</h3>
+<div class="callout info">
+  <div>
+    <span class="callout-title">無料リスペック</span>
+    アーリーアクセス開始時の <strong>旧キャラクターは全員残存</strong>。0.5.0 の変更に対応するため、<strong>パッシブツリーの無料リフレッシュ</strong> が付与される。<br>
+    ただし公式は「変更点を完全に体験するため、新リーグへの参加を強く推奨」している。
+  </div>
+</div>
+
+<h3>提供されるリーグの種類</h3>
+<table>
+  <thead>
+    <tr><th>種類</th><th>特徴</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>スタンダード（アルダーのルーン）</td><td>通常リーグ</td></tr>
+    <tr><td>ハードコア（アルダーのルーン）</td><td>死亡 → スタンダード版へ移動（親リーグとして紐づけ）</td></tr>
+    <tr><td>SSF（ソロセルフファウンド）</td><td>取引不可・他プレイヤーと隔絶</td></tr>
+    <tr><td>プライベートリーグ版</td><td>上記すべての種類で作成可能</td></tr>
+  </tbody>
+</table>
+
+<p>コアメカニクスとアイテムは全種類で共通。</p>
+</section>
+
+<footer>
+  <p>出典: <a href="https://www.pathofexile.com/" target="_blank" rel="noopener">pathofexile.com</a> 公式パッチノート / <a href="https://poe2db.tw/jp/" target="_blank" rel="noopener">poe2db.tw/jp</a></p>
+  <p><small>本ドキュメントは公式情報の日本語要約。カルグーラン・ジェム類など poe2db 未収録の用語は暫定訳。正式日本語名が判明次第更新します。</small></p>
+  <p class="back-to-top-wrap" style="margin-top:2em;"><a href="../index.html" class="back-to-top">← トップへ戻る</a></p>
+</footer>
+
+</main>
+</body>
+</html>

@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>スキル ＆ サポート変更 | PoE2 0.5.0</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<main>
+
+
+<nav class="breadcrumb" aria-label="パンくずリスト">
+  <a href="../index.html" class="home-icon">アルダーのルーン リーグ ホーム</a>
+  <span class="breadcrumb-sep">/</span>
+  <span class="breadcrumb-current">ソース 06: スキル ＆ サポート変更</span>
+</nav>
+<header>
+  <h1>スキル ＆ サポート変更</h1>
+  <p class="subtitle">Skill Changes ＆ Support Changes ― ジェムシステムの大規模調整</p>
+  <div class="meta">
+    <span class="meta-item">バージョン 0.5.0</span>
+    <span class="meta-item">ソース 06</span>
+    <span class="meta-item">対応セクション: 17. Skill Changes / 18. Support Changes</span>
+  </div>
+</header>
+
+<div class="callout info">
+  <div>
+    <span class="callout-title">本ドキュメントの位置付け</span>
+    0.5.0 における個別<span class="term" data-en="Skill Gem">スキルジェム</span>および<span class="term" data-en="Support Gem">サポートジェム</span>の変更を網羅。全般ルール変更と個別調整を分離し、関連スキル群はカテゴリ別に整理した。Ascendancy / Passive Tree の変更は別ソースで扱う。
+  </div>
+</div>
+
+<nav class="toc" aria-label="目次">
+  <div class="toc-title">目次</div>
+  <ol>
+    <li><a href="#sec-skill-general">1. スキル変更 ― 全般ルール</a></li>
+    <li><a href="#sec-skill-detail">2. スキル変更 ― 個別調整</a>
+      <ol>
+        <li><a href="#sec-spell">2.1 スペル系</a></li>
+        <li><a href="#sec-melee">2.2 近接攻撃系</a></li>
+        <li><a href="#sec-ranged">2.3 遠隔攻撃系（弓・クロスボウ）</a></li>
+        <li><a href="#sec-shield">2.4 シールド系</a></li>
+        <li><a href="#sec-banner">2.5 バナー系</a></li>
+        <li><a href="#sec-totem">2.6 トーテム系</a></li>
+        <li><a href="#sec-minion">2.7 ミニオン・コンパニオン系</a></li>
+        <li><a href="#sec-trigger">2.8 トリガー・付与系</a></li>
+        <li><a href="#sec-other">2.9 その他・ユニーク由来</a></li>
+      </ol>
+    </li>
+    <li><a href="#sec-support-general">3. サポート変更 ― 全般ルール</a></li>
+    <li><a href="#sec-support-detail">4. サポート変更 ― 個別調整</a></li>
+  </ol>
+</nav>
+
+<!-- ============================================================
+     §1 Skill Changes - General
+     ============================================================ -->
+<section id="sec-skill-general">
+<h2>1. スキル変更 ― 全般ルール</h2>
+
+<p>個別スキルではなく、<strong>スキル全般・カテゴリ単位</strong>で挙動が変化したもの。</p>
+
+<div class="callout new">
+  <div>
+    <span class="callout-title">投射物数モディファイアの拡張</span>
+    <span class="term" data-en="Glacial Lance" data-tip="固定投射物数のスキル例">Glacial Lance</span> のような<strong>固定投射物数のスキル</strong>でも、投射物数モディファイアを別の効果へ振り替える系（例: <span class="term support" data-en="Ricochet III Support">リコシェ III サポート</span>）の恩恵を受けられるようになった。
+  </div>
+</div>
+
+<div class="callout">
+  <div>
+    <span class="callout-title">マナコスト 0 の表示と挙動の明確化</span>
+    マナコストが <code>0</code> のスキルは、その<strong>コスト 0 が明示表示</strong>されるようになった。これにより:
+    <ul>
+      <li><strong>コスト「無し」</strong>（デフォルト攻撃など。+コストモディファイアの影響を受けない）</li>
+      <li><strong>コスト「基本値 0」</strong>（+コストモディファイアの影響を受け、ライフコスト等を追加可能）</li>
+    </ul>
+    の二者を識別できる。
+  </div>
+</div>
+
+<div class="callout">
+  <div>
+    <span class="callout-title"><span class="term" data-en="Crossbow Ammunition Skills">クロスボウ弾薬スキル</span> のベースコスト</span>
+    コスト完全無効化ではなく、<strong>基本コスト 0</strong> を持つように変更。追加コスト系の効果が適用されるようになった。
+  </div>
+</div>
+
+<div class="callout">
+  <div>
+    <span class="callout-title"><span class="term" data-en="Oil Ground">オイル地面</span> 着火による Ignite</span>
+    着火したオイル地面が対象に与える Ignite は、<strong>重複しない</strong>。また同一スキル使用に由来する他の Ignite との重ねがけも不可。
+  </div>
+</div>
+
+<div class="callout">
+  <div>
+    <span class="callout-title"><span class="term" data-en="Command Skills">コマンドスキル</span> 使用中の移動速度ペナルティ</span>
+    使用中の移動速度ペナルティを <code>70% → 50%</code> に緩和。
+  </div>
+</div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ============================================================
+     §2 Skill Changes - Per-Skill
+     ============================================================ -->
+<section id="sec-skill-detail">
+<h2>2. スキル変更 ― 個別調整</h2>
+
+<details>
+<summary><strong>変更されたスキル一覧</strong>（全 47 項目 ― クリックで展開）</summary>
+<ul>
+  <li>Align Fate / Ancestral Warrior Totem / Bonestorm / Boneshatter</li>
+  <li>Comet（+ Fire-Infused Comet） / Cull the Weak</li>
+  <li>Defiance Banner / Dread Banner / War Banner（共通変更）</li>
+  <li>Earthquake / Eternal Rage / Feral Invocation / Flame Breath</li>
+  <li>Fortifying Cry / Fragmentation Rounds / Freezing Salvo</li>
+  <li>Gathering Storm / Ghost Dance / Grim Feast</li>
+  <li>Ice Shot / Ice Strike / Lightning Arrow / Lunar Blessing</li>
+  <li>Magma Barrier / Mirage Archer & Mirage Deadeye / Mirror of Refraction</li>
+  <li>Oil Barrage（+ Empowered） / Parry / Poisonburst Arrow / Pounce</li>
+  <li>Ravenous Swarm / Rend（Lightning-Charged） / Resonating Shield</li>
+  <li>Rolling Magma / Rolling Slam / Shattering Spite / Shield Wall</li>
+  <li>Shred / Snipe / Spell Totem / Supercharged Slam</li>
+  <li>Tame Beast / Tempest Bell / Toxic Growth / Thrashing Vines</li>
+  <li>Time of Need / Volcano / Whirling Assault / Wing Blast</li>
+</ul>
+</details>
+
+<!-- ===== 2.1 Spell ===== -->
+<h3 id="sec-spell">2.1 スペル系</h3>
+
+<h4><span class="term skill" data-en="Bonestorm">ボーンストーム</span> <small>(Bonestorm)</small></h4>
+<ul>
+  <li><code>Sustained</code> タグが削除された。</li>
+</ul>
+
+<h4><span class="term skill" data-en="Comet">コメット</span> <small>(Comet)</small> <span class="tag">ダメージ調整</span></h4>
+<ul>
+  <li>ジェムレベル 11 のコールドダメージ: <code>223 - 335 → 212 - 318</code></li>
+  <li>ジェムレベル 20 のコールドダメージ: <code>829 - 1243 → 787 - 1181</code></li>
+  <li><span class="term skill" data-en="Fire-Infused Comet">炎注入コメット</span> （Fire-Infused Comet）も同様にナーフ:
+    <ul>
+      <li>レベル 11: <code>279 - 418 → 212 - 318</code>（Fire & Cold）</li>
+      <li>レベル 20: <code>1036 - 1554 → 787 - 1181</code>（Fire & Cold）</li>
+    </ul>
+  </li>
+</ul>
+
+<h4><span class="term skill" data-en="Flame Breath">フレイムブレス</span> <small>(Flame Breath)</small></h4>
+<ul>
+  <li><span class="term skill" data-en="Incinerate">インシネレイト</span> と同様の<strong>エナジーゲインペナルティ</strong>が付与された。</li>
+</ul>
+
+<h4><span class="term skill" data-en="Freezing Salvo">フリージング・サルヴォ</span> <small>(Freezing Salvo)</small></h4>
+<ul>
+  <li>ジェムレベル 3-20 における Chill のマグニチュード増加・Freeze Buildup 増加: <code>56-107% → 34-68%</code>（弱体化）</li>
+</ul>
+
+<h4><span class="term skill" data-en="Rolling Magma">ローリング・マグマ</span> <small>(Rolling Magma)</small></h4>
+<ul>
+  <li>Chain 回数:
+    <ul>
+      <li>ジェムレベル 1: <code>2 → 3</code></li>
+      <li>ジェムレベル 20: <code>4 → 5</code></li>
+    </ul>
+  </li>
+</ul>
+
+<h4><span class="term skill" data-en="Volcano">ヴォルケーノ</span> <small>(Volcano)</small></h4>
+<ul>
+  <li>ベースクリティカルヒットチャンス: <code>5% → 8%</code></li>
+</ul>
+
+<h4><span class="term skill" data-en="Rend">レンド</span> <small>(Rend)</small> ― Lightning-Charged バリアントのバグ修正</h4>
+<ul>
+  <li><span class="term skill" data-en="Lightning-Charged Rend">ライトニングチャージ・レンド</span> がレベルで二重スケールしていたバグを修正。代償としてベースダメージを引き上げ。</li>
+  <li>ジェムレベル 1-20 の攻撃ダメージ: <code>120-586% → 130-405%</code></li>
+</ul>
+
+<!-- ===== 2.2 Melee ===== -->
+<h3 id="sec-melee">2.2 近接攻撃系</h3>
+
+<h4><span class="term skill" data-en="Boneshatter">ボーンシャッター</span> <small>(Boneshatter)</small></h4>
+<ul>
+  <li>Quality 効果: <code>0-30% 増加 Attack Speed → 0-20% 増加 Attack Speed</code>（弱体化）</li>
+</ul>
+
+<h4><span class="term skill" data-en="Cull the Weak">カル・ザ・ウィーク</span> <small>(Cull the Weak)</small></h4>
+<ul>
+  <li><strong>Can't be Evaded</strong> を獲得。</li>
+  <li>ジェムレベル 3-20 の Attack Damage: <code>60%-156% → 109-281%</code>（大幅強化）</li>
+  <li>Attack Speed: 基準の <code>60% → 75%</code></li>
+  <li>ジェムレベル 3-20 の Mana コスト: <code>9-46 → 8-42</code></li>
+  <li>最大 Dash 距離: <code>+15%</code></li>
+</ul>
+
+<h4><span class="term skill" data-en="Earthquake">アースクエイク</span> <small>(Earthquake)</small></h4>
+<ul>
+  <li>Aftershock のジェムレベル 1-20 攻撃ダメージ: <code>160-580% → 184-666%</code></li>
+</ul>
+
+<h4><span class="term skill" data-en="Ice Strike">アイスストライク</span> <small>(Ice Strike)</small></h4>
+<ul>
+  <li>Quality 効果: <code>0-10% more Attack Speed → 0-20% increased Attack Speed</code>（more → increased。乗算→加算へ）</li>
+</ul>
+
+<h4><span class="term skill" data-en="Parry">パリィ</span> <small>(Parry)</small></h4>
+<ul>
+  <li>Area of Effect がアニメーションに即した範囲へ変更。</li>
+  <li>ボーナス Attack Distance を撤廃。</li>
+</ul>
+
+<h4><span class="term skill" data-en="Pounce">パウンス</span> <small>(Pounce)</small></h4>
+<ul>
+  <li>ジェムレベル 3-20 の Cooldown: <code>4.9-4 秒 → 6-5.1 秒</code>（長くなる方向）</li>
+</ul>
+
+<h4><span class="term skill" data-en="Rolling Slam">ローリングスラム</span> <small>(Rolling Slam)</small></h4>
+<ul>
+  <li>合計 Attack time に加算される値: <code>+1.5 秒 → +1 秒</code></li>
+  <li>初撃のジェムレベル 1-20 攻撃ダメージ: <code>90-367% → 75-272%</code></li>
+  <li>第二撃のジェムレベル 1-20 攻撃ダメージ: <code>180-735% → 150-543%</code></li>
+</ul>
+
+<h4><span class="term skill" data-en="Shred">シュレッド</span> <small>(Shred)</small></h4>
+<ul>
+  <li>Quality 効果: <code>0-10% more Attack Speed → 0-20% increased Attack Speed</code></li>
+</ul>
+
+<h4><span class="term skill" data-en="Supercharged Slam">スーパーチャージド・スラム</span> <small>(Supercharged Slam)</small></h4>
+<ul>
+  <li>固定の Attack Time を持ち変更不可、と<strong>説明文を明確化</strong>（機能的変更なし）。</li>
+</ul>
+
+<h4><span class="term skill" data-en="Tempest Bell">テンペスト・ベル</span> <small>(Tempest Bell)</small> <span class="tag new">強化</span></h4>
+<ul>
+  <li><strong>Strike スキルと同様に Ancestrally Boosted の対象になった。</strong></li>
+  <li>同時発生可能数: <code>1 → 3</code>（大幅強化、コンボ拡張）</li>
+  <li>Shockwave のジェムレベル 3-20 ダメージ: <code>60-132% → 45-119%</code></li>
+  <li>Shockwave 発動間隔: <code>0.25 秒 → 0.3 秒</code></li>
+</ul>
+
+<h4><span class="term skill" data-en="Whirling Assault">ワーリング・アサルト</span> <small>(Whirling Assault)</small></h4>
+<ul>
+  <li>Quality 効果: <code>0-15% more Attack Speed → 0-20% increased Attack Speed</code></li>
+</ul>
+
+<h4><span class="term skill" data-en="Wing Blast">ウィングブラスト</span> <small>(Wing Blast)</small></h4>
+<ul>
+  <li>Shockwave のダメージ: 全レベルで <code>+25% more</code> （強化）</li>
+</ul>
+
+<!-- ===== 2.3 Ranged ===== -->
+<h3 id="sec-ranged">2.3 遠隔攻撃系（弓・クロスボウ）</h3>
+
+<h4><span class="term skill" data-en="Fragmentation Rounds">フラグメンテーション・ラウンズ</span> <small>(Fragmentation Rounds)</small></h4>
+<ul>
+  <li>Quality 効果: <code>0-20% more Physical Damage → +0-2 Fragments per Shot</code></li>
+</ul>
+
+<h4><span class="term skill" data-en="Ice Shot">アイスショット</span> <small>(Ice Shot)</small></h4>
+<ul>
+  <li><span class="term skill" data-en="Ice Shards">アイスシャード</span> （Ice Shards）の <code>25% more Freeze Buildup</code> を撤廃（弱体化）。</li>
+</ul>
+
+<h4><span class="term skill" data-en="Lightning Arrow">ライトニングアロー</span> <small>(Lightning Arrow)</small></h4>
+<ul>
+  <li>複数の Lighting Beam が同一ターゲットにチェインしないように変更。</li>
+</ul>
+
+<h4><span class="term skill" data-en="Poisonburst Arrow">ポイズンバースト・アロー</span> <small>(Poisonburst Arrow)</small></h4>
+<ul>
+  <li>Poison 持続: ジェムレベル全域で固定 <code>3 秒</code>（旧: ジェムレベル 1-20 で 3-4.9 秒）</li>
+  <li>Quality 効果: <code>0-20% more Magnitude of Poison → 0-10% more Magnitude of Poison</code></li>
+</ul>
+
+<h4><span class="term skill" data-en="Oil Barrage">オイルバラージュ</span> <small>(Oil Barrage)</small> ／ <span class="term skill" data-en="Empowered Oil Barrage">エンパワード・オイルバラージュ</span></h4>
+<ul>
+  <li>Oil Barrage の Mana コスト: <code>-18%</code></li>
+  <li>Empowered Oil Barrage の Mana コスト/秒: <strong>Oil Barrage の初期 Mana コストと同等</strong>に。</li>
+  <li>Oil Barrage のダメージ: 全レベルで <code>+10% more</code></li>
+  <li>Empowered Oil Barrage のダメージ: 全レベルで <code>-10% less</code></li>
+  <li>Empowered Oil Barrage の Power Charge 消費間隔: <code>2 秒 → 1.5 秒</code>（消費頻度↑）</li>
+</ul>
+
+<h4><span class="term skill" data-en="Snipe">スナイプ</span> <small>(Snipe)</small></h4>
+<ul>
+  <li>ジェムレベル 3-20 の攻撃ダメージ: <code>133-343% → 121-312%</code></li>
+  <li>Explosion ダメージ: <code>454-1358% → 484-1449%</code></li>
+  <li><span class="term skill" data-en="Icy Blast">アイシーブラスト</span> （Icy Blast）ダメージ: <code>913-3062% → 764-3067%</code></li>
+  <li>ユニーク敵由来 Explosion の Icy Blast の Hit ダメージ追加: <code>常に 50% more → ジェムレベル 3-20 で 33-50% more</code></li>
+  <li>Icy Blast Explosion 半径: <code>3.2m → 3m</code></li>
+</ul>
+
+<h4><span class="term skill" data-en="Mirage Archer">ミラージュ・アーチャー</span> ／ <span class="term skill" data-en="Mirage Deadeye">ミラージュ・デッドアイ</span> <small>(Mirage Archer / Mirage Deadeye)</small> <span class="tag new">強化</span></h4>
+<ul>
+  <li><strong>Channelled スキルと組み合わせ可能になった。</strong> 対応例: <span class="term skill" data-en="Snipe">Snipe</span> / <span class="term skill" data-en="Plasma Blast">Plasma Blast</span> / <span class="term skill" data-en="Detonating Arrow">Detonating Arrow</span></li>
+</ul>
+
+<!-- ===== 2.4 Shield ===== -->
+<h3 id="sec-shield">2.4 シールド系</h3>
+
+<div class="callout info">
+  <div>
+    <span class="callout-title">「シールドの Armour 15 ごとに 5-7 追加ダメージ」共通ナーフ</span>
+    下記 4 スキルは全て同じ調整: <code>シールドの Armour 15 ごとに +6-8 → +5-7</code> のベースダメージ。
+  </div>
+</div>
+
+<h4><span class="term skill" data-en="Fortifying Cry">フォーティファイング・クライ</span> <small>(Fortifying Cry)</small></h4>
+<ul>
+  <li>Shield Wall を起爆して各セグメントから Shockwave を発生させる際、<strong>スタックを 1 個のみ消費</strong>するよう変更。</li>
+  <li>同一 Shield Wall 由来の Shockwave は同じ敵に複数回ヒットしない。</li>
+  <li><span class="term skill" data-en="Shield Wave">シールドウェーブ</span> のダメージ: <code>シールドの Armour 15 ごとに 6-8 → 5-7</code> 追加 Physical Damage</li>
+</ul>
+
+<h4><span class="term skill" data-en="Magma Barrier">マグマ・バリア</span> <small>(Magma Barrier)</small></h4>
+<ul>
+  <li>シールドの Armour と Evasion 15 ごとの追加 Fire Damage: <code>6-8 → 5-7</code></li>
+</ul>
+
+<h4><span class="term skill" data-en="Resonating Shield">レゾネーティングシールド</span> <small>(Resonating Shield)</small></h4>
+<ul>
+  <li>シールドの Armour 15 ごとの追加 Physical Damage: <code>6-8 → 5-7</code></li>
+</ul>
+
+<h4><span class="term skill" data-en="Shield Wall">シールドウォール</span> <small>(Shield Wall)</small></h4>
+<ul>
+  <li>シールドの Armour 15 ごとの追加 Physical Damage: <code>6-8 → 5-7</code></li>
+</ul>
+
+<!-- ===== 2.5 Banner ===== -->
+<h3 id="sec-banner">2.5 バナー系</h3>
+
+<h4><span class="term skill" data-en="Defiance Banner">ディファイアンス・バナー</span> ／ <span class="term skill" data-en="Dread Banner">ドレッド・バナー</span> ／ <span class="term skill" data-en="War Banner">ウォー・バナー</span> <small>(共通変更)</small> <span class="tag new">強化</span></h4>
+<ul>
+  <li>使用中の移動速度ペナルティを撤廃。</li>
+  <li>Banner Aura のベース半径: <code>4.5m → 6m</code></li>
+</ul>
+
+<!-- ===== 2.6 Totem ===== -->
+<h3 id="sec-totem">2.6 トーテム系</h3>
+
+<h4><span class="term skill" data-en="Ancestral Warrior Totem">アンセストラル・ウォリアー・トーテム</span> <small>(Ancestral Warrior Totem)</small></h4>
+<ul>
+  <li>スキル使用間に隠されていた <code>0.6 秒</code> の遅延を撤廃。代わりにスキルの Attack Time の <code>50%</code> を遅延とし、スキル上に明示表示。</li>
+</ul>
+
+<h4><span class="term skill" data-en="Spell Totem">スペル・トーテム</span> <small>(Spell Totem)</small> <span class="tag new">強化</span></h4>
+<ul>
+  <li><strong>移動中にも使用可能</strong>となり、アニメーションも刷新。</li>
+</ul>
+
+<!-- ===== 2.7 Minion ===== -->
+<h3 id="sec-minion">2.7 ミニオン・コンパニオン系</h3>
+
+<h4><span class="term skill" data-en="Feral Invocation">フェラル・インヴォケーション</span> <small>(Feral Invocation)</small></h4>
+<ul>
+  <li>ソケットされたスキルのクールダウンをバイパスしなくなった。</li>
+</ul>
+
+<h4><span class="term skill" data-en="Tame Beast">テイム・ビースト</span> <small>(Tame Beast)</small> <span class="tag new">強化</span></h4>
+<ul>
+  <li>召喚 Beast のダメージ: ジェムレベル 9 で <code>+40% more</code>、レベル 20 で <code>+84% more</code></li>
+  <li>スピリットに余裕があれば、新規 Tame した Beast を<strong>即時召喚</strong>するように変更。</li>
+</ul>
+
+<h4><span class="term skill" data-en="Toxic Growth">トキシック・グロウス</span> <small>(Toxic Growth)</small></h4>
+<ul>
+  <li>射出する Pustule 数: <code>4 → 5</code></li>
+  <li>同時存在上限の Pustule 数: <code>12 → 5</code>（大幅減）</li>
+  <li>Quality 効果: <code>+0-2 射出 / +0-2 上限 → +0-1 射出 / +0-1 上限</code></li>
+</ul>
+
+<h4><span class="term skill" data-en="Thrashing Vines">スラッシング・ヴァインズ</span> <small>(Thrashing Vines)</small></h4>
+<ul>
+  <li>Vine 発生頻度に関する説明文を明確化（機能変更なし）。</li>
+</ul>
+
+<!-- ===== 2.8 Trigger ===== -->
+<h3 id="sec-trigger">2.8 トリガー・付与系</h3>
+
+<div class="callout info">
+  <div>
+    <span class="callout-title">「Cooldown Recovery Rate 改善が頻度に適用される」共通パターン</span>
+    複数スキルが、Duration ベースだった間隔を <strong>Cooldown ベース</strong> に変更し、Cooldown Recovery Rate モディファイアの恩恵を受けられるようになった。これにより CDR ビルドとの相性が改善。
+  </div>
+</div>
+
+<h4><span class="term skill" data-en="Align Fate">アライン・フェイト</span> <small>(Align Fate ― Oracle's Fateful Vision Notable 付与)</small></h4>
+<ul>
+  <li>「Cooldown Recovery Rate のモディファイアは visage 出現頻度にも適用される」を獲得。</li>
+</ul>
+
+<h4><span class="term skill" data-en="Gathering Storm">ギャザリング・ストーム</span> <small>(Gathering Storm)</small></h4>
+<ul>
+  <li><strong>Perfectly Timed Dash</strong> が Tempest Bell に命中した際、巨大な Shockwave を発生させ周囲を一掃するコンボに変更。
+    <ul>
+      <li>Shockwave のジェムレベル 13-20 攻撃ダメージ: <code>564-869%</code></li>
+      <li>Tempest Shockwave の航跡に <span class="term" data-en="Shocked Ground">ショックド・グラウンド</span> を残す（旧: Perfect Dash 時）、半径 <code>3.2m</code></li>
+    </ul>
+  </li>
+  <li>Perfect Timing Shockwave はスキル使用ごとに同じ敵には 1 回しかヒットしない。Tempest Bell 以外の生成物とは相互作用しない。</li>
+  <li>Shockwave 上限: <code>50</code></li>
+  <li>Quality 効果: <code>+0-8 最大 Shockwave 数 → 0-20% より長い Perfect Timing ウィンドウ</code></li>
+</ul>
+
+<h4><span class="term skill" data-en="Ghost Dance">ゴースト・ダンス</span> <small>(Ghost Dance)</small></h4>
+<ul>
+  <li><span class="term" data-en="Ghost Shroud">ゴースト・シュラウド</span> 獲得の間隔が Duration ではなく Cooldown ベースに。「CDR モディファイアが Ghost Shroud 獲得頻度に適用される」を獲得。</li>
+  <li>「Hit を受けると Ghost Shroud を失う」を追加。</li>
+  <li>「最近 Ghost Shroud を失っていれば、Evasion Rating の 2% を毎秒 ES として再生」を追加。</li>
+</ul>
+
+<h4><span class="term skill" data-en="Grim Feast">グリム・フィースト</span> <small>(Grim Feast)</small></h4>
+<ul>
+  <li><span class="term skill" data-en="Grim Resurrection">グリム・リザレクション</span> （Grim Resurrection）に <code>1 秒</code> の Cooldown を追加。</li>
+</ul>
+
+<h4><span class="term skill" data-en="Lunar Blessing">ルナー・ブレッシング</span> <small>(Lunar Blessing)</small></h4>
+<ul>
+  <li>トリガーされる <span class="term skill" data-en="Moonbeams">ムーンビーム</span> （Moonbeams）は<strong>近接スキル扱いではなくなった</strong>。</li>
+</ul>
+
+<h4><span class="term skill" data-en="Ravenous Swarm">レイヴァナス・スウォーム</span> <small>(Ravenous Swarm)</small></h4>
+<ul>
+  <li>「CDR モディファイアが swarm 出現頻度に適用される」を獲得。</li>
+</ul>
+
+<h4><span class="term skill" data-en="Time of Need">タイム・オブ・ニード</span> <small>(Time of Need)</small></h4>
+<ul>
+  <li>Blessing 間隔が Duration ベースから「CDR モディファイアが blessing 頻度に適用される」へ。</li>
+  <li>ジェムレベル 8-20 の間隔: <code>11.3-10.1 秒 → 9.3-8.1 秒</code></li>
+</ul>
+
+<h4><span class="term skill" data-en="Eternal Rage">エターナル・レイジ</span> <small>(Eternal Rage)</small></h4>
+<ul>
+  <li>特定の Weapon Set のみでアクティブにすることは不可。<strong>両 Weapon Set でアクティブ化が必須</strong>となり、満たせない場合は起動失敗。</li>
+</ul>
+
+<!-- ===== 2.9 Other ===== -->
+<h3 id="sec-other">2.9 その他・ユニーク由来</h3>
+
+<h4><span class="term skill" data-en="Mirror of Refraction">ミラー・オブ・リフラクション</span> <small>(Mirror of Refraction ― Atziri's Rule unique staff 付与)</small></h4>
+<ul>
+  <li>「CDR モディファイアが mirror 出現頻度に適用される」を獲得。</li>
+</ul>
+
+<h4><span class="term skill" data-en="Shattering Spite">シャタリング・スパイト</span> <small>(Shattering Spite ― Atziri's Contempt 付与)</small></h4>
+<ul>
+  <li><code>50% Less Magnitude of Damaging Ailments you Inflict</code> を獲得。</li>
+  <li>「Bloodstone Lances を 15 個以上携える Explosion からの Life Leech は瞬時」を撤廃。</li>
+</ul>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ============================================================
+     §3 Support Changes - General
+     ============================================================ -->
+<section id="sec-support-general">
+<h2>3. サポート変更 ― 全般ルール</h2>
+
+<div class="callout new">
+  <div>
+    <span class="callout-title">Seal メカニクスの統一</span>
+    <span class="term support" data-en="Unleash">Unleash</span>、<span class="term support" data-en="Expand">Expand</span>、<span class="term support" data-en="Salvo Support">Salvo</span>、<span class="term skill" data-en="Freezing Salvo">Freezing Salvo</span> の各サポートは、<strong>共通の Seal メカニクス</strong> を使うように統一。これに伴い:
+    <ul>
+      <li>Seal 付与系サポートには一貫して <code>Seal</code> カテゴリが付与される。</li>
+      <li>Freezing Salvo / Salvo Support にあった「該当スキル実行中は Seal を獲得できない」制限は撤廃され、他の Seal メカニクスと整合。</li>
+    </ul>
+  </div>
+</div>
+
+<h4><span class="term support" data-en="Salvo Support">Salvo サポート</span> ― Seal 統一に伴う数値変更</h4>
+<div class="compare">
+  <div class="compare-side before">
+    <span class="compare-label">これまで</span>
+    <h4>2 秒ごとに Seal 獲得</h4>
+    <p>最大 <code>3</code> Seal。1 Seal あたり <code>2</code> 投射物。</p>
+  </div>
+  <div class="compare-arrow">→</div>
+  <div class="compare-side after">
+    <span class="compare-label">0.5.0 から</span>
+    <h4>1 秒ごとに Seal 獲得</h4>
+    <p>最大 <code>6</code> Seal。1 Seal あたり <code>1</code> 投射物。</p>
+  </div>
+</div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ============================================================
+     §4 Support Changes - Per-Support
+     ============================================================ -->
+<section id="sec-support-detail">
+<h2>4. サポート変更 ― 個別調整</h2>
+
+<details>
+<summary><strong>変更されたサポート一覧</strong>（全 26 項目 ― クリックで展開）</summary>
+<ul>
+  <li>Advancing Storm / Arjun's Medal / Atziri's Impatience / Bhatair's Vengeance</li>
+  <li>Brink I / Culmination II</li>
+  <li>Corrupting Cry I & II（共通） / Decaying Hex</li>
+  <li>Dialla's Desire / Doedre's Undoing</li>
+  <li>Infernal Legion I & II & III</li>
+  <li>Living Lightning / Morgana's Tempest / Overabundance III / Overextend</li>
+  <li>Paquate's Pact / Rage I & II & III</li>
+  <li>Ratha's Assault / Refraction I & II</li>
+  <li>Shock Conduction II / Static Shocks</li>
+  <li>Uhtred's Augury / Uhtred's Omen / Volt</li>
+</ul>
+</details>
+
+<h4><span class="term support" data-en="Advancing Storm">アドバンシング・ストーム</span> <small>(Advancing Storm)</small> <span class="tag new">強化</span></h4>
+<ul>
+  <li>「自分で使うスペルのみ」から、<strong>任意の <span class="term" data-en="Storm Skill">Storm スキル</span> をサポート可能</strong>に拡張。</li>
+</ul>
+
+<h4><span class="term support" data-en="Arjun's Medal">アルジュンのメダル</span> <small>(Arjun's Medal)</small></h4>
+<ul>
+  <li>Killing Blow 時にクロスボウスキルへ bolt をロードする確率: <code>100% → 25%</code>（大幅ナーフ）</li>
+</ul>
+
+<h4><span class="term support" data-en="Atziri's Impatience">アツィリの焦燥</span> <small>(Atziri's Impatience)</small></h4>
+<ul>
+  <li><span class="term" data-en="Persistent Skills">Persistent Skill</span> をサポート不可に。</li>
+</ul>
+
+<h4><span class="term support" data-en="Bhatair's Vengeance">バタイルの復讐</span> <small>(Bhatair's Vengeance)</small></h4>
+<ul>
+  <li>Freeze 時に得る Damage as Cold Damage: <code>1 Rage ごとに 1% / 20 秒間 → 2 Rage ごとに 1% / 15 秒間</code>（Rage 効率は半減、持続も短縮）</li>
+</ul>
+
+<h4><span class="term support" data-en="Brink I">ブリンク I</span> <small>(Brink I)</small></h4>
+<ul>
+  <li>レベル <code>2 → 1</code> でカット可能に（より早期に獲得可能）。</li>
+</ul>
+
+<h4><span class="term support" data-en="Culmination II">カルミネーション II</span> <small>(Culmination II)</small> ― Combo 系大幅リワーク</h4>
+<ul>
+  <li>「サポートされたスキルの Combo カウント減衰が 50% スロー」を撤廃。</li>
+  <li>新規: 「6 秒間 Combo を生成しないと Combo を失う」（旧 4 秒）</li>
+  <li>Combo の最大値: <code>20 → 10</code></li>
+  <li>Combo あたりダメージ: <code>2% more → 4% more</code></li>
+</ul>
+
+<h4><span class="term support" data-en="Corrupting Cry I">コラプティング・クライ I</span> ／ <span class="term support" data-en="Corrupting Cry II">II</span> <small>(共通)</small></h4>
+<ul>
+  <li>サポートされたスキル自体が Corrupted Blood を付与するのではなく、<strong>Corrupted Blood を付与するスキルをトリガー</strong>するように変更。ジェムレベルに応じてスケール。</li>
+</ul>
+
+<h4><span class="term support" data-en="Decaying Hex">ディケイング・ヘックス</span> <small>(Decaying Hex)</small></h4>
+<ul>
+  <li>サポートされた Curse が Decay を付与するのではなく、<strong>Decay を付与するスキルをトリガー</strong>するよう変更。ジェムレベルに応じてスケール。</li>
+</ul>
+
+<h4><span class="term support" data-en="Dialla's Desire">ディアラの渇望</span> <small>(Dialla's Desire)</small></h4>
+<ul>
+  <li>サポートされたスキルの Quality: <code>+10% → +5%</code></li>
+</ul>
+
+<h4><span class="term support" data-en="Doedre's Undoing">ドエドレの破滅</span> <small>(Doedre's Undoing)</small></h4>
+<ul>
+  <li>サポートされたスキルが生成する <strong>Cursed Ground</strong> を Hazard 化しなくなった。</li>
+  <li>代わりに <strong><span class="term" data-en="Witchtoad">ウィッチトード</span> （Witchtoad）を一定間隔で召喚</strong>。Witchtoad は敵を探知して爆発し、Chaos ダメージを与える。</li>
+</ul>
+
+<h4><span class="term support" data-en="Infernal Legion I">インファーナル・リージョン I</span> <small>(Infernal Legion I)</small></h4>
+<ul>
+  <li>ミニオンの max Life % を Fire Damage として被弾する量: <code>20%/秒 → 10%/秒</code></li>
+  <li>半径 1.5m 内の敵 Ignite 用に処理する基準 Fire Damage: <code>Minion max Life の 20% → 10%</code></li>
+</ul>
+
+<h4><span class="term support" data-en="Infernal Legion II">インファーナル・リージョン II</span> <small>(Infernal Legion II)</small></h4>
+<ul>
+  <li>ミニオンの max Life % を Fire Damage として被弾する量: <code>20%/秒 → 10%/秒</code></li>
+  <li>Ignite 半径: <code>2m</code>、基準 Fire Damage: <code>Minion max Life の 20% → 10%</code></li>
+  <li><strong>新規追加</strong>: ミニオンに <code>+20% to Fire Resistance</code></li>
+</ul>
+
+<h4><span class="term support" data-en="Infernal Legion III">インファーナル・リージョン III</span> <small>(Infernal Legion III)</small> <span class="tag">入手不可</span></h4>
+<ul>
+  <li>新規入手不可。</li>
+</ul>
+
+<h4><span class="term support" data-en="Living Lightning">リビング・ライトニング</span> <small>(Living Lightning)</small></h4>
+<ul>
+  <li>ミニオン上限到達時、新規召喚で既存ミニオンを置換しなくなった。</li>
+</ul>
+
+<h4><span class="term support" data-en="Morgana's Tempest">モルガナの嵐</span> <small>(Morgana's Tempest)</small> <span class="tag new">強化</span></h4>
+<ul>
+  <li>「自分で使うスペルのみ」から、<strong>任意の Storm スキル</strong> をサポート可能に拡張。</li>
+</ul>
+
+<h4><span class="term support" data-en="Overabundance III">オーバーアバンダンス III</span> <small>(Overabundance III)</small></h4>
+<ul>
+  <li>Persistent Skill をサポート不可、と<strong>説明文を明確化</strong>。</li>
+</ul>
+
+<h4><span class="term support" data-en="Overextend">オーバーエクステンド</span> <small>(Overextend)</small> <span class="tag">入手不可</span></h4>
+<ul>
+  <li>新規入手不可（既存装着済みのものは影響なし）。</li>
+</ul>
+
+<h4><span class="term support" data-en="Paquate's Pact">パケートの契約</span> <small>(Paquate's Pact)</small></h4>
+<ul>
+  <li>Corrupted Blood の付与を <strong>トリガースキル化</strong>（ジェムレベルでスケール）。</li>
+  <li>「Corrupted Blood 付与ごとに max Life の 2% を失う」を撤廃。</li>
+  <li>新規: 「サポートされたスキルは、最近の使用ごとに max Life の 10% をコストとして要求（最大 30% まで累積）」</li>
+</ul>
+
+<h4><span class="term support" data-en="Rage I">レイジ I</span> ／ <span class="term support" data-en="Rage II">II</span> ／ <span class="term support" data-en="Rage III">III</span> <small>(共通)</small> <span class="tag new">強化</span></h4>
+<ul>
+  <li><strong>Minion スキルをサポート可能</strong>になった。</li>
+</ul>
+
+<h4><span class="term support" data-en="Ratha's Assault">ラサの強襲</span> <small>(Ratha's Assault)</small></h4>
+<ul>
+  <li>Dodge 時の bolt ロード数: <code>5 → 4</code></li>
+  <li>追加 bolt ロード数: <code>4 → 3</code></li>
+  <li>サポートされたスキルの Attack Speed 増加: <code>20% → 10%</code>（全方位ナーフ）</li>
+</ul>
+
+<h4><span class="term support" data-en="Refraction I">リフラクション I</span> <small>(Refraction I)</small></h4>
+<ul>
+  <li>新規追加: サポートされた Banner スキルが、味方に <strong>Evasion Rating の 15%</strong> を Deflection Rating として付与。</li>
+</ul>
+
+<h4><span class="term support" data-en="Refraction II">リフラクション II</span> <small>(Refraction II)</small></h4>
+<ul>
+  <li>新規追加: サポートされた Banner スキルが、味方に <strong>Evasion Rating の 20%</strong> を Deflection Rating として付与。</li>
+</ul>
+
+<h4><span class="term support" data-en="Shock Conduction II">ショック・コンダクション II</span> <small>(Shock Conduction II)</small> <span class="tag">入手不可</span></h4>
+<ul>
+  <li>新規入手不可。</li>
+</ul>
+
+<h4><span class="term support" data-en="Static Shocks">スタティック・ショックス</span> <small>(Static Shocks)</small></h4>
+<ul>
+  <li>Shocking Hit からトリガーする旨、<strong>説明文を明確化</strong>（機能変更なし）。</li>
+</ul>
+
+<h4><span class="term support" data-en="Uhtred's Augury">ウートレッドの占い</span> <small>(Uhtred's Augury)</small></h4>
+<ul>
+  <li>サポート対象に他のサポートが<strong>正確に 2 つ</strong>付いているときの +Level: <code>+3 → +2</code></li>
+</ul>
+
+<h4><span class="term support" data-en="Uhtred's Omen">ウートレッドの兆し</span> <small>(Uhtred's Omen)</small></h4>
+<ul>
+  <li>サポート対象に他のサポートが<strong>正確に 1 つ</strong>付いているときの +Level: <code>+3 → +2</code></li>
+</ul>
+
+<h4><span class="term support" data-en="Volt">ヴォルト</span> <small>(Volt)</small></h4>
+<ul>
+  <li>移動 1m あたりの Voltaic Charge 獲得: <code>3 → 2</code></li>
+  <li>Voltaic Charge 消費あたり追加 Lightning Damage: <code>10 Voltaic Charge ごとに 5% → 1 Voltaic Charge ごとに 1%</code>（実質同等の比率だが、細粒度化）</li>
+</ul>
+</section>
+
+<footer>
+  <p>反映元: PoE2 0.5.0 公式パッチノート セクション 17 (Skill Changes) ／ セクション 18 (Support Changes)。Ascendancy・Passive Tree 変更は別ソース参照。</p>
+  <p class="back-to-top-wrap" style="margin-top:2em;"><a href="../index.html" class="back-to-top">← トップへ戻る</a></p>
+</footer>
+
+</main>
+</body>
+</html>

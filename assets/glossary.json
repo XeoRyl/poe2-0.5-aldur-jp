@@ -1,0 +1,4568 @@
+{
+  "version": "0.5.0",
+  "source": "poe2db.tw/jp",
+  "updated": "2026-05-22",
+  "notes": "verified=poe2db.tw/jpで日本語訳を確認済み / provisional=poe2db未収録または当ドキュメント内の暫定訳。",
+  "terms": {
+    ".build files": {
+      "ja": ".build ファイル",
+      "category": "feature",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ab Aeterno": {
+      "ja": "アブ・エテルノ",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Abyss": {
+      "ja": "アビス",
+      "category": "mechanic",
+      "url": "https://poe2db.tw/jp/Abyss",
+      "status": "provisional"
+    },
+    "Abyss Atlas Tree": {
+      "ja": "アビス・アトラスツリー",
+      "category": "atlas",
+      "url": null,
+      "status": "provisional"
+    },
+    "Abyss Omens": {
+      "ja": "アビス・オーメン",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Abyss Precursor Tablet": {
+      "ja": "アビス・プリカーサー・タブレット",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Abyssal Depths": {
+      "ja": "アビサル・デプス",
+      "category": "location",
+      "url": null,
+      "status": "provisional"
+    },
+    "Acolyte of Chayula": {
+      "ja": "アコライト・オブ・チャユラ",
+      "category": "ascendancy",
+      "url": null,
+      "status": "provisional"
+    },
+    "Adamant Recovery": {
+      "ja": "アダマント・リカバリー",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Adept Rune": {
+      "ja": "アデプトルーン",
+      "category": "rune",
+      "url": null,
+      "status": "provisional"
+    },
+    "Advanced Thaumaturgy": {
+      "ja": "アドバンスト・ソーマタージー",
+      "category": "ascendancy",
+      "url": null,
+      "status": "provisional"
+    },
+    "Advancing Storm": {
+      "ja": "アドバンシング・ストーム",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Affinity": {
+      "ja": "アフィニティ",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ailith": {
+      "ja": "アイリス",
+      "category": "npc",
+      "url": null,
+      "status": "provisional"
+    },
+    "Aldur": {
+      "ja": "アルドゥール",
+      "category": "npc",
+      "url": "https://poe2db.tw/jp/Runes_of_Aldur_league",
+      "status": "verified"
+    },
+    "Align Fate": {
+      "ja": "アライン・フェイト",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Alloy": {
+      "ja": "アロイ",
+      "category": "currency",
+      "url": "https://poe2db.tw/jp/Runes_of_Aldur_items",
+      "status": "verified"
+    },
+    "Ancestral Bond": {
+      "ja": "アンセストラル・ボンド",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ancestral Cry": {
+      "ja": "アンセストラル・クライ",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ancestral Empowerment": {
+      "ja": "アンセストラル・エンパワメント",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ancestral Warrior Totem": {
+      "ja": "アンセストラル・ウォリアー・トーテム",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ancient Beacons": {
+      "ja": "古代のビーコン",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ancient Emotions": {
+      "ja": "エンシェント・エモーション",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ancient Modifiers": {
+      "ja": "古代のモッド",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ancient Potent Emotions": {
+      "ja": "エンシェント・ポテント・エモーション",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ancient Runes": {
+      "ja": "古代ルーン",
+      "category": "rune",
+      "url": null,
+      "status": "provisional"
+    },
+    "Animus Exchange": {
+      "ja": "アニムス交換",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Animus Splinters": {
+      "ja": "アニムスの欠片",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "anomaly map": {
+      "ja": "アノマリーマップ",
+      "category": "map",
+      "url": null,
+      "status": "provisional"
+    },
+    "Aoife": {
+      "ja": "アオイフェ",
+      "category": "npc",
+      "url": null,
+      "status": "provisional"
+    },
+    "Apep's Supremacy": {
+      "ja": "アペプの覇権",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Arbiter of Ash": {
+      "ja": "灰のアービター",
+      "category": "boss",
+      "url": "https://poe2db.tw/jp/The_Arbiter_of_Ash",
+      "status": "verified"
+    },
+    "Arbiter of Divinity": {
+      "ja": "神性のアービター",
+      "category": "boss",
+      "url": null,
+      "status": "provisional"
+    },
+    "Arbiter's Reach": {
+      "ja": "アービターズ・リーチ",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Arc": {
+      "ja": "アーク",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Arcane Armour Set": {
+      "ja": "アーケイン・アーマーセット",
+      "category": "mtx",
+      "url": null,
+      "status": "provisional"
+    },
+    "Arcane Mixtures": {
+      "ja": "アーケイン・ミクスチャー",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Arcane Raiment": {
+      "ja": "アーケイン・レイメント",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Architect": {
+      "ja": "アーキテクト",
+      "category": "boss",
+      "url": null,
+      "status": "provisional"
+    },
+    "Archon": {
+      "ja": "アーコン",
+      "category": "other",
+      "url": null,
+      "status": "provisional"
+    },
+    "Archon Buffs": {
+      "ja": "アーコンバフ",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Archon of Undeath cluster": {
+      "ja": "アーコン・オブ・アンデス クラスタ",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Arctic Crystal Armour Set": {
+      "ja": "アークティック・クリスタル・アーマーセット",
+      "category": "mtx",
+      "url": null,
+      "status": "provisional"
+    },
+    "Arctic Howl": {
+      "ja": "アークティック・ハウル",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Arjun's Medal": {
+      "ja": "アルジュンのメダル",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Artillery Bow": {
+      "ja": "アーティラリーボウ",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "As the Whispers Demand": {
+      "ja": "囁きが命じるままに",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ascendancy": {
+      "ja": "アセンダンシークラス",
+      "category": "mechanic",
+      "url": "https://poe2db.tw/jp/Ascendancy_class",
+      "status": "verified"
+    },
+    "Assassin Armour Set": {
+      "ja": "アサシン・アーマーセット",
+      "category": "mtx",
+      "url": null,
+      "status": "provisional"
+    },
+    "Astral Projection Support": {
+      "ja": "アストラル・プロジェクション・サポート",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Atlantis Armour Set": {
+      "ja": "アトランティス・アーマーセット",
+      "category": "mtx",
+      "url": null,
+      "status": "provisional"
+    },
+    "Atlas": {
+      "ja": "アトラス",
+      "category": "location",
+      "url": "https://poe2db.tw/jp/Atlas",
+      "status": "verified"
+    },
+    "Atlas Passive Tree": {
+      "ja": "アトラスパッシブツリー",
+      "category": "atlas",
+      "url": null,
+      "status": "provisional"
+    },
+    "Atmohua's Soul Core of Retreat": {
+      "ja": "アトモフアのリトリート・ソウルコア",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Atsak's Sight": {
+      "ja": "アツァクの眼",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Atziri": {
+      "ja": "アジリ",
+      "category": "boss",
+      "url": null,
+      "status": "provisional"
+    },
+    "Atziri's Contempt": {
+      "ja": "アツィリの侮蔑",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Atziri's Impatience": {
+      "ja": "アツィリの焦燥",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Atziri's Rule": {
+      "ja": "アジリの統治",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Atziri's Splendour": {
+      "ja": "アジリの威光",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Atziri's Temple": {
+      "ja": "アジリの神殿",
+      "category": "location",
+      "url": null,
+      "status": "provisional"
+    },
+    "Atziri's Temple Medallions": {
+      "ja": "アジリの神殿メダリオン",
+      "category": "other",
+      "url": null,
+      "status": "provisional"
+    },
+    "Atziri, the Red Queen": {
+      "ja": "赤の女王アツィリ",
+      "category": "boss",
+      "url": null,
+      "status": "provisional"
+    },
+    "Audience with the King": {
+      "ja": "王との謁見",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Augments Stash Tab": {
+      "ja": "増強物スタッシュタブ",
+      "category": "ui",
+      "url": null,
+      "status": "provisional"
+    },
+    "Azmeri Spirit Possession": {
+      "ja": "アズメリの精霊憑依",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Azmeri Spirits": {
+      "ja": "アズメリの霊",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Azmerian Spirits": {
+      "ja": "アズメリアン・スピリット",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Aztiri's Acuity": {
+      "ja": "アジティリの慧眼",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Back Attachment": {
+      "ja": "バックアタッチメント",
+      "category": "mtx",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ball Lightning": {
+      "ja": "ボール・ライトニング",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Baryas": {
+      "ja": "バーリャ",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Basic Precursor Tablets": {
+      "ja": "基本先人タブレット",
+      "category": "other",
+      "url": null,
+      "status": "provisional"
+    },
+    "Bastion of the Forest": {
+      "ja": "バスチオン・オブ・ザ・フォレスト",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Bear": {
+      "ja": "ベア（熊の霊）",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Bear Idol": {
+      "ja": "ベア・アイドル",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Berek's Grip": {
+      "ja": "ベレクの掌握",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Berek's Pass": {
+      "ja": "ベレクの通行",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Berek's Respite": {
+      "ja": "ベレクの安息",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Beyond": {
+      "ja": "ビヨンド",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Bhatair's Vengeance": {
+      "ja": "バタイルの復讐",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Bitter Dead": {
+      "ja": "苦き死者",
+      "category": "skill",
+      "url": "https://poe2db.tw/jp/Bitter_Dead",
+      "status": "provisional"
+    },
+    "Black and White Armour Set": {
+      "ja": "ブラック・アンド・ホワイト・アーマーセット",
+      "category": "mtx",
+      "url": null,
+      "status": "provisional"
+    },
+    "Blackflame": {
+      "ja": "ブラックフレイム",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Bleeding": {
+      "ja": "ブリーディング",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Blink": {
+      "ja": "ブリンク",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Blistering Bond": {
+      "ja": "ブリスタリング・ボンド",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Blood Loss": {
+      "ja": "ブラッドロス",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Blood Mage": {
+      "ja": "ブラッドメイジ",
+      "category": "ascendancy",
+      "url": null,
+      "status": "provisional"
+    },
+    "Blood Price": {
+      "ja": "ブラッド・プライス",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Bloodstone Lances": {
+      "ja": "ブラッドストーン・ランス",
+      "category": "other",
+      "url": null,
+      "status": "provisional"
+    },
+    "Blue Flame of Chayula": {
+      "ja": "チャユラの青い炎",
+      "category": "other",
+      "url": null,
+      "status": "provisional"
+    },
+    "Boar Idol": {
+      "ja": "ボア・アイドル",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Body Rune": {
+      "ja": "ボディルーン",
+      "category": "rune",
+      "url": null,
+      "status": "provisional"
+    },
+    "Boneshatter": {
+      "ja": "ボーンシャッター",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Bonestorm": {
+      "ja": "ボーンストーム",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Brass Dome": {
+      "ja": "ブラスドーム",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Breach Atlas Passive Tree": {
+      "ja": "ブリーチ・アトラスパッシブツリー",
+      "category": "atlas",
+      "url": null,
+      "status": "provisional"
+    },
+    "Breach Domains": {
+      "ja": "ブリーチ・ドメイン",
+      "category": "location",
+      "url": null,
+      "status": "provisional"
+    },
+    "Breach Hives": {
+      "ja": "ブリーチ・ハイブ",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Breach Pinnacle Boss": {
+      "ja": "ブリーチ・ピナクルボス",
+      "category": "boss",
+      "url": null,
+      "status": "provisional"
+    },
+    "Breach Splinters": {
+      "ja": "ブリーチ・スプリンター",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Breachlord's Amalgam": {
+      "ja": "ブリーチロード・アマルガム",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Breachlords": {
+      "ja": "ブリーチロード",
+      "category": "boss",
+      "url": null,
+      "status": "provisional"
+    },
+    "Breachstone": {
+      "ja": "ブリーチストーン",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Breachstone Splinters": {
+      "ja": "ブリーチストーン・スプリンター",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Brink I": {
+      "ja": "ブリンク I",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Brutus' Lead Sprinkler": {
+      "ja": "ブルータスの鉛散布器",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Build Guides": {
+      "ja": "ビルドガイド",
+      "category": "feature",
+      "url": null,
+      "status": "provisional"
+    },
+    "Burning Dead": {
+      "ja": "バーニング・デッド",
+      "category": "monster",
+      "url": null,
+      "status": "provisional"
+    },
+    "Burning Inscription Support": {
+      "ja": "燃焼刻印サポート",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Burning Monolith": {
+      "ja": "燃えるモノリス",
+      "category": "location",
+      "url": "https://poe2db.tw/jp/Divinity",
+      "status": "verified"
+    },
+    "Caer Tarth": {
+      "ja": "カエル・タース",
+      "category": "location",
+      "url": null,
+      "status": "provisional"
+    },
+    "Calamity Fragments": {
+      "ja": "災厄の欠片",
+      "category": "other",
+      "url": null,
+      "status": "provisional"
+    },
+    "Cannons, Ready!": {
+      "ja": "大砲、用意！",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Carnage Heart": {
+      "ja": "カーネージハート",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Cassis Helm": {
+      "ja": "カシスヘルム",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Casting Cascade": {
+      "ja": "キャスティング・カスケード",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Cat Idol": {
+      "ja": "キャット・アイドル",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Cat O' Nine Tails": {
+      "ja": "九尾の鞭",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Catalyst": {
+      "ja": "カタリスト",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Catalysts": {
+      "ja": "カタリスト",
+      "category": "currency",
+      "url": "https://poe2db.tw/jp/Catalysts",
+      "status": "provisional"
+    },
+    "Catha's Brilliance": {
+      "ja": "カサの輝き",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Chakra of Breathing": {
+      "ja": "チャクラ・オブ・ブリージング",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Chaos Orb": {
+      "ja": "カオス・オーブ",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Chimera Armour Set": {
+      "ja": "キメラ・アーマーセット",
+      "category": "mtx",
+      "url": null,
+      "status": "provisional"
+    },
+    "Chober Chaber": {
+      "ja": "チョーバー・チェイバー",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Chronomancer": {
+      "ja": "クロノマンサー",
+      "category": "ascendancy",
+      "url": null,
+      "status": "provisional"
+    },
+    "Citadel maps": {
+      "ja": "シタデルマップ",
+      "category": "map",
+      "url": null,
+      "status": "provisional"
+    },
+    "Coliseum Armour Set": {
+      "ja": "コロシアム・アーマーセット",
+      "category": "mtx",
+      "url": null,
+      "status": "provisional"
+    },
+    "Comet": {
+      "ja": "コメット",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Command Skills": {
+      "ja": "コマンドスキル",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Commanding Rage": {
+      "ja": "コマンディング・レイジ",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Companion-themed Passive Skills": {
+      "ja": "コンパニオン関連パッシブ",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Concussive Runes": {
+      "ja": "衝撃ルーン",
+      "category": "support",
+      "url": "https://poe2db.tw/jp/Concussive_Runes",
+      "status": "provisional"
+    },
+    "Conductive Runes": {
+      "ja": "導電ルーン",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Convalescence": {
+      "ja": "コンバレッセンス",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Core of the Guardian": {
+      "ja": "コア・オブ・ザ・ガーディアン",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Corrupted Idols": {
+      "ja": "コラプテッド・アイドル",
+      "category": "other",
+      "url": null,
+      "status": "provisional"
+    },
+    "Corrupting Cry I": {
+      "ja": "コラプティング・クライ I",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Corrupting Cry II": {
+      "ja": "コラプティング・クライ II",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Corruption Chamber": {
+      "ja": "コラプション・チェンバー",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "corruption nexus": {
+      "ja": "コラプトネクサス",
+      "category": "mechanic",
+      "url": "https://poe2db.tw/jp/Corrupted_Nexus",
+      "status": "verified"
+    },
+    "Covering Ward": {
+      "ja": "カバリング・ワード",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Craiceann's Rune of Recovery": {
+      "ja": "クライセンのリカバリールーン",
+      "category": "rune",
+      "url": null,
+      "status": "provisional"
+    },
+    "Craving Slaughter": {
+      "ja": "クレイビング・スローター",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Crisis fragments": {
+      "ja": "危機の欠片",
+      "category": "other",
+      "url": null,
+      "status": "provisional"
+    },
+    "Critical Overload": {
+      "ja": "クリティカル・オーバーロード",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Crossbow Ammunition Skills": {
+      "ja": "クロスボウ弾薬スキル",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Crystalline Potential": {
+      "ja": "クリスタリン・ポテンシャル",
+      "category": "ascendancy",
+      "url": null,
+      "status": "provisional"
+    },
+    "Cull the Weak": {
+      "ja": "カル・ザ・ウィーク",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Culling Strike Threshold": {
+      "ja": "カリングストライク閾値",
+      "category": "other",
+      "url": null,
+      "status": "provisional"
+    },
+    "Culmination II": {
+      "ja": "カルミネーション II",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Cunning Fox": {
+      "ja": "カニング・フォックス",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Currency Exchange": {
+      "ja": "通貨交換所",
+      "category": "ui",
+      "url": null,
+      "status": "provisional"
+    },
+    "Cursed Armour Set": {
+      "ja": "カースド・アーマーセット",
+      "category": "mtx",
+      "url": null,
+      "status": "provisional"
+    },
+    "Darkprism Armour Set": {
+      "ja": "ダークプリズム・アーマーセット",
+      "category": "mtx",
+      "url": null,
+      "status": "provisional"
+    },
+    "Deadly Force": {
+      "ja": "デッドリー・フォース",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Death's Harp": {
+      "ja": "デスハープ",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Decaying Hex": {
+      "ja": "ディケイング・ヘックス",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Decree of Acuity": {
+      "ja": "鋭敏なる詔",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Decree of Flight": {
+      "ja": "飛翔の詔",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Decree of Loyalty": {
+      "ja": "忠誠の詔",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Defences": {
+      "ja": "ディフェンス（廃止語）",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Defiance Banner": {
+      "ja": "ディファイアンス・バナー",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Deflect": {
+      "ja": "ディフレクト",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Deflection Rating": {
+      "ja": "ディフレクションレーティング",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Delirious modifiers": {
+      "ja": "デリリアス・モッド",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Delirium": {
+      "ja": "ディリリアム",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Delirium Atlas Passive Tree": {
+      "ja": "デリリウム・アトラスパッシブツリー",
+      "category": "atlas",
+      "url": null,
+      "status": "provisional"
+    },
+    "Delirium Encounters": {
+      "ja": "デリリウム・エンカウンター",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Delirium mirror": {
+      "ja": "デリリウム・ミラー",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Delirium Pinnacle Boss": {
+      "ja": "デリリウム・ピナクルボス",
+      "category": "boss",
+      "url": null,
+      "status": "provisional"
+    },
+    "Dependable Ward": {
+      "ja": "デペンダブル・ワード",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Desecrated Map Modifier 'of Union'": {
+      "ja": "デセクレーテッド・マップ・モッド「of Union」",
+      "category": "modifier",
+      "url": null,
+      "status": "provisional"
+    },
+    "Desecrated Modifiers": {
+      "ja": "デセクレーテッド・モッド",
+      "category": "modifier",
+      "url": null,
+      "status": "provisional"
+    },
+    "Desert Rune": {
+      "ja": "デザートルーン",
+      "category": "rune",
+      "url": null,
+      "status": "provisional"
+    },
+    "Detonate Living": {
+      "ja": "生者爆破",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Detonating Arrow": {
+      "ja": "デトネイティング・アロー",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Devoted Protector": {
+      "ja": "デヴォーテッド・プロテクター",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Devour": {
+      "ja": "デバウア",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Dialla's Desire": {
+      "ja": "ディアラの渇望",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Dialla's Desire Lineage Support": {
+      "ja": "ディアラの願い・血統サポート",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Divine Orb": {
+      "ja": "ディヴァインオーブ",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Doedre's Undoing": {
+      "ja": "ドエドレの破滅",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Doomguard Armour Set": {
+      "ja": "ドゥームガード・アーマーセット",
+      "category": "mtx",
+      "url": null,
+      "status": "provisional"
+    },
+    "Doryani": {
+      "ja": "ドリヤニ",
+      "category": "npc",
+      "url": "https://poe2db.tw/jp/Doryani",
+      "status": "verified"
+    },
+    "Dread Banner": {
+      "ja": "ドレッド・バナー",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Duality": {
+      "ja": "デュアリティ（二重性）",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Earthquake": {
+      "ja": "アースクエイク",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Echoing Cry": {
+      "ja": "エコーイング・クライ",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Echoing Pulse": {
+      "ja": "エコーイング・パルス",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Eclipse Armour Set": {
+      "ja": "エクリプス・アーマーセット",
+      "category": "mtx",
+      "url": null,
+      "status": "provisional"
+    },
+    "Effervescent": {
+      "ja": "エフェルベセント",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Elemental Archon": {
+      "ja": "エレメンタルアーコン",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Elevore": {
+      "ja": "エレヴォア",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Elite Delirium Monsters": {
+      "ja": "エリート・デリリウム・モンスター",
+      "category": "monster",
+      "url": null,
+      "status": "provisional"
+    },
+    "Empowered Oil Barrage": {
+      "ja": "エンパワード・オイルバラージュ",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Endgame Atlas Map": {
+      "ja": "エンドゲーム・アトラスマップ",
+      "category": "atlas",
+      "url": null,
+      "status": "provisional"
+    },
+    "Enduring Elixirs": {
+      "ja": "エンデュアリング・エリクサー",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Energised Crystals": {
+      "ja": "エナジャイズド・クリスタル",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Energising Archon": {
+      "ja": "エナジャイジング・アーコン",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Energising Deflection": {
+      "ja": "エナジャイジング・ディフレクション",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Enezun's Charge": {
+      "ja": "エネズンの突撃",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Enigma chambers": {
+      "ja": "エニグマの間",
+      "category": "location",
+      "url": null,
+      "status": "provisional"
+    },
+    "Eonyr's Thunder": {
+      "ja": "エオニアの雷",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Esh": {
+      "ja": "エシュ",
+      "category": "boss",
+      "url": null,
+      "status": "provisional"
+    },
+    "Esh's Prowess": {
+      "ja": "エシュの威力",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Eshtera's Path": {
+      "ja": "エシュテラの道",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Essence Infusion": {
+      "ja": "エッセンス・インフュージョン",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Essence Monster Pack": {
+      "ja": "エッセンス・モンスターパック",
+      "category": "monster",
+      "url": null,
+      "status": "provisional"
+    },
+    "Essence of Hysteria": {
+      "ja": "ヒステリアのエッセンス",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Essence of the Infinite": {
+      "ja": "無限のエッセンス",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Essence of Virtue": {
+      "ja": "エッセンス・オブ・ヴァーチュー",
+      "category": "ascendancy",
+      "url": null,
+      "status": "provisional"
+    },
+    "Essences": {
+      "ja": "エッセンス",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Eternal March": {
+      "ja": "永遠の行軍",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Eternal Rage": {
+      "ja": "エターナル・レイジ",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Eventide Petals": {
+      "ja": "宵闇の花弁",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Exalted Orb": {
+      "ja": "エクサルテッドオーブ",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Exceptional Items": {
+      "ja": "エクセプショナル・アイテム",
+      "category": "other",
+      "url": null,
+      "status": "provisional"
+    },
+    "Expand": {
+      "ja": "エクスパンド",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Expedition": {
+      "ja": "エクスペディション",
+      "category": "mechanic",
+      "url": "https://poe2db.tw/jp/Expedition",
+      "status": "provisional"
+    },
+    "Expedition Explosives": {
+      "ja": "エクスペディション・爆薬",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Expedition Remnants": {
+      "ja": "エクスペディション・レムナント",
+      "category": "mechanic",
+      "url": "https://poe2db.tw/jp/Remnant",
+      "status": "provisional"
+    },
+    "Expedition Vendors": {
+      "ja": "エクスペディション商人",
+      "category": "npc",
+      "url": null,
+      "status": "provisional"
+    },
+    "Experience Gain": {
+      "ja": "経験値獲得",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Explosive Transmutation": {
+      "ja": "爆発的変成",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Eyes of the Runefather": {
+      "ja": "ルーンの父の眼",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Eyrie Armour Set": {
+      "ja": "エアリー・アーマーセット",
+      "category": "mtx",
+      "url": null,
+      "status": "provisional"
+    },
+    "Facebreaker": {
+      "ja": "フェイスブレイカー",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Farrow": {
+      "ja": "ファロー",
+      "category": "npc",
+      "url": "https://poe2db.tw/jp/Runes_of_Aldur_league",
+      "status": "verified"
+    },
+    "Farrow's Gift": {
+      "ja": "ファローの贈り物",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Fast Metabolism": {
+      "ja": "ファスト・メタボリズム",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Fate of the Vaal": {
+      "ja": "ヴァールの運命",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Feral Invocation": {
+      "ja": "フェラル・インヴォケーション",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Fevered prefix": {
+      "ja": "フィーバード（プレフィックス）",
+      "category": "modifier",
+      "url": null,
+      "status": "provisional"
+    },
+    "Fire and Ice Armour Set": {
+      "ja": "ファイア・アンド・アイス・アーマーセット",
+      "category": "mtx",
+      "url": null,
+      "status": "provisional"
+    },
+    "Fire Armour Set": {
+      "ja": "ファイア・アーマーセット",
+      "category": "mtx",
+      "url": null,
+      "status": "provisional"
+    },
+    "Fire-Infused Comet": {
+      "ja": "炎注入コメット",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Fist of Kalguur": {
+      "ja": "カルグールの拳",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Flame Breath": {
+      "ja": "フレイムブレス",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Flames of Chayula": {
+      "ja": "チャユラの炎",
+      "category": "other",
+      "url": null,
+      "status": "provisional"
+    },
+    "Flicker Strike": {
+      "ja": "フリッカーストライク",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Fluxes": {
+      "ja": "フラックス",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Footprints in the Sand": {
+      "ja": "フットプリンツ・イン・ザ・サンド",
+      "category": "ascendancy",
+      "url": null,
+      "status": "provisional"
+    },
+    "Forge Hammer Slam": {
+      "ja": "フォージハンマー・スラム",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Forgotten By Time": {
+      "ja": "時に忘れられし者",
+      "category": "other",
+      "url": null,
+      "status": "provisional"
+    },
+    "Forgotten Warden": {
+      "ja": "忘れられし守護者",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Fortified Aegis": {
+      "ja": "フォーティファイド・イージス",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Fortifying Blood": {
+      "ja": "フォーティファイング・ブラッド",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Fortifying Cry": {
+      "ja": "フォーティファイング・クライ",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Fortress": {
+      "ja": "要塞",
+      "category": "map",
+      "url": "https://poe2db.tw/jp/Fortress",
+      "status": "verified"
+    },
+    "Fox Idol": {
+      "ja": "フォックス・アイドル",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Fracturing Orbs": {
+      "ja": "フラクチャー・オーブ",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Fragment Stash Tab": {
+      "ja": "フラグメント・スタッシュタブ",
+      "category": "feature",
+      "url": null,
+      "status": "provisional"
+    },
+    "Fragmentation Rounds": {
+      "ja": "フラグメンテーション・ラウンズ",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Fragments of the Past": {
+      "ja": "過去の断片",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Freezing Salvo": {
+      "ja": "フリージング・サルヴォ",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Freezing Shrine": {
+      "ja": "冷却のシュライン",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Freythorn": {
+      "ja": "フレイソーン",
+      "category": "location",
+      "url": null,
+      "status": "provisional"
+    },
+    "Frostflame Nova": {
+      "ja": "氷炎ノヴァ",
+      "category": "skill",
+      "url": "https://poe2db.tw/jp/Frostflame_Nova",
+      "status": "provisional"
+    },
+    "Frozen Locus": {
+      "ja": "フローズン・ローカス",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Fury Talisman": {
+      "ja": "フューリー・タリスマン",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Gatecrasher": {
+      "ja": "ゲートクラッシャー",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Gates": {
+      "ja": "ゲート",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Gateway maps": {
+      "ja": "ゲートウェイマップ",
+      "category": "map",
+      "url": null,
+      "status": "provisional"
+    },
+    "Gathering Storm": {
+      "ja": "ギャザリング・ストーム",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Gemling Legionnaire": {
+      "ja": "ジェムリング・リージョネア",
+      "category": "ascendancy",
+      "url": null,
+      "status": "provisional"
+    },
+    "Geofri's Sanctuary": {
+      "ja": "ジオフリの聖域",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ghost Dance": {
+      "ja": "ゴースト・ダンス",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ghost Shroud": {
+      "ja": "ゴースト・シュラウド",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Glacial Bolt": {
+      "ja": "グレイシャル・ボルト",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Glacial Lance": {
+      "ja": "グレイシャル・ランス",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Glacial Rune": {
+      "ja": "グレイシャルルーン",
+      "category": "rune",
+      "url": null,
+      "status": "provisional"
+    },
+    "Gladiatoral Helm": {
+      "ja": "グラディアトラルヘルム",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Gloom Shrine": {
+      "ja": "陰鬱のシュライン",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Glowswarm": {
+      "ja": "グロースウォーム",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Goring": {
+      "ja": "ゴアリング",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Grand Expeditions": {
+      "ja": "グランド・エクスペディション",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Grand Mirrors": {
+      "ja": "グランド・ミラー",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Greater currencies": {
+      "ja": "グレーター通貨",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Greater Mind Rune": {
+      "ja": "グレーター・マインドルーン",
+      "category": "rune",
+      "url": null,
+      "status": "provisional"
+    },
+    "Greater Orb of Augmentation": {
+      "ja": "グレーター・オーグメンテーションオーブ",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Greater Orb of Transmutation": {
+      "ja": "グレーター・トランスミューテーションオーブ",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Greater Rebirth Rune": {
+      "ja": "グレーター・リバースルーン",
+      "category": "rune",
+      "url": null,
+      "status": "provisional"
+    },
+    "Grim Feast": {
+      "ja": "グリム・フィースト",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Grim Pillars": {
+      "ja": "不吉なる柱",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Grim Resurrection": {
+      "ja": "グリム・リザレクション",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Grip of Kulemak": {
+      "ja": "クレマクの掌握",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Guardian Bow": {
+      "ja": "ガーディアン・ボウ",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Halani Gates": {
+      "ja": "ハラニ門",
+      "category": "location",
+      "url": null,
+      "status": "provisional"
+    },
+    "Halls of the Dead": {
+      "ja": "死者の広間",
+      "category": "location",
+      "url": null,
+      "status": "provisional"
+    },
+    "Hateforge": {
+      "ja": "ヘイトフォージ",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Hayoxi's Fulmination Lineage Support": {
+      "ja": "ハヨキシの劫雷・血統サポート",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Healing Runes": {
+      "ja": "治癒ルーン",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Heavy Armour": {
+      "ja": "ヘヴィ・アーマー",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Heavy Stun": {
+      "ja": "ヘビースタン",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Heightened Charges Support": {
+      "ja": "高揚チャージサポート",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Helbrym's Hide": {
+      "ja": "ヘルブリムの皮",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Her Declaration": {
+      "ja": "彼女の宣言",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Herald of Blood": {
+      "ja": "ヘラルド・オブ・ブラッド",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Herald of the Royal Queen": {
+      "ja": "王妃のヘラルド",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Hideout": {
+      "ja": "ハイドアウト",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Hilda": {
+      "ja": "ヒルダ",
+      "category": "npc",
+      "url": null,
+      "status": "provisional"
+    },
+    "Hilda's Campsite": {
+      "ja": "ヒルダのキャンプ地",
+      "category": "location",
+      "url": null,
+      "status": "provisional"
+    },
+    "His Winnowing Flame": {
+      "ja": "ヒズ・ウィノウィング・フレイム",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Hiveblood": {
+      "ja": "ハイブブラッド",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Hollow Mask": {
+      "ja": "ホロウマスク",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Hollow Palm Technique": {
+      "ja": "ホロー・パーム・テクニック",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Hollow Shell": {
+      "ja": "空虚の殻",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Honour": {
+      "ja": "オナー",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Horror's Flight": {
+      "ja": "恐怖の飛翔",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Huntress": {
+      "ja": "ハントレス",
+      "category": "class",
+      "url": null,
+      "status": "provisional"
+    },
+    "Husk of Dreams": {
+      "ja": "ハスク・オブ・ドリームス",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Hyrri's Ire": {
+      "ja": "ヒリの憤怒",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Hysseg's Claw": {
+      "ja": "ヒセグの爪",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ice Nova": {
+      "ja": "アイス・ノヴァ",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ice Shards": {
+      "ja": "アイスシャード",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ice Shot": {
+      "ja": "アイスショット",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ice Strike": {
+      "ja": "アイスストライク",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Icy Blast": {
+      "ja": "アイシーブラスト",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Idol of Eeshta": {
+      "ja": "イーシュタのアイドル",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Idol of Egrin": {
+      "ja": "エグリンのアイドル",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Idol of Grold": {
+      "ja": "グロルドのアイドル",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Idol of Maxarius": {
+      "ja": "マクサリウスのアイドル",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Idol of Ralakesh": {
+      "ja": "ララケッシュのアイドル",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Idol of Sirrius": {
+      "ja": "シリウスのアイドル",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Idol of Thruldana": {
+      "ja": "スルルダナのアイドル",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Idols": {
+      "ja": "アイドル",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ignite": {
+      "ja": "イグナイト",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Immortal Infamy": {
+      "ja": "イモータル・インファミー",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Imperial Eagle Armour Set": {
+      "ja": "インペリアル・イーグル・アーマーセット",
+      "category": "mtx",
+      "url": null,
+      "status": "provisional"
+    },
+    "Incinerate": {
+      "ja": "インシネレイト",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Inevitability": {
+      "ja": "イネビタビリティ",
+      "category": "ascendancy",
+      "url": null,
+      "status": "provisional"
+    },
+    "Inevitable Agony": {
+      "ja": "イネビタブル・アゴニー",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Infernal Legion": {
+      "ja": "インファーナル・リージョン",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Infernal Legion I": {
+      "ja": "インファーナル・リージョン I",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Infernal Legion II": {
+      "ja": "インファーナル・リージョン II",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Infernal Legion III": {
+      "ja": "インファーナル・リージョン III",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Inscribed Ultimatums": {
+      "ja": "刻印されしアルティメイタム",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Inspiration Rune": {
+      "ja": "インスピレーションルーン",
+      "category": "rune",
+      "url": null,
+      "status": "provisional"
+    },
+    "Instilled Notables": {
+      "ja": "インスティルド・ノータブル",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Interludes": {
+      "ja": "幕間",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Into the Breach": {
+      "ja": "イン・ザ・ブリーチ",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Iron Ward": {
+      "ja": "アイアン・ウォード",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ironbound": {
+      "ja": "アイアンバウンド",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Item Rarity": {
+      "ja": "アイテム・レアリティ",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Jado": {
+      "ja": "ジャド",
+      "category": "npc",
+      "url": "https://poe2db.tw/jp/Jado",
+      "status": "verified"
+    },
+    "Journeyman's": {
+      "ja": "ジャーニーマンズ",
+      "category": "modifier",
+      "url": null,
+      "status": "provisional"
+    },
+    "Kalguuran Conviction": {
+      "ja": "カルグーランの信念",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Kalguuran Uniques": {
+      "ja": "カルグーラン・ユニーク",
+      "category": "other",
+      "url": null,
+      "status": "provisional"
+    },
+    "Keeper of the Arc": {
+      "ja": "キーパー・オブ・ジ・アーク",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Keepers of the Flame": {
+      "ja": "炎の守護者",
+      "category": "lore",
+      "url": null,
+      "status": "provisional"
+    },
+    "King in the Mists": {
+      "ja": "霧の王",
+      "category": "boss",
+      "url": null,
+      "status": "provisional"
+    },
+    "Knight of Aldur Armour Set": {
+      "ja": "アルダーの騎士 アーマーセット",
+      "category": "armour-set",
+      "url": "https://poe2db.tw/jp/Runes_of_Aldur_challenges",
+      "status": "verified"
+    },
+    "Kulemak's Invitation": {
+      "ja": "クレマクの招待状",
+      "category": "other",
+      "url": null,
+      "status": "provisional"
+    },
+    "Lady Hestra's Rune of Winter": {
+      "ja": "ヘストラの冬のルーン",
+      "category": "rune",
+      "url": null,
+      "status": "provisional"
+    },
+    "Last Gasp": {
+      "ja": "ラストガスプ",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Last Gasp Support": {
+      "ja": "ラストガスプ・サポート",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Leech": {
+      "ja": "リーチ",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Leech resistance": {
+      "ja": "リーチ耐性",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Lesser Rebirth Rune": {
+      "ja": "レッサー・リバースルーン",
+      "category": "rune",
+      "url": null,
+      "status": "provisional"
+    },
+    "Levinstone": {
+      "ja": "レヴィンストーン",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Leylines": {
+      "ja": "レイライン",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Life Recoup Speed Passive Skills": {
+      "ja": "ライフリクープ速度パッシブ",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Lifelong Friend": {
+      "ja": "ライフロング・フレンド",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Lightning Arrow": {
+      "ja": "ライトニングアロー",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Lightning Doryani's": {
+      "ja": "ライトニング・ドリヤニ",
+      "category": "monster",
+      "url": null,
+      "status": "provisional"
+    },
+    "Lightning Infusion": {
+      "ja": "ライトニング・インフュージョン",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Lightning Rod": {
+      "ja": "ライトニング・ロッド",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Lightning Warp": {
+      "ja": "ライトニングワープ",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Lightning-Charged Rend": {
+      "ja": "ライトニングチャージ・レンド",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Liminal Coil": {
+      "ja": "リミナル・コイル",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Liquid Emotions": {
+      "ja": "リキッド・エモーション",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Lira Vaal": {
+      "ja": "リラ・ヴァール",
+      "category": "location",
+      "url": null,
+      "status": "provisional"
+    },
+    "Lithomantic Runes": {
+      "ja": "リソマンティック・ルーン",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Living Lightning": {
+      "ja": "リビング・ライトニング",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Living Lightning II": {
+      "ja": "リビング・ライトニング II",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Loathsome Mire": {
+      "ja": "忌まわしき沼地",
+      "category": "location",
+      "url": null,
+      "status": "provisional"
+    },
+    "Logbook": {
+      "ja": "エクスペディション・ログブック",
+      "category": "mechanic",
+      "url": "https://poe2db.tw/jp/Expedition_Logbook",
+      "status": "verified"
+    },
+    "Loreweave": {
+      "ja": "ロアウィーヴ",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Low Tolerance": {
+      "ja": "ロー・トレランス",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Lunar Blessing": {
+      "ja": "ルナー・ブレッシング",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Mageblood": {
+      "ja": "メイジブラッド",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Mageguard Armour Set": {
+      "ja": "メイジガード・アーマーセット",
+      "category": "mtx",
+      "url": null,
+      "status": "provisional"
+    },
+    "Magma Barrier": {
+      "ja": "マグマ・バリア",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Maji Talisman": {
+      "ja": "マジ・タリスマン",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Malachai Armour Set": {
+      "ja": "マラカイ・アーマーセット",
+      "category": "mtx",
+      "url": null,
+      "status": "provisional"
+    },
+    "Map Device": {
+      "ja": "マップデバイス",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Martial Artist": {
+      "ja": "マーシャルアーティスト",
+      "category": "ascendancy",
+      "url": null,
+      "status": "provisional"
+    },
+    "Mastered Domain": {
+      "ja": "支配されし領域",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Masters of the Atlas": {
+      "ja": "アトラスの導師",
+      "category": "atlas",
+      "url": null,
+      "status": "provisional"
+    },
+    "Medved": {
+      "ja": "メドヴェド",
+      "category": "boss",
+      "url": "https://poe2db.tw/jp/Runes_of_Aldur_league",
+      "status": "verified"
+    },
+    "Medved's Felling": {
+      "ja": "メドヴェドの伐倒",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Megalomaniac": {
+      "ja": "メガロマニアック",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Melting Maelstrom": {
+      "ja": "メルティング・メイルストロム",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Merchant Tab Shop": {
+      "ja": "マーチャント・タブ・ショップ",
+      "category": "ui",
+      "url": null,
+      "status": "provisional"
+    },
+    "Meta crafting runes": {
+      "ja": "メタクラフトルーン",
+      "category": "rune",
+      "url": null,
+      "status": "provisional"
+    },
+    "Meteoric Demise": {
+      "ja": "メテオリック・ディマイズ",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Meteoric Shrine": {
+      "ja": "流星のシュライン",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Mind Rune": {
+      "ja": "マインドルーン",
+      "category": "rune",
+      "url": null,
+      "status": "provisional"
+    },
+    "Minion Instability": {
+      "ja": "ミニオン・インスタビリティ",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Minion Splash": {
+      "ja": "ミニオン・スプラッシュ",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Minion Splash II": {
+      "ja": "ミニオン・スプラッシュ II",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Miracle Armour Set": {
+      "ja": "ミラクル・アーマーセット",
+      "category": "mtx",
+      "url": null,
+      "status": "provisional"
+    },
+    "Mirage Archer": {
+      "ja": "ミラージュ・アーチャー",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Mirage Deadeye": {
+      "ja": "ミラージュ・デッドアイ",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Mirror of Refraction": {
+      "ja": "ミラー・オブ・リフラクション",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Mirror Shards": {
+      "ja": "ミラーシャード",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Molten Blast": {
+      "ja": "モルテン・ブラスト",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Monastery of the Keepers": {
+      "ja": "守護者の修道院",
+      "category": "location",
+      "url": null,
+      "status": "provisional"
+    },
+    "Monk": {
+      "ja": "モンク",
+      "category": "class",
+      "url": null,
+      "status": "provisional"
+    },
+    "Monster Effectiveness": {
+      "ja": "モンスター効力",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Monster Rarity": {
+      "ja": "モンスター・レアリティ",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Moonbeams": {
+      "ja": "ムーンビーム",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Morgana's Tempest": {
+      "ja": "モルガナの嵐",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Mystic Stance": {
+      "ja": "ミスティック・スタンス",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Mythical Runes": {
+      "ja": "神話ルーン",
+      "category": "rune",
+      "url": null,
+      "status": "provisional"
+    },
+    "Mórrigan's Insight": {
+      "ja": "モリガンの洞察",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Navali": {
+      "ja": "ナヴァリ",
+      "category": "npc",
+      "url": null,
+      "status": "provisional"
+    },
+    "Nightfall": {
+      "ja": "ナイトフォール",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Now and Again": {
+      "ja": "ナウ・アンド・アゲイン",
+      "category": "ascendancy",
+      "url": null,
+      "status": "provisional"
+    },
+    "Nurturing Guardian": {
+      "ja": "ナーチュアリング・ガーディアン",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Obliterator Bow": {
+      "ja": "オブリタレーターボウ",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Obsessive Rituals": {
+      "ja": "オブセッシブ・リチュアル",
+      "category": "ascendancy",
+      "url": null,
+      "status": "provisional"
+    },
+    "of Ardour": {
+      "ja": "of Ardour",
+      "category": "modifier",
+      "url": null,
+      "status": "provisional"
+    },
+    "of Buffering": {
+      "ja": "of Buffering",
+      "category": "modifier",
+      "url": null,
+      "status": "provisional"
+    },
+    "of Diffusion": {
+      "ja": "of Diffusion",
+      "category": "modifier",
+      "url": null,
+      "status": "provisional"
+    },
+    "of Dispersal": {
+      "ja": "of Dispersal",
+      "category": "modifier",
+      "url": null,
+      "status": "provisional"
+    },
+    "of Enlivening": {
+      "ja": "of Enlivening",
+      "category": "modifier",
+      "url": null,
+      "status": "provisional"
+    },
+    "of Overpowering": {
+      "ja": "of Overpowering（圧倒の）",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "of Suffusion": {
+      "ja": "of Suffusion",
+      "category": "modifier",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ogham Village": {
+      "ja": "オーガム村",
+      "category": "location",
+      "url": null,
+      "status": "provisional"
+    },
+    "Oil Barrage": {
+      "ja": "オイルバラージュ",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Oil Ground": {
+      "ja": "オイル地面",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Olroth": {
+      "ja": "破滅の元凶、オルロス",
+      "category": "boss",
+      "url": "https://poe2db.tw/jp/Olroth%2C_Origin_of_the_Fall",
+      "status": "verified"
+    },
+    "Omen of Chaotic Effectiveness": {
+      "ja": "カオティック・エフェクティブネスのオーメン",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Omen of Chaotic Monsters": {
+      "ja": "カオティック・モンスターのオーメン",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Omen of Chaotic Quantity": {
+      "ja": "カオティック・クオンティティのオーメン",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Omen of Chaotic Rarity": {
+      "ja": "カオティック・レアリティのオーメン",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Omen of Corruption": {
+      "ja": "コラプションのオーメン",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Omen of Recombination": {
+      "ja": "再結合のオーメン",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Omens": {
+      "ja": "オーメン",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Opportunity": {
+      "ja": "オポチュニティ",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Orb of Augmentation": {
+      "ja": "オーグメンテーションオーブ",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Orb of Transmutation": {
+      "ja": "トランスミューテーションオーブ",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Orbs of Chance": {
+      "ja": "チャンス・オーブ",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Order of the Djinn": {
+      "ja": "ジンの結社",
+      "category": "other",
+      "url": "https://poe2db.tw/jp/Jado",
+      "status": "verified"
+    },
+    "Origins of Divinity": {
+      "ja": "神性の起源",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Oswald": {
+      "ja": "オズワルド",
+      "category": "npc",
+      "url": null,
+      "status": "provisional"
+    },
+    "Overabundance III": {
+      "ja": "オーバーアバンダンス III",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Overencumbrance": {
+      "ja": "オーバーエンカンブランス",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Overextend": {
+      "ja": "オーバーエクステンド",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Overseer Precursor Tablets": {
+      "ja": "オーバーシーア先人タブレット",
+      "category": "other",
+      "url": null,
+      "status": "provisional"
+    },
+    "Overwhelming Toxicity": {
+      "ja": "オーバーホエルミング・トキシシティ",
+      "category": "ascendancy",
+      "url": null,
+      "status": "provisional"
+    },
+    "Owl": {
+      "ja": "アウル（梟の霊）",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Owl Idol": {
+      "ja": "アウル・アイドル",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ox Idol": {
+      "ja": "オックス・アイドル",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Pack Size": {
+      "ja": "パックサイズ",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Paquate's Pact": {
+      "ja": "パケートの契約",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Parry": {
+      "ja": "パリィ",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Pathfinder": {
+      "ja": "パスファインダー",
+      "category": "ascendancy",
+      "url": null,
+      "status": "provisional"
+    },
+    "Patient Barrier": {
+      "ja": "ペイシェント・バリア",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Perfect currencies": {
+      "ja": "パーフェクト通貨",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Perfect Essence of Battle": {
+      "ja": "パーフェクト・バトルのエッセンス",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Perfect Essences": {
+      "ja": "パーフェクトエッセンス",
+      "category": "currency",
+      "url": "https://poe2db.tw/jp/Perfect_Essence_of_the_Body",
+      "status": "verified"
+    },
+    "Periphery": {
+      "ja": "ペリフェリー",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Persistent Skills": {
+      "ja": "持続スキル",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Phased Form": {
+      "ja": "フェイズド・フォーム",
+      "category": "ascendancy",
+      "url": null,
+      "status": "provisional"
+    },
+    "Pinnacle Boss": {
+      "ja": "ピナクルボス",
+      "category": "boss",
+      "url": null,
+      "status": "provisional"
+    },
+    "Plaguefinger": {
+      "ja": "プレイグフィンガー",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Plasma Blast": {
+      "ja": "プラズマブラスト",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Plunder's Point": {
+      "ja": "プランダーズ・ポイント",
+      "category": "location",
+      "url": null,
+      "status": "provisional"
+    },
+    "Poison Spores Support": {
+      "ja": "毒胞子サポート",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Poisonburst Arrow": {
+      "ja": "ポイズンバースト・アロー",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Potent Emotions": {
+      "ja": "ポテント・エモーション",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Pounce": {
+      "ja": "パウンス",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Power Charged Falling Thunder": {
+      "ja": "パワーチャージド・フォーリング・サンダー",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Powered by Verisium": {
+      "ja": "ヴェリシウム駆動",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Powerful Map Bosses": {
+      "ja": "強力なマップボス",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Precise": {
+      "ja": "プリサイス",
+      "category": "modifier",
+      "url": null,
+      "status": "provisional"
+    },
+    "Precursor Tower": {
+      "ja": "先人の塔",
+      "category": "mechanic",
+      "url": "https://poe2db.tw/jp/Precursor_Towers",
+      "status": "verified"
+    },
+    "Precursor weapons": {
+      "ja": "先人の武器",
+      "category": "other",
+      "url": null,
+      "status": "provisional"
+    },
+    "Predator's Mark": {
+      "ja": "捕食者の刻印",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Priceless Idol": {
+      "ja": "プライスレス・アイドル",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Priest of the Sun": {
+      "ja": "プリースト・オブ・ザ・サン",
+      "category": "monster",
+      "url": null,
+      "status": "provisional"
+    },
+    "Primate Idol": {
+      "ja": "プライメイト・アイドル",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Prism of Belief": {
+      "ja": "プリズム・オブ・ビリーフ",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Prized Pain": {
+      "ja": "プライズド・ペイン",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Prototype Seventeen": {
+      "ja": "プロトタイプ・セブンティーン",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Pustule": {
+      "ja": "プスチュール",
+      "category": "other",
+      "url": null,
+      "status": "provisional"
+    },
+    "Quantity of Item Dropped": {
+      "ja": "アイテムドロップ量",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Queen in the Mists": {
+      "ja": "霧の女王",
+      "category": "boss",
+      "url": null,
+      "status": "provisional"
+    },
+    "Quick Response": {
+      "ja": "クイック・レスポンス",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Quicksand Hourglass": {
+      "ja": "クイックサンド・アワーグラス",
+      "category": "ascendancy",
+      "url": null,
+      "status": "provisional"
+    },
+    "Quiver": {
+      "ja": "クイバー",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Rabbit Idol": {
+      "ja": "ラビット・アイドル",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Rabid Talisman": {
+      "ja": "ラビッド・タリスマン",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Radiant Grief": {
+      "ja": "ラディアント・グリーフ",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Rage I": {
+      "ja": "レイジ I",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Rage II": {
+      "ja": "レイジ II",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Rage III": {
+      "ja": "レイジ III",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Rain of Arrows": {
+      "ja": "レイン・オブ・アロウズ",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Raise Shield": {
+      "ja": "レイズシールド",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Rapid Recharge": {
+      "ja": "ラピッド・リチャージ",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Rapid River": {
+      "ja": "ラピッド・リバー",
+      "category": "ascendancy",
+      "url": null,
+      "status": "provisional"
+    },
+    "Rapid Shot": {
+      "ja": "ラピッドショット",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ratha's Assault": {
+      "ja": "ラサの強襲",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Rathpith Globe": {
+      "ja": "ラスピス・グローブ",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Raven-Touched": {
+      "ja": "レイヴン・タッチド",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ravenous Swarm": {
+      "ja": "レイヴァナス・スウォーム",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Rebirth Rune": {
+      "ja": "リバースルーン",
+      "category": "rune",
+      "url": null,
+      "status": "provisional"
+    },
+    "Recombinator": {
+      "ja": "リコンビネーター",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Red Flame of Chayula": {
+      "ja": "チャユラの赤い炎",
+      "category": "other",
+      "url": null,
+      "status": "provisional"
+    },
+    "Redemption": {
+      "ja": "リデンプション",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Refocus": {
+      "ja": "リフォーカス",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Reforging Bench": {
+      "ja": "リフォージング・ベンチ",
+      "category": "feature",
+      "url": null,
+      "status": "provisional"
+    },
+    "Reformed Barrier": {
+      "ja": "リフォームド・バリア",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Refraction I": {
+      "ja": "リフラクション I",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Refraction II": {
+      "ja": "リフラクション II",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Refutation": {
+      "ja": "反駁",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Reliable": {
+      "ja": "リライアブル",
+      "category": "modifier",
+      "url": null,
+      "status": "provisional"
+    },
+    "Remnant": {
+      "ja": "レムナント",
+      "category": "mechanic",
+      "url": "https://poe2db.tw/jp/Remnant",
+      "status": "verified"
+    },
+    "Remnants": {
+      "ja": "レムナント",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Remnants of Kalguur": {
+      "ja": "カルグールの遺物",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Rend": {
+      "ja": "レンド",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Repulsion": {
+      "ja": "反発",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Resolve Rune": {
+      "ja": "レゾルブルーン",
+      "category": "rune",
+      "url": null,
+      "status": "provisional"
+    },
+    "Resonance": {
+      "ja": "レゾナンス",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Resonating Shield": {
+      "ja": "レゾネーティングシールド",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Reverie": {
+      "ja": "レヴェリー",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Rhoa Mount": {
+      "ja": "ローア騎乗",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ricochet III Support": {
+      "ja": "リコシェ III サポート",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Risu": {
+      "ja": "リス",
+      "category": "npc",
+      "url": null,
+      "status": "provisional"
+    },
+    "Rite of Passage": {
+      "ja": "通過儀礼",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Rite of Restoration": {
+      "ja": "回復の儀式",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Rite of the Nameless": {
+      "ja": "名なき者の儀式",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ritual": {
+      "ja": "リチュアル",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ritual Altar": {
+      "ja": "リチュアル・アルター",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ritual Atlas Passive Tree": {
+      "ja": "リチュアル・アトラスパッシブツリー",
+      "category": "atlas",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ritual Pinnacle Boss": {
+      "ja": "リチュアル・ピナクルボス",
+      "category": "boss",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ritualist's Ritual Sacrifice": {
+      "ja": "リチュアリストの儀式の供物",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Robust Rune": {
+      "ja": "ロバストルーン",
+      "category": "rune",
+      "url": null,
+      "status": "provisional"
+    },
+    "Rogue Exile": {
+      "ja": "ローグエグザイル",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Rogue Exiles": {
+      "ja": "ローグ・エグザイル",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Rolling Magma": {
+      "ja": "ローリング・マグマ",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Rolling Slam": {
+      "ja": "ローリングスラム",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ruby Jewel": {
+      "ja": "ルビー・ジュエル",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Runeforged Blades": {
+      "ja": "ルーン鍛えの刃",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Runes of Aldur": {
+      "ja": "アルダーのルーン",
+      "category": "league",
+      "url": "https://poe2db.tw/jp/Runes_of_Aldur_league",
+      "status": "provisional"
+    },
+    "Runes of Aldur Totem": {
+      "ja": "アルダーのルーン記念碑",
+      "category": "other",
+      "url": null,
+      "status": "provisional"
+    },
+    "Runeshapes": {
+      "ja": "ルーンシェイプ",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Runic Extraction": {
+      "ja": "ルーン抽出",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Runic Infusion": {
+      "ja": "ルーン注入",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Runic Inscription": {
+      "ja": "ルニック・インスクリプション",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Runic Recipes": {
+      "ja": "ルニック・レシピ",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Runic Reprieve": {
+      "ja": "ルニック・リプリーヴ",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Runic Ward": {
+      "ja": "ルニックウォード",
+      "category": "mechanic",
+      "url": "https://poe2db.tw/jp/Runeforging",
+      "status": "verified"
+    },
+    "Runic Ward Runes": {
+      "ja": "ルニックウォード・ルーン",
+      "category": "rune",
+      "url": null,
+      "status": "provisional"
+    },
+    "Running Assault": {
+      "ja": "ランニング・アサルト",
+      "category": "ascendancy",
+      "url": null,
+      "status": "provisional"
+    },
+    "Sacramental Robe": {
+      "ja": "サクラメンタル・ローブ",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Sadist's Mercy": {
+      "ja": "サディストの慈悲",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Safrin's Resolve": {
+      "ja": "サフリンの決意",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Salvo Support": {
+      "ja": "サルヴォ・サポート",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Sands of Time": {
+      "ja": "サンズ・オブ・タイム",
+      "category": "other",
+      "url": null,
+      "status": "provisional"
+    },
+    "Sapphire Jewel": {
+      "ja": "サファイア・ジュエル",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Scavenger Armour Set": {
+      "ja": "スカベンジャー・アーマーセット",
+      "category": "mtx",
+      "url": null,
+      "status": "provisional"
+    },
+    "Scouring Flame": {
+      "ja": "焼き払いの炎",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Seal": {
+      "ja": "シール",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Seed of Cataclysm": {
+      "ja": "シード・オブ・カタクリズム",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Seeker Armour Set": {
+      "ja": "シーカー・アーマーセット",
+      "category": "mtx",
+      "url": null,
+      "status": "provisional"
+    },
+    "Sekhema's Resolve": {
+      "ja": "セケマの決意",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Selfless Remnants Support": {
+      "ja": "献身レムナント・サポート",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Seraph's Heart": {
+      "ja": "セラフの心臓",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Serle's Grit": {
+      "ja": "サールの気骨",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Shackles of the Wretched": {
+      "ja": "哀れなる者の枷",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Shatter Palm": {
+      "ja": "シャター・パーム",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Shattering Spite": {
+      "ja": "シャタリング・スパイト",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Shield Block": {
+      "ja": "シールドブロック",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Shield Wall": {
+      "ja": "シールドウォール",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Shield Wave": {
+      "ja": "シールドウェーブ",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Shift-Alt Click": {
+      "ja": "Shift+Alt クリック",
+      "category": "feature",
+      "url": null,
+      "status": "provisional"
+    },
+    "Shimmering": {
+      "ja": "シマーリング",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Shock Conduction II": {
+      "ja": "ショック・コンダクション II",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Shocked Ground": {
+      "ja": "ショックド・グラウンド",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Shockwave Totem": {
+      "ja": "ショックウェーブトーテム",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Shred": {
+      "ja": "シュレッド",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Shrines": {
+      "ja": "シュライン",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Sierran Inheritance": {
+      "ja": "シエラの継承",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Simulacrum": {
+      "ja": "シミュラクラム",
+      "category": "mechanic",
+      "url": "https://poe2db.tw/jp/Simulacrum",
+      "status": "provisional"
+    },
+    "Simulacrums": {
+      "ja": "シミュラクラム",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Sine Aequo": {
+      "ja": "シネ・アエクオ",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Skill Gem": {
+      "ja": "スキルジェム",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Sky Fortresses": {
+      "ja": "スカイ・フォートレス",
+      "category": "location",
+      "url": null,
+      "status": "provisional"
+    },
+    "Sky Hives": {
+      "ja": "スカイ・ハイブ",
+      "category": "location",
+      "url": null,
+      "status": "provisional"
+    },
+    "Skyfall": {
+      "ja": "天よりの落下",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Smith of Kitava's Manifest Weapon": {
+      "ja": "キタヴァの鍛冶師の顕現武器",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Snake Idol": {
+      "ja": "スネーク・アイドル",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Snipe": {
+      "ja": "スナイプ",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Solar Orb": {
+      "ja": "ソーラー・オーブ",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Soul Core Ultimatum": {
+      "ja": "ソウルコア・アルティメイタム",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Soul Mantle": {
+      "ja": "ソウルマントル",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Spell Totem": {
+      "ja": "スペル・トーテム",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Spirit Walker": {
+      "ja": "スピリットウォーカー",
+      "category": "ascendancy",
+      "url": null,
+      "status": "provisional"
+    },
+    "Spiteful Floret": {
+      "ja": "悪意の小花",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Splash Damage": {
+      "ja": "スプラッシュダメージ",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Split Personality": {
+      "ja": "スプリット・パーソナリティ",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Squire's": {
+      "ja": "スクワイアズ",
+      "category": "modifier",
+      "url": null,
+      "status": "provisional"
+    },
+    "Stabilised Breach": {
+      "ja": "安定化したブリーチ",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Stag": {
+      "ja": "スタッグ（雄鹿の霊）",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Stag Idol": {
+      "ja": "スタッグ・アイドル",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Staggering Palm": {
+      "ja": "スタッガリング・パーム",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Static Shocks": {
+      "ja": "スタティック・ショックス",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Stoicism Support": {
+      "ja": "ストイシズム・サポート",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Stone Rune": {
+      "ja": "ストーンルーン",
+      "category": "rune",
+      "url": null,
+      "status": "provisional"
+    },
+    "Storm Rune": {
+      "ja": "ストームルーン",
+      "category": "rune",
+      "url": null,
+      "status": "provisional"
+    },
+    "Storm Skill": {
+      "ja": "Stormスキル",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Stormcharged": {
+      "ja": "ストームチャージド",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Stormcharged and Breaking Point cluster": {
+      "ja": "ストームチャージド ＆ ブレイキング・ポイント クラスタ",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Strongboxes": {
+      "ja": "ストロングボックス",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Stronghold Map": {
+      "ja": "ストロングホールド・マップ",
+      "category": "map",
+      "url": null,
+      "status": "provisional"
+    },
+    "Styrn's Ferocity": {
+      "ja": "ステュルンの猛威",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Styrn's Mountain": {
+      "ja": "ステュルンの山",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Summoning Circles": {
+      "ja": "召喚陣",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Supercharged Slam": {
+      "ja": "スーパーチャージド・スラム",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Support Gem": {
+      "ja": "サポートジェム",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Surge of the Tide": {
+      "ja": "潮のサージ",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Surpassing Chance": {
+      "ja": "サーパッシング・チャンス",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Svalinn": {
+      "ja": "スヴァリン",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Sylvan's Effigy": {
+      "ja": "シルヴァンの偶像",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Synthflesh Lab": {
+      "ja": "シンスフレッシュ・ラボ",
+      "category": "location",
+      "url": null,
+      "status": "provisional"
+    },
+    "Tablets": {
+      "ja": "タブレット",
+      "category": "other",
+      "url": null,
+      "status": "provisional"
+    },
+    "Tactician": {
+      "ja": "タクティシャン",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Tame Beast": {
+      "ja": "テイム・ビースト",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Tangmazu's Thurible": {
+      "ja": "タングマズの香炉",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Tecrod's Revenge Lineage Support": {
+      "ja": "テクロドの復讐 リネージサポート",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Tempered Mind": {
+      "ja": "テンパード・マインド",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Tempest Bell": {
+      "ja": "テンペスト・ベル",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Tempest Shockwave": {
+      "ja": "テンペスト・ショックウェーブ",
+      "category": "other",
+      "url": null,
+      "status": "provisional"
+    },
+    "Tempest Shrine": {
+      "ja": "嵐のシュライン",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Temple Precursor Tablets": {
+      "ja": "神殿先人タブレット",
+      "category": "other",
+      "url": null,
+      "status": "provisional"
+    },
+    "Temporal Rift": {
+      "ja": "テンポラル・リフト",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Thane Leld's Rune of Spring": {
+      "ja": "レルドの春のルーン",
+      "category": "rune",
+      "url": null,
+      "status": "provisional"
+    },
+    "Thane Myrk's Rune of Summer": {
+      "ja": "ミルクの夏のルーン",
+      "category": "rune",
+      "url": null,
+      "status": "provisional"
+    },
+    "Thaumaturgical Dynamism": {
+      "ja": "ソーマタージカル・ダイナミズム",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "The Auspex": {
+      "ja": "オースペックス",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "The Bloated Miller": {
+      "ja": "膨満の粉屋",
+      "category": "boss",
+      "url": null,
+      "status": "provisional"
+    },
+    "The Cataclysm of the Beast": {
+      "ja": "獣の大変動",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "The Covenant": {
+      "ja": "誓約",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "The Dreadnaught": {
+      "ja": "ドレッドノート",
+      "category": "location",
+      "url": null,
+      "status": "provisional"
+    },
+    "The Dreadnaught Vanguard": {
+      "ja": "ドレッドノート前衛部隊",
+      "category": "location",
+      "url": null,
+      "status": "provisional"
+    },
+    "The Dreamer": {
+      "ja": "夢見る者",
+      "category": "lore",
+      "url": null,
+      "status": "provisional"
+    },
+    "The Genesis Tree": {
+      "ja": "起源の樹",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "The Head of the King": {
+      "ja": "王の首",
+      "category": "other",
+      "url": null,
+      "status": "provisional"
+    },
+    "The Hollow Mask": {
+      "ja": "うつろの仮面",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "The Iron Count": {
+      "ja": "アイアン・カウント",
+      "category": "boss",
+      "url": null,
+      "status": "provisional"
+    },
+    "The Ordained": {
+      "ja": "聖別されし者",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "The Quick Fox": {
+      "ja": "ザ・クイック・フォックス",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "The Raven's Flock": {
+      "ja": "大鴉の群れ",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "The Ruins of Kingsmarch": {
+      "ja": "キングスマーチ廃墟",
+      "category": "location",
+      "url": "https://poe2db.tw/jp/Kingsmarch",
+      "status": "verified"
+    },
+    "The Sunken Vessel": {
+      "ja": "沈みし器",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "The Unborn Lich": {
+      "ja": "ザ・アンボーン・リッチ",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "The Unleashed": {
+      "ja": "解き放たれし者",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "The Vertex": {
+      "ja": "頂点",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "The Withered Willow": {
+      "ja": "枯れし柳",
+      "category": "location",
+      "url": null,
+      "status": "provisional"
+    },
+    "Thorns": {
+      "ja": "ソーンズ",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Thrashing Vines": {
+      "ja": "スラッシング・ヴァインズ",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Thunder Talisman": {
+      "ja": "サンダー・タリスマン",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Thunderstorm": {
+      "ja": "サンダーストーム",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Time of Need": {
+      "ja": "タイム・オブ・ニード",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Time-Lost Sapphire": {
+      "ja": "タイムロスト・サファイア",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Timelost Jewels": {
+      "ja": "タイムロスト・ジュエル",
+      "category": "other",
+      "url": null,
+      "status": "provisional"
+    },
+    "Totem Pole": {
+      "ja": "記念碑",
+      "category": "other",
+      "url": null,
+      "status": "provisional"
+    },
+    "Toughness": {
+      "ja": "タフネス",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Toxic Growth": {
+      "ja": "トキシック・グロウス",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Tracking Scroll": {
+      "ja": "追跡スクロール",
+      "category": "ui",
+      "url": null,
+      "status": "provisional"
+    },
+    "Traitor's Passage": {
+      "ja": "裏切り者の通路",
+      "category": "location",
+      "url": null,
+      "status": "provisional"
+    },
+    "Trial of Madness": {
+      "ja": "狂気の試練",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Trial of the Sekhemas": {
+      "ja": "セケマの試練",
+      "category": "feature",
+      "url": null,
+      "status": "provisional"
+    },
+    "Trickster God": {
+      "ja": "トリックスター神",
+      "category": "lore",
+      "url": null,
+      "status": "provisional"
+    },
+    "Trickster's Shard": {
+      "ja": "トリックスターの欠片",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Trinity": {
+      "ja": "トリニティ",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Triskelion Cascade": {
+      "ja": "トリスケリオン・カスケード",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Trusted Kinship": {
+      "ja": "トラステッド・キンシップ",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Tul": {
+      "ja": "トゥル",
+      "category": "boss",
+      "url": null,
+      "status": "provisional"
+    },
+    "Tul's Avalanche": {
+      "ja": "トゥルの雪崩",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Twilight Armour Set": {
+      "ja": "トワイライト・アーマーセット",
+      "category": "mtx",
+      "url": null,
+      "status": "provisional"
+    },
+    "Twisted Domain": {
+      "ja": "ねじれた領域",
+      "category": "location",
+      "url": null,
+      "status": "provisional"
+    },
+    "Twisted Empyrean": {
+      "ja": "捻じれし天界",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Uhtred": {
+      "ja": "強欲な反逆者、ウートレッド",
+      "category": "boss",
+      "url": "https://poe2db.tw/jp/Uhtred%2C_Covetous_Traitor",
+      "status": "verified"
+    },
+    "Uhtred's Augury": {
+      "ja": "ウートレッドの占い",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Uhtred's Constellation": {
+      "ja": "ウートレッドの星座",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Uhtred's Omen": {
+      "ja": "ウートレッドの兆し",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Uhtred's Rite": {
+      "ja": "ウートレッドの儀式",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Ultimate Command": {
+      "ja": "アルティメット・コマンド",
+      "category": "ascendancy",
+      "url": null,
+      "status": "provisional"
+    },
+    "Unbound Encore": {
+      "ja": "アンバウンド・アンコール",
+      "category": "ascendancy",
+      "url": null,
+      "status": "provisional"
+    },
+    "Unique Stash Tab": {
+      "ja": "ユニーク・スタッシュタブ",
+      "category": "ui",
+      "url": null,
+      "status": "provisional"
+    },
+    "Unique Verisium Runeforging": {
+      "ja": "ユニーク・ヴェリシウム・ルーンフォージング",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Unleash": {
+      "ja": "アンリーシュ",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Unnamed Heartwood Oracle": {
+      "ja": "名もなき心木の神託",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Unsavored Feast": {
+      "ja": "アンセイバード・フィースト",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Vaal Arcanist's Infuser": {
+      "ja": "ヴァール・アーケイニスト・インフューザー",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Vaal Armourer's Infuser": {
+      "ja": "ヴァール・アーマラー・インフューザー",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Vaal Beacons": {
+      "ja": "ヴァール・ビーコン",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Vaal Blacksmith's Infuser": {
+      "ja": "ヴァール・ブラックスミス・インフューザー",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Vaal Catalysing Infuser": {
+      "ja": "ヴァール・カタライジング・インフューザー",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Vaal Cultivation Orbs": {
+      "ja": "ヴァール培養オーブ",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Vaal Infuser": {
+      "ja": "ヴァール・インフューザー",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Vaal Pact": {
+      "ja": "ヴァール・パクト",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Vaal Ruins": {
+      "ja": "ヴァール遺跡",
+      "category": "location",
+      "url": null,
+      "status": "provisional"
+    },
+    "Varashta's Blessing Lineage Support": {
+      "ja": "ヴァラシュタの祝福・血統サポート",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Veilpiercer": {
+      "ja": "ヴェイルピアサー",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Verisium": {
+      "ja": "ヴェリシウム",
+      "category": "currency",
+      "url": "https://poe2db.tw/jp/Verisium",
+      "status": "verified"
+    },
+    "Verisium Anvil": {
+      "ja": "ヴェリシウム・アンビル",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Verisium Manifestations": {
+      "ja": "ヴェリシウム顕現",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Verisium Runeforging": {
+      "ja": "ヴェリシウム・ルーンフォージング",
+      "category": "mechanic",
+      "url": "https://poe2db.tw/jp/Runeforging",
+      "status": "provisional"
+    },
+    "Vestige of Darkness": {
+      "ja": "闇の残滓",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Vile Robe": {
+      "ja": "ヴァイルローブ",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Viper Napuatzi": {
+      "ja": "ヴァイパー・ナプアツィ",
+      "category": "boss",
+      "url": null,
+      "status": "provisional"
+    },
+    "Virtuous Barrier": {
+      "ja": "ヴァーチュアス・バリア",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Vision Rune": {
+      "ja": "ヴィジョンルーン",
+      "category": "rune",
+      "url": null,
+      "status": "provisional"
+    },
+    "Vitality Siphon": {
+      "ja": "ヴァイタリティ・サイフォン",
+      "category": "ascendancy",
+      "url": null,
+      "status": "provisional"
+    },
+    "Voices": {
+      "ja": "ヴォイシズ",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Void Emperor Armour Set": {
+      "ja": "ヴォイドエンペラー・アーマーセット",
+      "category": "mtx",
+      "url": null,
+      "status": "provisional"
+    },
+    "Volcano": {
+      "ja": "ヴォルケーノ",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Volt": {
+      "ja": "ヴォルト",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Volt Support": {
+      "ja": "ヴォルト・サポート",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Voltaic Barrier": {
+      "ja": "電撃の障壁",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Voltaic Charge": {
+      "ja": "ヴォルタイック・チャージ",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Voltfang Talisman": {
+      "ja": "ヴォルトファング・タリスマン",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Voracious": {
+      "ja": "ヴォラシャス",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Vorana": {
+      "ja": "最後に倒れし者、ヴォラナ",
+      "category": "boss",
+      "url": "https://poe2db.tw/jp/Vorana%2C_Last_to_Fall",
+      "status": "verified"
+    },
+    "Vorana's Siege": {
+      "ja": "ヴォラナの包囲",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Vruun's Aftermath": {
+      "ja": "ヴルーンの余波",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Vruun's Inevitability": {
+      "ja": "ヴルーンの必然",
+      "category": "support",
+      "url": null,
+      "status": "provisional"
+    },
+    "Vruun, Marshal of Xesht": {
+      "ja": "シェシュトの元帥、ヴルーン",
+      "category": "boss",
+      "url": null,
+      "status": "provisional"
+    },
+    "Vulcan Armour Set": {
+      "ja": "バルカン・アーマーセット",
+      "category": "mtx",
+      "url": null,
+      "status": "provisional"
+    },
+    "Waking Dream": {
+      "ja": "ウェイキング・ドリーム",
+      "category": "ascendancy",
+      "url": null,
+      "status": "provisional"
+    },
+    "War Banner": {
+      "ja": "ウォー・バナー",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Warden Bow": {
+      "ja": "ウォーデン・ボウ",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Warding Fetish": {
+      "ja": "ウォーディング・フェティッシュ",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Waterways": {
+      "ja": "水路",
+      "category": "location",
+      "url": null,
+      "status": "provisional"
+    },
+    "Waystone Drop Chance": {
+      "ja": "ウェイストーン・ドロップチャンス",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Waystones": {
+      "ja": "ウェイストーン",
+      "category": "currency",
+      "url": "https://poe2db.tw/jp/Waystone",
+      "status": "provisional"
+    },
+    "Whirling Assault": {
+      "ja": "ワーリング・アサルト",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Wide Barrier": {
+      "ja": "ワイド・バリア",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Wild Armour Set": {
+      "ja": "ワイルド・アーマーセット",
+      "category": "mtx",
+      "url": null,
+      "status": "provisional"
+    },
+    "Wildwood": {
+      "ja": "ワイルドウッド",
+      "category": "location",
+      "url": null,
+      "status": "provisional"
+    },
+    "Wildwood's Gifts": {
+      "ja": "ワイルドウッドの贈り物",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Wing Blast": {
+      "ja": "ウィングブラスト",
+      "category": "skill",
+      "url": null,
+      "status": "provisional"
+    },
+    "Witchhunter": {
+      "ja": "ウィッチハンター",
+      "category": "ascendancy",
+      "url": null,
+      "status": "provisional"
+    },
+    "Witchtoad": {
+      "ja": "ウィッチトード",
+      "category": "other",
+      "url": null,
+      "status": "provisional"
+    },
+    "Withered": {
+      "ja": "ウィザード",
+      "category": "mechanic",
+      "url": null,
+      "status": "provisional"
+    },
+    "Wolf Idol": {
+      "ja": "ウルフ・アイドル",
+      "category": "item",
+      "url": null,
+      "status": "provisional"
+    },
+    "Wombgifts": {
+      "ja": "ウーム・ギフト",
+      "category": "currency",
+      "url": null,
+      "status": "provisional"
+    },
+    "Wraeclast": {
+      "ja": "レイクラスト",
+      "category": "location",
+      "url": null,
+      "status": "provisional"
+    },
+    "Wyvern's Breath": {
+      "ja": "ワイバーンズ・ブレス",
+      "category": "passive",
+      "url": null,
+      "status": "provisional"
+    },
+    "Xipocado, the Royal Architect": {
+      "ja": "王室建築家シポカド",
+      "category": "boss",
+      "url": null,
+      "status": "provisional"
+    },
+    "Zaida's Longevity": {
+      "ja": "ザイダの長寿",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    },
+    "Zerphi's Genesis": {
+      "ja": "ザーフィの創世",
+      "category": "unique",
+      "url": null,
+      "status": "provisional"
+    }
+  }
+}

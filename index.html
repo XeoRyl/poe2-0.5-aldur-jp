@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PoE2 0.5.0 ― アルダーのルーン リーグ | リサーチドキュメント</title>
+<link rel="stylesheet" href="assets/style.css">
+<style>
+  /* index 固有: ソースカード */
+  .source-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.4em;
+    margin: 2em 0 3em;
+  }
+  .source-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.4em 1.5em;
+    background: linear-gradient(180deg, var(--bg-elevated), var(--bg-surface));
+    border: 1px solid var(--gold-border);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid var(--gold-border);
+    position: relative;
+    overflow: hidden;
+  }
+  .source-card::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    opacity: 0.6;
+  }
+  .source-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--gold);
+    box-shadow: var(--shadow-md), 0 0 0 1px var(--gold-dim);
+  }
+  .source-card .source-no {
+    font-family: var(--font-display);
+    font-size: 0.82rem;
+    letter-spacing: 0.18em;
+    color: var(--gold-dim);
+    text-transform: uppercase;
+    margin-bottom: 0.4em;
+  }
+  .source-card .source-title {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    color: var(--gold-bright);
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 0 0 0.6em;
+    letter-spacing: 0.02em;
+  }
+  .source-card .source-summary {
+    color: var(--text-secondary);
+    font-size: 0.92rem;
+    line-height: 1.65;
+    margin: 0 0 1em;
+    flex: 1;
+  }
+  .source-card .source-tags {
+    margin-top: auto;
+  }
+  .source-card.placeholder {
+    background: transparent;
+    border: 1px dashed var(--gold-border);
+    opacity: 0.55;
+    cursor: default;
+    pointer-events: none;
+  }
+  .source-card.placeholder .source-title {
+    color: var(--text-muted);
+    font-style: italic;
+  }
+  .source-card.placeholder::before { display: none; }
+
+  /* hero stat row */
+  .hero-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1em;
+    margin: 2em 0 3em;
+  }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <h1>アルダーのルーン リーグ</h1>
+  <p class="subtitle">Path of Exile 2 ― バージョン 0.5.0 リサーチドキュメント</p>
+  <div class="meta">
+    <span class="meta-item">情報源: 公式パッチノート</span>
+    <span class="meta-item">用語ソース: poe2db.tw/jp</span>
+    <span class="meta-item">最終更新: 2026-05-22</span>
+  </div>
+</header>
+
+<section>
+  <p style="text-align:center; color: var(--text-secondary); margin: 0 0 2em;">
+    PoE2 0.5.0「アルダーのルーン」リーグの公式情報を、項目ごとに日本語要約したリサーチ集。<br>
+    各ソースは独立した HTML として読めるが、本ページで全体構造を統一して参照する。
+  </p>
+</section>
+
+<div class="hero-stats">
+  <div class="stat-card">
+    <span class="stat-value">9</span>
+    <span class="stat-label">ソースHTML</span>
+    <span class="stat-sub">25セクション網羅</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-value">760+</span>
+    <span class="stat-label">固有名詞辞書</span>
+    <span class="stat-sub">poe2db verified ＋ 暫定訳</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-value">700+</span>
+    <span class="stat-label">変更点</span>
+    <span class="stat-sub">全 bullet 翻訳済み</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-value">127</span>
+    <span class="stat-label">バグ修正</span>
+    <span class="stat-sub">7カテゴリ別整理</span>
+  </div>
+</div>
+
+<section>
+<h2>ソース一覧</h2>
+
+<div class="source-grid">
+
+  <!-- ソース 01 -->
+  <a class="source-card" href="sources/01_league-overview.html">
+    <span class="source-no">ソース 01</span>
+    <span class="source-title">リーグ概要</span>
+    <p class="source-summary">
+      アルダーのルーン リーグの全体像。レムナントのクラフトループ、ヴェリシウム・ルーンフォージング、新ルーン体系、カルグーラン・ジェム、海洋探索エンドゲーム、チャレンジ報酬、リーグ種別までを総覧。
+    </p>
+    <div class="source-tags">
+      <span class="tag new">概要</span>
+      <span class="tag currency">通貨</span>
+      <span class="tag skill">ジェム</span>
+      <span class="tag rune">ルーン</span>
+      <span class="tag boss">エンド</span>
+    </div>
+  </a>
+
+  <!-- ソース 02 -->
+  <a class="source-card" href="sources/02_endgame-overhaul.html">
+    <span class="source-no">ソース 02</span>
+    <span class="source-title">エンドゲーム改修「神性の起源」</span>
+    <p class="source-summary">
+      アトラス／ピナクルボス導線、新エンドゲーム機構「神性の起源」（要塞・先人の塔・神性のアービター）、新システム「アトラスの導師」（ドリヤニ／ヒルダ／ジャドの3導師）の総覧。
+    </p>
+    <div class="source-tags">
+      <span class="tag passive">アトラス</span>
+      <span class="tag boss">ピナクル</span>
+      <span class="tag new">新システム</span>
+    </div>
+  </a>
+
+  <!-- ソース 03 -->
+  <a class="source-card" href="sources/03_existing-mechanics.html">
+    <span class="source-no">ソース 03</span>
+    <span class="source-title">既存リーグメカニクス更新</span>
+    <p class="source-summary">
+      Delirium／Breach／Ritual／Fate of the Vaal（コア化）／Abyss／Expedition／その他エンドゲーム変更。新ボス（ヴルーン、霧の女王）／新メカ（狂気の試練、起源の樹、無名の儀式）／Vaal 神殿改修 を全 114 bullet で網羅。
+    </p>
+    <div class="source-tags">
+      <span class="tag passive">アトラスツリー</span>
+      <span class="tag currency">通貨</span>
+      <span class="tag boss">新ボス</span>
+    </div>
+  </a>
+
+  <!-- ソース 04 -->
+  <a class="source-card" href="sources/04_campaign-player.html">
+    <span class="source-no">ソース 04</span>
+    <span class="source-title">キャンペーン ＆ プレイヤー仕様</span>
+    <p class="source-summary">
+      キャンペーン再プレイ性改善、プレイヤー仕様変更（Bleed/Leech/Deflect 等）、新コンテンツ（Monk「武芸者」と Huntress「精霊歩行者」の新アセンダンシー2種、リネージサポート21種、ユニーク42種、ビルドガイド機能）。
+    </p>
+    <div class="source-tags">
+      <span class="tag passive">アセンダンシー</span>
+      <span class="tag support">サポート</span>
+      <span class="tag unique">ユニーク</span>
+    </div>
+  </a>
+
+  <!-- ソース 05 -->
+  <a class="source-card" href="sources/05_ascendancy-passive.html">
+    <span class="source-no">ソース 05</span>
+    <span class="source-title">アセンダンシー ＆ パッシブツリー</span>
+    <p class="source-summary">
+      アセンダンシー変更 (6 クラス: Acolyte of Chayula / Blood Mage / Chronomancer / Gemling Legionnaire / Pathfinder / Witchhunter) ＋ パッシブツリー大改修（Keystone 3 ・ Notable 約 40 ・ コンパニオン 19 ・ リクープ 9 など）を 72 bullet。
+    </p>
+    <div class="source-tags">
+      <span class="tag passive">アセンダンシー</span>
+      <span class="tag passive">パッシブ</span>
+    </div>
+  </a>
+
+  <!-- ソース 06 -->
+  <a class="source-card" href="sources/06_skill-support.html">
+    <span class="source-no">ソース 06</span>
+    <span class="source-title">スキル ＆ サポート変更</span>
+    <p class="source-summary">
+      スキル変更 52 bullet（36 種スキル個別変更：Spell／Melee／Ranged／Shield／Banner／Totem／Minion／Trigger 系）＋ サポート変更 30 bullet（26 種サポート個別変更）。
+    </p>
+    <div class="source-tags">
+      <span class="tag skill">スキル</span>
+      <span class="tag support">サポート</span>
+    </div>
+  </a>
+
+  <!-- ソース 07 -->
+  <a class="source-card" href="sources/07_items.html">
+    <span class="source-no">ソース 07</span>
+    <span class="source-title">ユニーク ＆ アイテム変更</span>
+    <p class="source-summary">
+      個別ユニーク変更 29 種（Sekhema's Resolve 分割含む）＋ アイテム変更 30 bullet（通貨／ベース防御値／インプリシット／ルーン／アイドル／ジュエルなど 8 カテゴリ）。
+    </p>
+    <div class="source-tags">
+      <span class="tag unique">ユニーク</span>
+      <span class="tag currency">通貨</span>
+      <span class="tag rune">ルーン</span>
+    </div>
+  </a>
+
+  <!-- ソース 08 -->
+  <a class="source-card" href="sources/08_monster-quest-ui-mtx.html">
+    <span class="source-no">ソース 08</span>
+    <span class="source-title">モンスター ＆ クエスト ＆ UI ＆ MTX</span>
+    <p class="source-summary">
+      モンスター 8 ／ クエスト 3 ／ UI 21 ／ マイクロトランザクション 14 件。MTX 末尾は curl で完全取得済み。
+    </p>
+    <div class="source-tags">
+      <span class="tag boss">モンスター</span>
+      <span class="tag new">UI</span>
+      <span class="tag">課金</span>
+    </div>
+  </a>
+
+  <!-- ソース 09 -->
+  <a class="source-card" href="sources/09_bug-fixes.html">
+    <span class="source-no">ソース 09</span>
+    <span class="source-title">バグ修正 (127 項目)</span>
+    <p class="source-summary">
+      127 件のバグ修正を 7 カテゴリ別 (スキル／サポート 45 ／ パッシブ／アセンダンシー 8 ／ ユニーク 9 ／ マップ／リーグ 19 ／ モンスター／ボス 8 ／ UI／コントローラー／Co-op 27 ／ その他 11) に折りたたみ整理。
+    </p>
+    <div class="source-tags">
+      <span class="tag">バグ修正</span>
+    </div>
+  </a>
+
+</div>
+</section>
+
+<div class="section-divider"></div>
+
+<section>
+<h2>共通リソース</h2>
+<ul>
+  <li><a href="assets/glossary.json" target="_blank">用語辞書 (glossary.json)</a> ― 全ソース共通の固有名詞 ↔ 日本語訳マッピング</li>
+  <li><a href="assets/style.css" target="_blank">共通スタイル (style.css)</a> ― ダークテーマ ＋ 各種コンポーネント</li>
+</ul>
+
+<h3>外部リファレンス</h3>
+<ul>
+  <li><a href="https://www.pathofexile.com/" target="_blank" rel="noopener">Path of Exile 公式サイト</a></li>
+  <li><a href="https://poe2db.tw/jp/" target="_blank" rel="noopener">poe2db.tw（日本語版）</a> ― ゲーム内データベース</li>
+  <li><a href="https://poe2db.tw/jp/Runes_of_Aldur_league" target="_blank" rel="noopener">poe2db: アルダーのルーン リーグ</a></li>
+  <li><a href="https://poe2db.tw/jp/Runeforging" target="_blank" rel="noopener">poe2db: ルーンフォージング</a></li>
+</ul>
+</section>
+
+<footer>
+  <p>PoE2 Research Docs / 個人用学習資料</p>
+  <p><small>本ドキュメントは公式情報の要約・日本語訳。原文は Grinding Gear Games に帰属。</small></p>
+</footer>
+
+</main>
+</body>
+</html>

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>バグ修正 (127 件) | PoE2 0.5.0</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<main>
+
+
+<nav class="breadcrumb" aria-label="パンくずリスト">
+  <a href="../index.html" class="home-icon">アルダーのルーン リーグ ホーム</a>
+  <span class="breadcrumb-sep">/</span>
+  <span class="breadcrumb-current">ソース 09: バグ修正 (127 項目)</span>
+</nav>
+<header>
+  <h1>バグ修正</h1>
+  <p class="subtitle">0.5.0 で修正された 127 件のバグ ― カテゴリ別一覧</p>
+  <div class="meta">
+    <span class="meta-item">バージョン 0.5.0</span>
+    <span class="meta-item">ソース 09</span>
+    <span class="meta-item">対応セクション: Bug Fixes</span>
+  </div>
+</header>
+
+<div class="callout info">
+  <div>
+    <span class="callout-title">本ドキュメントの位置付け</span>
+    パッチノート末尾「Bug Fixes」セクションを <strong>カテゴリ別に再分類</strong> したもの。全 127 項目を網羅。各カテゴリは折りたたみ式。1 件目のカテゴリは開いた状態で表示される。
+  </div>
+</div>
+
+<nav class="toc" aria-label="目次">
+  <div class="toc-title">カテゴリ目次</div>
+  <ol>
+    <li><a href="#cat-skill">1. スキル / サポート関連 (45 件)</a></li>
+    <li><a href="#cat-passive">2. パッシブ / アセンダンシー関連 (8 件)</a></li>
+    <li><a href="#cat-unique">3. ユニーク装備関連 (9 件)</a></li>
+    <li><a href="#cat-map">4. マップ / リーグメカニクス関連 (19 件)</a></li>
+    <li><a href="#cat-monster">5. モンスター / ボス関連 (8 件)</a></li>
+    <li><a href="#cat-ui">6. UI / コントローラー / Co-op 関連 (27 件)</a></li>
+    <li><a href="#cat-other">7. その他 (11 件)</a></li>
+  </ol>
+</nav>
+
+<div class="stat-grid">
+  <div class="stat-card">
+    <span class="stat-value">127</span>
+    <span class="stat-label">バグ修正総数</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-value">7</span>
+    <span class="stat-label">カテゴリ分類</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-value">45</span>
+    <span class="stat-label">最多: スキル系</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-value">27</span>
+    <span class="stat-label">次点: UI / Co-op 系</span>
+  </div>
+</div>
+
+<!-- ============================================================
+     §1 スキル / サポート関連
+     ============================================================ -->
+<section id="cat-skill">
+<details open>
+<summary><h2 style="display:inline">1. スキル / サポート関連 (45 件)</h2></summary>
+
+<ul>
+  <li><span class="term skill" data-en="Ritualist's Ritual Sacrifice">リチュアリストの儀式の供物</span>スキルがレベル 20 時だけクールダウンを得てしまう不具合を修正。自身に対する儀式の供物の使い方の説明は、独立した「<span class="term" data-en="As the Whispers Demand">囁きが命じるままに</span>」パッシブ側ではなく、スキル説明文に統合された（純粋に説明文の変更）。</li>
+  <li><span class="term skill" data-en="Pounce">パウンス</span>が<span class="term skill" data-en="Predator's Mark">捕食者の刻印</span>やソケットされた刻印に追加の刻印効果量を与えていた不具合を修正。</li>
+  <li><span class="term skill" data-en="Mirage Archer">ミラージュアーチャー</span>と<span class="term skill" data-en="Mirage Deadeye">ミラージュデッドアイ</span>が、<span class="term skill" data-en="Rapid Shot">ラピッドショット</span>などのスキル使用時にターゲット追従のため正しく回転しない問題を修正。</li>
+  <li>ミラージュアーチャーおよびミラージュデッドアイに、本来ソケット不可であるはずの一部スキルがソケット可能となっていた問題を修正。</li>
+  <li><span class="term skill" data-en="Devour">デバウア</span>と<span class="term skill" data-en="Feral Invocation">フェラル・インヴォケーション</span>が正しく相互作用しない不具合を修正。</li>
+  <li>境界外に<span class="term skill" data-en="Thunderstorm">サンダーストーム</span>が作成できてしまう不具合を修正。</li>
+  <li>素手のクリティカル命中率への装飾子が、スキル情報ポップアウトの表示クリティカル命中率に反映されない場合がある不具合を修正。</li>
+  <li>追加投射物のチャンスを与える一部のステータスが、<span class="term skill" data-en="Rain of Arrows">レイン・オブ・アロウズ</span>のように投射物数で配置数を決定するスキルに適用されないケースを修正。</li>
+  <li>追加チェインを与える一部ステータスが、ビーム系スキルに適用されないケースを修正。</li>
+  <li><span class="term skill" data-en="Comet">コメット</span>のクオリティによるボーナスが機能していなかった不具合を修正。</li>
+  <li>デバウアと<span class="term skill" data-en="Lightning Warp">ライトニングワープ</span>が、本来は対象外の死体を喰らったり爆発させたりできていた不具合を修正。</li>
+  <li><span class="term support" data-en="Poison Spores Support">毒胞子サポート</span>の業者価格および非同期取引価格が適切でなかった不具合を修正。</li>
+  <li><span class="term support" data-en="Burning Inscription Support">燃焼刻印サポート</span>がモンスター周辺に発火地面を作成してしまい、本来の<span class="term skill" data-en="Runic Inscription">ルニック・インスクリプション</span>上に作成されていなかった不具合を修正。</li>
+  <li><span class="term skill" data-en="Arctic Howl">アークティック・ハウル</span>が、<span class="term skill" data-en="Echoing Cry">エコーイング・クライ</span>使用中に人間形態のプレイヤーを強化できていた不具合を修正。</li>
+  <li><span class="term skill" data-en="Glacial Bolt">グレイシャル・ボルト</span>から生成される氷晶のダメージ計算が一部状況で異常になる問題を修正。</li>
+  <li>最大エナジーシールドの一定割合をコストとするスキルが、最大エナジーシールドを持たない場合に使用不能になっていた不具合を修正。</li>
+  <li><span class="term support" data-en="Heightened Charges Support">高揚チャージサポート</span>が<span class="term skill" data-en="Flicker Strike">フリッカーストライク</span>のパワーチャージ消費毎の追加フリッカーに適用されない不具合を修正。</li>
+  <li><span class="term skill" data-en="Living Lightning II">リビング・ライトニング II</span>が、サポートしているジェムからレベルをスケールしない不具合を修正。</li>
+  <li><span class="term skill" data-en="Into the Breach">イン・ザ・ブリーチ</span>が<span class="term support" data-en="Selfless Remnants Support">献身レムナント・サポート</span>の恩恵を受けない不具合を修正。</li>
+  <li><span class="term support" data-en="Dialla's Desire Lineage Support">ディアラの願い・血統サポート</span>がメタスキルジェムおよびアイテム付与のスキルジェムにクオリティを付与しない不具合を修正。</li>
+  <li><span class="term support" data-en="Hayoxi's Fulmination Lineage Support">ハヨキシの劫雷・血統サポート</span>が非カース系スキルもサポート可能だった不具合を修正。</li>
+  <li><span class="term skill" data-en="Shockwave Totem">ショックウェーブトーテム</span>が<span class="term skill" data-en="Ancestral Warrior Totem">アンセストラル・ウォリアー・トーテム</span>にソケット可能になっていた問題を修正。</li>
+  <li>エコーイング・クライが<span class="term skill" data-en="Ancestral Cry">アンセストラル・クライ</span>をサポートできていた不具合を修正。</li>
+  <li>ミラージュアーチャーおよびデッドアイで意図しないサポート対応となっていた一部スキルの問題を修正。</li>
+  <li><span class="term skill" data-en="Infernal Legion">インファーナル・リージョン</span>の計算で、クリティカル命中率を 1 でも持っていれば常にクリティカルになる不具合を修正。</li>
+  <li>プレイヤーの移動速度装飾子を継承するべき一部の蘇生型ミニオンが継承していない問題を修正。対象: <span class="term skill" data-en="Smith of Kitava's Manifest Weapon">キタヴァの鍛冶師の顕現武器</span>、<span class="term skill" data-en="Rhoa Mount">ローア騎乗</span>（下馬時）、<span class="term" data-en="Hysseg's Claw">ヒセグの爪</span>ユニーク・タリスマンが召喚するハイエナ。</li>
+  <li>1 つのスキル使用を強化する 2 つの効果が、期待通りスタックしないケースを修正。</li>
+  <li>本来トリガー扱いの一部スキルが、他ステータス上でトリガー扱いとカウントされないケースを修正。</li>
+  <li><span class="term skill" data-en="Grim Feast">グリム・フィースト</span>がミニオンを蘇生できないことがある不具合を修正。</li>
+  <li>投射物が<span class="term skill" data-en="Frozen Locus">フローズン・ローカス</span>の生成する氷晶を貫通してしまう不具合を修正。</li>
+  <li><span class="term skill" data-en="Ice Nova">アイス・ノヴァ</span>がリピート時に誤った視覚効果・音響になる不具合を修正。</li>
+  <li>チャネリング・スキルが別のチャネリング・スキルで中断できない不具合を修正。</li>
+  <li><span class="term skill" data-en="Arc">アーク</span>が<span class="term" data-en="Lightning Infusion">ライトニング・インフュージョン</span>消費の有無にかかわらず追加チェインを付与していた不具合を修正。</li>
+  <li>クロスボウのリロードや弾種切替が攻撃としてカウントされてしまう不具合を修正。</li>
+  <li>一部のトリガー型スキルがエナジーを生成できてしまう不具合を修正。</li>
+  <li><span class="term support" data-en="Stoicism Support">ストイシズム・サポート</span>が非アタックスキルもサポート可能だった不具合を修正。</li>
+  <li><span class="term support" data-en="Volt Support">ヴォルト・サポート</span>に「Chaining」タグが誤って付いていた問題を修正。</li>
+  <li><span class="term skill" data-en="Iron Ward">アイアン・ウォード</span>のノヴァが<span class="term support" data-en="Astral Projection Support">アストラル・プロジェクション・サポート</span>の影響を正しく受けない不具合を修正。</li>
+  <li>ライトニングワープが、撃破可能な敵や<span class="term skill" data-en="Ball Lightning">ボール・ライトニング</span>投射物よりも選択ターゲットを優先してしまう不具合を修正。</li>
+  <li><span class="term skill" data-en="Blink">ブリンク</span>、<span class="term skill" data-en="Parry">パリィ</span>、<span class="term skill" data-en="Raise Shield">レイズシールド</span>がスキル使用としてカウントされない不具合を修正。あわせて、パリィおよびレイズシールド使用時にチャネリング扱いとならない不具合も修正。</li>
+  <li>追加矢のチャンスを超過した際、<span class="term skill" data-en="Lightning Rod">ライトニング・ロッド</span>の矢が誤った位置に発射される不具合を修正。</li>
+  <li>パリィの説明文が、本来「すべてのヒット」を受け流せると記載すべきところを「打撃と投射物」だけ言及していた問題を修正（説明文のみ）。</li>
+  <li><span class="term support" data-en="Varashta's Blessing Lineage Support">ヴァラシュタの祝福・血統サポート</span>がミニオンのスキルには適用されない旨を説明文に記載していなかった問題を修正（説明文のみ）。</li>
+  <li><span class="term skill" data-en="Herald of Blood">ヘラルド・オブ・ブラッド</span>のダメージ算出根拠が「最大ライフ」と誤記されていた問題を、正しく「<span class="term" data-en="Blood Loss">血液損失</span>」に修正（説明文のみ）。</li>
+  <li>パウンスのジェムアートが、メタジェムであることを反映していなかった問題を修正。</li>
+</ul>
+
+</details>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ============================================================
+     §2 パッシブ / アセンダンシー関連
+     ============================================================ -->
+<section id="cat-passive">
+<details>
+<summary><h2 style="display:inline">2. パッシブ / アセンダンシー関連 (8 件)</h2></summary>
+
+<ul>
+  <li><span class="term" data-en="Enduring Elixirs">エンデュアリング・エリクサー</span>パスファインダー・ノータブルパッシブを取得していてもライフ満タン時にライフフラスコが使用不能になる場合がある不具合を修正（本来はフラスコ効果を満タン時にも維持する効果）。</li>
+  <li><span class="term" data-en="Minion Instability">ミニオン・インスタビリティ</span>が<span class="term" data-en="Last Gasp">ラストガスプ</span>を回避できない不具合を修正。</li>
+  <li><span class="term" data-en="Hollow Palm Technique">ホロー・パーム・テクニック</span>が、あらゆる近接武器で使用可能なほとんどのスキルにボーナスを付与していなかった問題を修正。ホロー・パーム・テクニックは現在、対象アタックの素手ベースダメージに加算するのではなく、ベースダメージを置き換える挙動となった。</li>
+  <li><span class="term" data-en="Low Tolerance">ロー・トレランス</span>パッシブの説明が「毒の効果量増加」となっていたが正しくは「マグニチュード増加」だったため修正。</li>
+  <li><span class="term" data-en="Cannons, Ready!">大砲、用意！</span>タクティシャン・ノータブルパッシブが、<span class="term skill" data-en="Molten Blast">モルテン・ブラスト</span>／<span class="term skill" data-en="Rolling Magma">ローリング・マグマ</span>／<span class="term skill" data-en="Oil Barrage">オイル・バラージ</span>／<span class="term skill" data-en="Power Charged Falling Thunder">パワーチャージド・フォーリング・サンダー</span>使用時にトーテムを攻撃させなかった不具合を修正。</li>
+  <li><span class="term" data-en="Ancestral Empowerment">アンセストラル・エンパワメント</span>タイタン・ノータブルパッシブのスラム計上時に、<span class="term skill" data-en="Forge Hammer Slam">フォージハンマー・スラム</span>がカウントされない不具合を修正。</li>
+  <li><span class="term" data-en="Heavy Armour">ヘヴィ・アーマー</span>ノータブルパッシブの不具合を修正し、説明文をより明確に調整。</li>
+  <li>「<span class="term" data-en="Increased Area of Effect of Ancestrally Boosted Attacks">アンセストラル強化アタックの効果範囲増加</span>」を付与するパッシブが、実際には乗算で適用されていた不具合を修正。</li>
+</ul>
+
+</details>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ============================================================
+     §3 ユニーク装備関連
+     ============================================================ -->
+<section id="cat-unique">
+<details>
+<summary><h2 style="display:inline">3. ユニーク装備関連 (9 件)</h2></summary>
+
+<ul>
+  <li><span class="term" data-en="Rathpith Globe">ラスピス・グローブ</span>ユニーク・フォーカスの固有キャスト時効果が欠落していた不具合を修正。既存アイテムには適用されない（<span class="term currency" data-en="Divine Orb">ディヴァインオーブ</span>を使用すれば修正される）。</li>
+  <li><span class="term" data-en="Melting Maelstrom">メルティング・メイルストロム</span>ユニーク・アルティメット・マナフラスコが敵をヒットさせられなかった不具合を修正。</li>
+  <li><span class="term" data-en="Rite of Passage">通過儀礼</span>ユニーク・チャームによって生成されるプレイヤー版<span class="term" data-en="Azmeri Spirit Possession">アズメリの精霊憑依</span>が、スキルを使用しない／正しく機能しない多数の不具合を修正。プレイヤー版アズメリの精霊憑依装飾子は、現在ダメージが大幅に上昇し、スキル使用頻度も増加した。敵版に変更はない。</li>
+  <li>（再掲）メルティング・メイルストロム・ユニーク・アルティメット・マナフラスコが敵をヒットさせられなかった不具合を修正。</li>
+  <li><span class="term" data-en="Blood Price">ブラッド・プライス</span>ユニーク・ヘルメットのリザベーションが、他のリザベーションと組み合わさった際のエッジケース挙動を修正。</li>
+  <li><span class="term" data-en="The Unborn Lich">ザ・アンボーン・リッチ</span>ユニーク・スタッフが付与する<span class="term skill" data-en="His Winnowing Flame">ヒズ・ウィノウィング・フレイム</span>スキルが、ヒット時にクリティカル・ウィークネスを適用していた不具合と、燃焼消費による誘発爆発がダメージを与えなかった別の不具合を修正。</li>
+  <li><span class="term" data-en="Atsak's Sight">アツァクの眼</span>ユニーク・ヘルメットの「クリティカル時の毒」装飾子が、<span class="term" data-en="Thorns">ソーンズ</span>ダメージのクリティカルに適用されない不具合を修正。</li>
+  <li><span class="term" data-en="Prism of Belief">プリズム・オブ・ビリーフ</span>ユニーク・ジュエルが<span class="term skill" data-en="Solar Orb">ソーラー・オーブ</span>用の装飾子をロール可能になっていた不具合を修正。</li>
+  <li><span class="term" data-en="Enezun's Charge">エネズンの突撃</span>ユニーク・ワンドの 3D モデルが欠落していた問題を修正。</li>
+</ul>
+
+</details>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ============================================================
+     §4 マップ / リーグメカニクス関連
+     ============================================================ -->
+<section id="cat-map">
+<details>
+<summary><h2 style="display:inline">4. マップ / リーグメカニクス関連 (19 件)</h2></summary>
+
+<ul>
+  <li><span class="term" data-en="Abyss Precursor Tablets">アビス・プリカーサー・タブレット</span>が、本来はアビスのスポーン有効化のみのところ、1 つにつきアビスを 1 体追加してしまう不具合を修正。</li>
+  <li><span class="term" data-en="Abyss Pit">アビス・ピット</span>が閉じないことがある問題を修正。</li>
+  <li>マップに<span class="term" data-en="Summoning Circle">召喚円</span>が含まれる確率の増加装飾子が、実際にはベースチャンスを付与してしまっていた不具合を修正。</li>
+  <li><span class="term" data-en="Stronghold Map">ストロングホールド・マップ</span>でボス撃破後、ボスアリーナの結界が消えないことがある問題を修正。</li>
+  <li><span class="term" data-en="Synthflesh Lab">シンスフレッシュ・ラボ</span>の被験体モンスターがスタックすることがある不具合を修正。</li>
+  <li>エッセンスをコラプトするとエッセンス自体が消失することがある不具合を修正。</li>
+  <li>エッセンス・モンスターパック内のミニオンが、レアパック所属によるステータス上昇を得られていなかった不具合を修正。</li>
+  <li><span class="term" data-en="Delirium">ディリリアム</span>の霧が、ゲーム一時停止中も視覚的に拡散し続ける不具合を修正。</li>
+  <li>低レベルの<span class="term" data-en="Ritual">リチュアル</span>遭遇に、装飾子のないアイテムが出現することがある不具合を修正。</li>
+  <li><span class="term" data-en="Creek Map">クリーク・マップ</span>のボスアリーナでボス撃破後にポータルが開けない不具合を修正。</li>
+  <li><span class="term" data-en="Kriar Village">クリアー村</span>の<span class="term" data-en="Roving Wisps">ローヴィング・ウィスプ</span>遭遇がクリアできない問題を修正。</li>
+  <li>召喚円がボス撃破後に崩れたあとも投射物をブロックしてしまう問題を修正。</li>
+  <li><span class="term" data-en="Grelwood">グレルウッド</span>でフードの男を解放したあと、<span class="term" data-en="Tree of Souls">ソウル・ツリー</span>付近を歩くとデシンクが発生する問題を修正。</li>
+  <li>以下のクエストで、ボスの死亡アニメーション終了前にエリアを離脱するとクエストが完了しない不具合を修正: <span class="term" data-en="Shrike Island">シュライク島</span>、<span class="term" data-en="Isle of Kin">同族の島</span>、<span class="term" data-en="Whakapanu Island">ワカパヌ島</span>、<span class="term" data-en="Abandoned Prison">廃監獄</span>。</li>
+  <li><span class="term" data-en="Soul Core Ultimatum">ソウルコア・アルティメイタム</span>遭遇が、ソウルコア 1 つだけでクリアできてしまう不具合を修正。</li>
+  <li><span class="term" data-en="Jiquani's Machinarium">ヒクァニのマキナリウム</span>の最初の<span class="term" data-en="Stone Altar">石の祭壇</span>で、使用可能な小ソウルコアが存在しないまれな問題を修正。</li>
+  <li><span class="term" data-en="Ngakanu">ンガカヌ</span>のアビス・ワールドマップアイコンが、対応する<span class="term" data-en="Abyssal Depths">アビサル・デプス</span>クリア時に完了しない問題を修正。</li>
+  <li><span class="term" data-en="Shoreline Hideout">ショアライン・ハイドアウト</span>のワールドマップアイコンが完了しない不具合を修正。</li>
+  <li><span class="term" data-en="Path of Mourning">嘆きの道</span>で地面効果が誤って表示される問題を修正。</li>
+</ul>
+
+</details>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ============================================================
+     §5 モンスター / ボス関連
+     ============================================================ -->
+<section id="cat-monster">
+<details>
+<summary><h2 style="display:inline">5. モンスター / ボス関連 (8 件)</h2></summary>
+
+<ul>
+  <li>パーティプレイで<span class="term boss" data-en="Atziri, the Red Queen">赤の女王アツィリ</span>または<span class="term boss" data-en="Xipocado, the Royal Architect">王室建築家シポカド</span>に死亡したプレイヤーがリスポーンできなくなる不具合を修正。</li>
+  <li>ボスがプレイヤーをアリーナの外へ押し出すことがある不具合を修正。失礼な！</li>
+  <li><span class="term boss" data-en="The Iron Count">アイアン・カウント</span>が剣のインペイル・スキルを使用できない不具合を修正。</li>
+  <li><span class="term boss" data-en="The Bloated Miller">膨満の粉屋</span>のバックハンド・スイングが、ブロック・パリィ・回避不能だった問題を修正。</li>
+  <li>一部のボススキルがプレイヤーのミニオンをターゲットできなかった不具合を修正。</li>
+  <li><span class="term" data-en="Rogue Exile">ローグエグザイル</span>が意図より高い最大インフュージョン数を持っていた不具合を修正。</li>
+  <li><span class="term" data-en="Beyond">ビヨンド</span>のボスが初出現時、意図より高いダメージ軽減を得ていた問題を修正。</li>
+  <li>一部のボスに死亡した際、誤ったチェックポイントにリスポーンすることがある不具合を修正。</li>
+</ul>
+
+</details>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ============================================================
+     §6 UI / コントローラー / Co-op
+     ============================================================ -->
+<section id="cat-ui">
+<details>
+<summary><h2 style="display:inline">6. UI / コントローラー / Co-op 関連 (27 件)</h2></summary>
+
+<ul>
+  <li>シュラインが敵に囲まれている際にハイライト操作しづらい問題を修正。</li>
+  <li>一部のプレイヤー移動源が、意図とわずかに異なる方向へ移動させてしまう問題を修正。コントローラー使用時や、ドッジロール・大半の近接スキルなど内蔵移動を持つスキルで特に顕著だった。</li>
+  <li>パーティメンバーから発生する一部のヒット効果音が、過大な音量で再生される不具合を修正。</li>
+  <li>エナジーシールド枯渇の音声キューが、枯渇要因がダメージ・オーバー・タイムだった場合に再生されない不具合を修正。</li>
+  <li><span class="term" data-en="Ancestral Bond">アンセストラル・ボンド</span>キーストーンを取得している場合に、スキルパネルでトーテムをホバーしても誤って「右クリックでアクティベート」と表示される不具合を修正。</li>
+  <li><span class="term currency" data-en="Exalted Orb">エクサルテッドオーブ</span>を使用しようとした際、適用不可のアイテムまで誤ってハイライトされる不具合を修正。</li>
+  <li>確認ポップアップを伴うポータルやエリア遷移をダブルクリックすると、ポップアップが二重表示される不具合を修正。</li>
+  <li>アトラス画面の中にボスのヘルスバーが表示される問題を修正。</li>
+  <li>PlayStation でインスタンスクラッシュを経験したあと、フレンドリストが空白表示になることがある不具合を修正。</li>
+  <li><span class="term" data-en="Grip of Kulemak">クレマクの掌握</span>のアップグレード変種が<span class="term" data-en="Unique Stash Tab">ユニーク・スタッシュタブ</span>に収納できない不具合を修正。</li>
+  <li>プレゼンス半径インジケーターが特定状況で動作しなくなる不具合を修正。</li>
+  <li>一部ロケールで、千の位に非対応文字グリフが表示される不具合を修正。</li>
+  <li><span class="term" data-en="Ascendancy">アセンダンシー</span>パッシブが付与するスキルが、サポートジェムをカット（分離）する際に対応スキル一覧から非表示になることがある不具合を修正。</li>
+  <li>テキスト入力欄での「単語単位」テキストナビゲーション（Ctrl + 左／右）が、特定状況でテキスト入力の末尾へ誤って折り返す不具合を修正。</li>
+  <li>他キャラで「<span class="term" data-en="Hostile Takeover">ホスタイル・テイクオーバー</span>」クエストを完了している場合、当該キャラがアクト 4 に到達する前にアクト 4 ワールドマップが表示されてしまう不具合を修正。</li>
+  <li>マーケット収益ページで、コントローラー使用時に「一括移動」アクションが利用できない不具合を修正。</li>
+  <li>一部スキルで「移動せずに常時攻撃」を選択できない不具合を修正。</li>
+  <li>コンソールでクロスプレイ設定を無効化した状態が、同アカウントを PC でログインした際にも引き継がれてしまう問題を修正。</li>
+  <li>カウチ Co-op プレイヤーがパブリックパーティへ参加しようとしたとき、パーティに参加可能な定員ぴったりの空きしかない場合に拒否される不具合を修正。</li>
+  <li>カウチ Co-op プレイ中、Player 2 がマップを生成してエンターした場合に、他プレイヤーが誤ってパーティからキックされる不具合を修正。</li>
+  <li>カウチ Co-op で<span class="term boss" data-en="Xipocado">シポカドのコンソール</span>と対話できない不具合を修正。</li>
+  <li>コントローラーの抜き差し後、ハプティクスが無効になる不具合を修正。</li>
+  <li>クロスプレイが実際には無効化されているにもかかわらず、設定上は有効と表示される不具合を修正。</li>
+  <li>カウチ Co-op プレイ中、異なる 2 つのリーグのキャラクターを選択しようとできる不具合を修正。</li>
+  <li>キャラクター選択フィルターで Solo Self-Found を選択すると、キャラクター作成ボタンがグレーアウトする問題を修正。</li>
+  <li>低ライフ時のコントローラーハプティック・フィードバックが、ゲーム一時停止中も再生され続ける不具合を修正。</li>
+  <li>コントローラー使用時、ハイドアウト編集モードから抜けるとシーナリー内部にスタックしてしまう不具合を修正。</li>
+</ul>
+
+</details>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ============================================================
+     §7 その他
+     ============================================================ -->
+<section id="cat-other">
+<details>
+<summary><h2 style="display:inline">7. その他 (11 件)</h2></summary>
+
+<ul>
+  <li>投射物数の装飾子を他の値に適用してしまうメカニクス上の複数の問題を修正。</li>
+  <li>二刀流時に両武器で同時にヒットするアタックの攻撃時間が、意図より長くなっていた不具合を修正。これらのスキルは武器の攻撃時間の平均を使用する想定。</li>
+  <li>地面からチェイン可能な投射物用ステータスが、使用済みチェイン数を正しくカウントせず、状況によっては投射物が地面から無限にチェインしてしまう不具合を修正。</li>
+  <li>負の<span class="term" data-en="Toughness">タフネス</span>がターゲットの被ダメージ増加として適用されていなかった不具合を修正。負のタフネスは現在、同等量の「被ダメージ増加」として作用する。すなわち、タフネス +100% ごとにモンスターの被ダメージが半減し、-100% ごとに倍増する。</li>
+  <li>多くの出血チャンス装飾子が、ソーンズダメージに適用されていなかった不具合を修正。</li>
+  <li>狼男形態で減速を受けた際、プレイヤーが画面中心から視覚的にズレて移動してしまうことがある不具合を修正。</li>
+  <li>蘇生したプレイヤーが他のオブジェクトの内部に出現した場合、安全な位置へ移動されない不具合を修正。</li>
+  <li><span class="term" data-en="Consuming Tentacle">コンスーミング・テンタクル</span>レア・フィニッシャーエフェクトが、PoE2 で有効化済みと案内されていたにもかかわらず装備不能だった問題を修正。</li>
+  <li><span class="term" data-en="Black Hole">ブラックホール</span>レア・フィニッシャーエフェクトが、PoE2 で有効化済みと案内されていたにもかかわらず装備不能だった問題を修正。</li>
+  <li><span class="term" data-en="Dragon Fire">ドラゴンファイア</span>レア・フィニッシャーエフェクトが、PoE2 で有効化済みと案内されていたにもかかわらず装備不能だった問題を修正。</li>
+  <li><span class="term" data-en="Arachnamagus Portal Effect">アラクナマグス・ポータルエフェクト</span>マイクロトランザクションのエフェクトが欠落していた不具合を修正。</li>
+</ul>
+
+</details>
+</section>
+
+<footer>
+  <p>出典: <a href="https://www.pathofexile.com/forum/view-thread/3932540" target="_blank" rel="noopener">PoE 公式パッチノート 0.5.0 (Bug Fixes セクション)</a></p>
+  <p><small>固有名詞（スキル・サポート・ユニーク・パッシブ）の日本語は poe2db.tw/jp 未収録のものは暫定訳。正式日本語名が判明次第更新します。重複項目（メルティング・メイルストロム）は原文どおり 2 度記載。</small></p>
+  <p class="back-to-top-wrap" style="margin-top:2em;"><a href="../index.html" class="back-to-top">← トップへ戻る</a></p>
+</footer>
+
+</main>
+</body>
+</html>

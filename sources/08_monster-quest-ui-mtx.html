@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>モンスター / クエスト / UI / MTX 変更 | PoE2 0.5.0</title>
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<main>
+
+
+<nav class="breadcrumb" aria-label="パンくずリスト">
+  <a href="../index.html" class="home-icon">アルダーのルーン リーグ ホーム</a>
+  <span class="breadcrumb-sep">/</span>
+  <span class="breadcrumb-current">ソース 08: モンスター／クエスト／UI／MTX</span>
+</nav>
+<header>
+  <h1>モンスター / クエスト / UI / MTX 変更</h1>
+  <p class="subtitle">Monster Changes ＆ Quest Changes ＆ User Interface Changes ＆ Microtransaction Changes</p>
+  <div class="meta">
+    <span class="meta-item">バージョン 0.5.0</span>
+    <span class="meta-item">ソース 08</span>
+    <span class="meta-item">対応セクション: §21 Monster / §22 Quest / §23 UI / §24 Microtransactions</span>
+  </div>
+</header>
+
+<div class="callout info">
+  <div>
+    <span class="callout-title">本ドキュメントの位置付け</span>
+    パッチノート末尾 4 セクション（モンスター挙動、クエスト動線、UI/UX、マイクロトランザクション開放）の総覧。<strong>Unique Item / Item セクションは別ソース担当</strong>のため本書には含めない。
+  </div>
+</div>
+
+<nav class="toc" aria-label="目次">
+  <div class="toc-title">目次</div>
+  <ol>
+    <li><a href="#sec-monster">1. モンスターの変更</a></li>
+    <li><a href="#sec-quest">2. クエストの変更</a></li>
+    <li><a href="#sec-ui">3. ユーザーインターフェースの変更</a></li>
+    <li><a href="#sec-mtx">4. マイクロトランザクションの変更</a></li>
+  </ol>
+</nav>
+
+<!-- ============================================================
+     §1 Monster Changes
+     ============================================================ -->
+<section id="sec-monster">
+<h2>1. モンスターの変更</h2>
+
+<div class="stat-grid">
+  <div class="stat-card">
+    <span class="stat-value">30→35%</span>
+    <span class="stat-label">カリングストライク閾値</span>
+    <span class="stat-sub">通常敵の最大ライフ％</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-value">統一</span>
+    <span class="stat-label">モンスターのリーチ耐性</span>
+    <span class="stat-sub">全レアリティ共通値に</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-value">対象</span>
+    <span class="stat-label">エッセンスパック</span>
+    <span class="stat-sub">Pack Size 影響下に</span>
+  </div>
+</div>
+
+<h3>全体調整</h3>
+<ul>
+  <li>通常敵に対する<strong>カリングストライク（Culling Strike）の閾値</strong>が、最大ライフの<strong>35%</strong>に引き上げ（旧 30%）</li>
+  <li>モンスターの<span class="term" data-en="Leech resistance">リーチ耐性</span>は、以前より<strong>遅いレベルから始まり、各レベルでの値も低下</strong>。<strong>全モンスターレアリティで同じリーチ耐性量</strong>に統一</li>
+  <li><span class="term" data-en="Essence Monster Pack">エッセンス・モンスターパック</span>が、<strong>Pack Size（パックサイズ）モディファイアの影響を受ける</strong>ようになった</li>
+  <li>モンスターから放出された<span class="term" data-en="Azmeri Spirits" data-tip="アズメリの霊">アズメリ・スピリット</span>は<strong>力を保持</strong>し、同じモンスターから放出された他のスピリットを<strong>強化</strong>するようになった</li>
+</ul>
+
+<h3>個別モンスター修正</h3>
+<table>
+  <thead>
+    <tr><th>対象</th><th>変更内容</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="term" data-en="Priest of the Sun">プリースト・オブ・ザ・サン</span></td>
+      <td>放つビームが<strong>一部の壁を無視していた不具合を修正</strong></td>
+    </tr>
+    <tr>
+      <td><span class="term boss" data-en="Viper Napuatzi">ヴァイパー・ナプアツィ</span></td>
+      <td>兵士たちがアリーナを縮小した際に、<strong>フラスコチャージを一部回復</strong>するようになった</td>
+    </tr>
+    <tr>
+      <td><span class="term" data-en="Burning Dead">バーニング・デッド</span>（<span class="term" data-en="Ogham Village" data-tip="オーガム村">オーガム村</span>）</td>
+      <td>ダメージの一部を<strong>火属性として与える</strong>ように（従来は純粋な物理）</td>
+    </tr>
+    <tr>
+      <td><span class="term" data-en="Lightning Doryani's">ライトニング・ドリヤニ</span>（エリートモンスター）</td>
+      <td><strong>ビジュアルとテレグラフ（攻撃予兆）が改善</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="callout new">
+  <div>
+    <span class="callout-title">設計意図</span>
+    リーチ耐性のレアリティ統一は<strong>ライフリーチ系ビルドの基準を読みやすく</strong>するための調整。エッセンスがパックサイズ影響下に入ったことで、<strong>エッセンス周回の物量効率</strong>が変化する。
+  </div>
+</div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ============================================================
+     §2 Quest Changes
+     ============================================================ -->
+<section id="sec-quest">
+<h2>2. クエストの変更</h2>
+
+<ul>
+  <li><span class="term" data-en="Plunder's Point" data-tip="略奪の岬（暫定訳）">プランダーズ・ポイント</span> は、<span class="term" data-en="Kingsmarch">キングスマーチ</span> で<strong>4 つの地図の断片すべてを納品</strong>するまで進入できなくなった</li>
+  <li><span class="term" data-en="Halls of the Dead" data-tip="死者の広間（暫定訳）">死者の広間</span> で <span class="term" data-en="Navali">ナヴァリ</span> と対話した際、<strong>Greater Mind Rune（グレーター・マインドルーン）</strong>を受け取るようになった（従来は Lesser Mind Rune）</li>
+  <li>すでに <span class="term" data-en="Risu">リス</span> を解放済みの場合、<span class="term" data-en="Traitor's Passage" data-tip="裏切り者の通路（暫定訳）">裏切り者の通路</span> へ到達するために <span class="term" data-en="Halani Gates" data-tip="ハラニ門（暫定訳）">ハラニ門</span> を訪れる必要が<strong>なくなった</strong></li>
+</ul>
+
+<div class="callout info">
+  <div>
+    <span class="callout-title">序盤導線の整理</span>
+    Risu 解放済みプレイヤーに対する Halani Gates 経由の冗長な往復を削除し、<strong>キャンペーン進行のテンポ改善</strong>を狙った変更。Plunder's Point のゲーティング追加は、<strong>地図の断片収集のクエスト的意味付け</strong>を明確化する。
+  </div>
+</div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ============================================================
+     §3 UI Changes
+     ============================================================ -->
+<section id="sec-ui">
+<h2>3. ユーザーインターフェースの変更</h2>
+
+<h3>アクセシビリティ・入力</h3>
+<ul>
+  <li>UI ポップアップの<strong>サイズを拡大するアクセシビリティ設定</strong>を、オプションパネルの UI セクションに追加</li>
+  <li><strong>ドッジロール専用キーバインド</strong>を追加。長押ししても<strong>スプリント（疾走）に切り替わらない</strong>。デフォルトは未割り当て</li>
+  <li>マウス＆キーボード使用時、<span class="term" data-en="Hideout">ハイドアウト</span>の装飾品リストに <strong>「Show Only Available（所持品のみ表示）」</strong> オプションを追加</li>
+  <li>クリック移動使用時、<strong>移動中に使用可能なチャネリングスキルの詠唱が、クリック移動で中断されなくなった</strong></li>
+</ul>
+
+<h3>マップ・スキル表示</h3>
+<ul>
+  <li><strong>Act 1〜3 のワールドマップ</strong>について、ビジュアルの視認性、ロード時間、パフォーマンスを改善。エリアレイアウトの<strong>ゲーム内方向と一致するよう</strong>修正</li>
+  <li>スキル情報ポップアウトで、<strong>修正されたステータスをパネル最上部に並べる挙動を廃止</strong>。引き続き青色でハイライト表示される</li>
+  <li><span class="term" data-en="Merchant Tab Shop" data-tip="マーチャント・タブ・ショップ">マーチャント・タブ・ショップ</span> のアイテム売却通知で、<strong>異なるリーグのアイテムが売れた場合は別メッセージ</strong>を表示</li>
+  <li><span class="term" data-en="Ritual">儀式</span> UI のリロールボタンが、<strong>無料リロール残数がある場合に脈動表示</strong>されるようになった</li>
+  <li>エンパワーされたミニオンが、モンスターに表示される <strong>「Minion（ミニオン）」テキストを更新</strong>するようになった</li>
+</ul>
+
+<h3>キャラクター・アイテム情報</h3>
+<ul>
+  <li><span class="term" data-en="Augments Stash Tab" data-tip="増強物スタッシュタブ（暫定訳）">増強物スタッシュタブ</span> を更新し、<strong>5 つのセクション構成</strong>に変更</li>
+  <li>エネミーを<strong>マーク</strong>すると、<strong>ライフバー上にマークが表示</strong>されるようになった</li>
+  <li>キャラクターパネルに、<strong>最大レイジ、レイジ喪失遅延、毎秒レイジ喪失量</strong>を表示</li>
+  <li>検索テキストボックスの<strong>最大文字数を 250 文字に拡張</strong></li>
+  <li>アイテムテキストのコピー時、<strong>常に詳細表示形式</strong>で出力されるようになった</li>
+  <li>アイテムテキストでの検索も、<strong>詳細表示形式に一致</strong>するようになった</li>
+</ul>
+
+<h3>トレード・コスメ</h3>
+<ul>
+  <li>マウス＆キーボード使用時、<span class="term" data-en="Currency Exchange">通貨交換所</span> で<strong>お気に入りトレード</strong>を設定可能</li>
+  <li><span class="term" data-en="Tracking Scroll" data-tip="追跡スクロール（暫定訳）">追跡スクロール</span> を<strong>ソーシャルプロフィールにピン留め</strong>し、フレンド、ギルド、パーティメンバーに表示可能</li>
+  <li><strong>該当する武器種を装備していなくても</strong>、コスメティックショップで<strong>マイクロトランザクションの武器スキンをプレビュー</strong>可能に</li>
+</ul>
+
+<h3>コントローラ対応</h3>
+<ul>
+  <li><strong>ハイドアウト編集用の俯瞰カメラビュー</strong>をコントローラ向けに追加</li>
+  <li>現在適用中の <strong>Currency をすばやく切り替える</strong> 機能を追加</li>
+  <li><span class="term" data-en="Currency Exchange">通貨交換所</span> UI を<strong>コントローラ向けに刷新</strong></li>
+  <li>アイテムやインタラクト可能オブジェクトの<strong>ターゲット選択を改善</strong></li>
+</ul>
+
+<h3>システム全般</h3>
+<ul>
+  <li><strong>オプションメニュー</strong>を更新・再構成</li>
+  <li>PlayStation および Xbox で<strong>ゲーム内時計オプション</strong>を有効化</li>
+</ul>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ============================================================
+     §4 Microtransaction Changes
+     ============================================================ -->
+<section id="sec-mtx">
+<h2>4. マイクロトランザクションの変更</h2>
+
+<p>既存のマイクロトランザクション（MTX）アイテム群が <strong>PoE2 でも利用可能化（Enabled）</strong>。本セクションは「すでに PoE1 などで購入済のオーナー向けに、PoE2 でも装備可能にした」という性質の変更。</p>
+
+<h3>アーマーセット (Armour Sets)</h3>
+<p>以下の既存アーマーセット MTX が PoE2 で有効化された（全 25 種）：</p>
+<div class="callout">
+  <div>
+    <span class="callout-title">有効化されたアーマーセット一覧</span>
+    Arcane / Arctic Crystal / Assassin / Atlantis / Black and White / Chimera / Coliseum / Cursed / Darkprism / Doomguard / Eclipse / Eyrie / Fire / Fire and Ice / Imperial Eagle / Mageguard / Malachai / Miracle / Scavenger / Seeker / Twilight / Void Emperor / Vulcan / Wild
+  </div>
+</div>
+
+<h3>バックアタッチメント (Back Attachments) — 全 53 種</h3>
+<p>以下の既存バックアタッチメント MTX が PoE2 で有効化された：</p>
+<div class="callout">
+  <div>
+    <span class="callout-title">有効化されたバックアタッチメント一覧（完全版）</span>
+    Apollyon Cloak / Apollyon Wings / Arcane Cloak / Assassin Cloak / Azurite Back Attachment / Balefire Back Attachment / Corsair Back Attachment / Corsair Cloak / Crucible Back Attachment / Darkwood Cloak / Dreadspire Cloak / Empyrean Back Attachment / Glimmersprite Wings / Gorgon Back Attachment / Illusionist Back Attachment / Innocence Cloak / Innocence Wings / Lightbringer Cloak / Lightbringer Wings / Midnight Pact Cloak / Midnight Pact Wings / Misery Swords Back Attachment / Misery Wings / Myrmidon Cloak / Necrotic Cloak / Necrotic Wings / Nightfall Cloak / Nightfall Wings / Orion Back Attachment / Overseer Cloak / Overseer Wings / Pitfighter Back Attachment / Rapture Back Attachment / Scavenger Back Attachment / Seraph Banner Back Attachment / Sin Cloak / Sin Wings / Spectre Cloak / Spectre Wings / Spider Back Attachment / Scavenger Tail Attachment / Starfall Cloak / Starfall Wings / Suffering Back Attachment / Suffering Cloak / Sunprism Cloak / Sunprism Wings / Sunrise Cloak / Sunrise Wings / Twilight Cloak / Vaal Orb Cloak / Vampiric Wings / Vanguard Banner Back Attachment / Verdant Cloak
+  </div>
+</div>
+
+<h3>ヘルメット (Helmets) — 全 7 種</h3>
+<div class="callout">
+  <div>
+    <span class="callout-title">有効化されたヘルメット MTX</span>
+    Assassin Hood / Black and White Hood / Cursed Hat / Eyrie Hood / Mageguard Hood / Scavenger Hood / Wild Cougar Helmet
+  </div>
+</div>
+
+<h3>その他の有効化された MTX</h3>
+<ul>
+  <li><strong>ポートレイトフレーム</strong>: 残りすべての既存ポートレイトフレーム MTX が PoE2 で有効化</li>
+  <li><strong>キャラクターエフェクト</strong>: <code>Originator's</code> / <code>Awakener's</code> Character Effect が有効化</li>
+  <li><strong>チェスト追加エフェクト</strong>: <code>Something Fishy</code> / <code>Trapped Wisps</code> / <code>Not the Bees!</code> Chest Extra Effect が有効化</li>
+  <li><strong>レアフィニッシャーエフェクト</strong>: <code>Anchor Drop</code> Rare Finisher Effect が有効化</li>
+  <li><strong>武器スキン</strong>: <code>Torture Mace</code> が有効化</li>
+  <li><strong>グローブスキン</strong>: <code>Mirage Gauntlet</code> が有効化</li>
+  <li><strong>ヘルメット追加エフェクト</strong>: <code>Twilight Helmet Attachment</code> / <code>Coliseum Helmet Attachment</code> / <code>Swan Crest Helmet Attachment</code> / <code>Aquila Crest Helmet Attachment</code> が有効化</li>
+</ul>
+
+<h3>機能的変更</h3>
+<ul>
+  <li><strong>Bronze and Silver Marionette キャラクタースキン</strong>: 第 2 ティアが追加され、ベースキャラクターのアーマー表示を非表示にできるようになった</li>
+  <li><strong>Exile's Pilfering Ring</strong> および <strong>Tracking Scroll of Crafting</strong>: <code>Hinekora's Lock</code> と <code>Fracturing Orb</code> も追跡対象に追加（高価値クラフトのアウトカム把握に有用）</li>
+  <li><strong>Tracking Scroll of Headhunting</strong>: 新ボスの一部も追跡対象に追加</li>
+</ul>
+
+<div class="callout new">
+  <div>
+    <span class="callout-title">取得完了</span>
+    Microtransaction Changes セクションの<strong>全 14 項目を取得・反映済み</strong>（curl で完全な HTML を取得し直しました）。当初 WebFetch の長制限で欠落していた末尾項目を含む。
+  </div>
+</div>
+</section>
+
+<footer>
+  <p>出典: <a href="https://www.pathofexile.com/forum/view-thread/3932540" target="_blank" rel="noopener">PoE 公式パッチノート 0.5.0</a> / <a href="https://poe2db.tw/jp/" target="_blank" rel="noopener">poe2db.tw/jp</a></p>
+  <p><small>本書のクエスト系・新規エリア用語（Plunder's Point / Halls of the Dead / Traitor's Passage / Halani Gates 等）と UI 系新規用語（Augments Stash Tab / Tracking Scroll 等）は poe2db 未収録のため暫定訳。正式日本語名が判明次第更新します。</small></p>
+  <p class="back-to-top-wrap" style="margin-top:2em;"><a href="../index.html" class="back-to-top">← トップへ戻る</a></p>
+</footer>
+
+</main>
+</body>
+</html>
