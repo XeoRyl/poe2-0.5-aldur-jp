@@ -414,21 +414,62 @@ hr {
   font-size: 0.9em;
 }
 
-/* ---------- Component: .term (固有名詞ハイライト) ---------- */
+/* ---------- Component: .term (固有名詞ハイライト) ----------
+   .term (no link)    → ツールチップ専用 / 控えめ点線下線 / cursor:help / 反転しない
+   a.term-link        → poe2db への実リンク / 実線下線 / cursor:pointer / ↗ アイコン
+   ---------------------------------------------------------- */
 .term {
   position: relative;
-  color: var(--gold-bright);
-  border-bottom: 1px dashed var(--gold-dim);
+  color: var(--text-primary);
+  border-bottom: 1px dotted var(--gold-dim);
   cursor: help;
   font-weight: 500;
   padding: 0 0.1em;
-  transition: background-color 0.15s ease, color 0.15s ease;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
 }
 
-.term:hover {
+/* リンク無し: ホバーは控えめ（背景反転しない、ツールチップが主役） */
+.term:not(.linked):hover {
+  color: var(--gold-bright);
+  background-color: rgba(201,169,97,0.06);
+  border-bottom-color: var(--gold-dim);
+}
+
+/* リンク化された term ラッパー (<a>) */
+a.term-link {
+  border-bottom: none;
+  text-decoration: none;
+  display: inline;
+  color: inherit;
+}
+
+a.term-link .term.linked {
+  cursor: pointer;
+  color: var(--gold-bright);
+  border-bottom: 1px solid var(--gold);
+}
+
+a.term-link:hover .term.linked {
   color: var(--bg-base);
   background-color: var(--gold-bright);
   border-bottom-color: var(--gold-bright);
+}
+
+/* 外部リンク矢印 ↗ */
+a.term-link::after {
+  content: "↗";
+  display: inline-block;
+  font-size: 0.65em;
+  margin-left: 0.1em;
+  color: var(--gold-dim);
+  opacity: 0.7;
+  vertical-align: super;
+  transition: opacity 0.15s ease, color 0.15s ease;
+}
+
+a.term-link:hover::after {
+  color: var(--gold-bright);
+  opacity: 1;
 }
 
 .term[data-en]::before {
@@ -497,11 +538,19 @@ hr {
 .term.rune     { color: var(--c-rune);     border-bottom-color: var(--c-rune); }
 .term.boss     { color: #d97070;           border-bottom-color: var(--c-boss); }
 
-.term.currency:hover { background-color: var(--c-currency); color: var(--bg-base); }
-.term.skill:hover    { background-color: var(--c-skill);    color: var(--bg-base); }
-.term.support:hover  { background-color: var(--c-support);  color: var(--bg-base); }
-.term.rune:hover     { background-color: var(--c-rune);     color: var(--bg-base); }
-.term.boss:hover     { background-color: var(--c-boss);     color: var(--text-primary); }
+/* カテゴリ色付きのリンク化されたterm: ホバーで色背景反転 */
+a.term-link:hover .term.linked.currency { background-color: var(--c-currency); color: var(--bg-base); border-bottom-color: var(--c-currency); }
+a.term-link:hover .term.linked.skill    { background-color: var(--c-skill);    color: var(--bg-base); border-bottom-color: var(--c-skill); }
+a.term-link:hover .term.linked.support  { background-color: var(--c-support);  color: var(--bg-base); border-bottom-color: var(--c-support); }
+a.term-link:hover .term.linked.rune     { background-color: var(--c-rune);     color: var(--bg-base); border-bottom-color: var(--c-rune); }
+a.term-link:hover .term.linked.boss     { background-color: var(--c-boss);     color: var(--text-primary); border-bottom-color: var(--c-boss); }
+
+/* リンク無しのカテゴリ色付きterm: 控えめなホバー */
+.term:not(.linked).currency:hover { background-color: rgba(155,109,217,0.10); color: var(--c-currency); }
+.term:not(.linked).skill:hover    { background-color: rgba(200,74,58,0.10);  color: var(--c-skill); }
+.term:not(.linked).support:hover  { background-color: rgba(95,168,96,0.10);  color: var(--c-support); }
+.term:not(.linked).rune:hover     { background-color: rgba(74,175,200,0.10); color: var(--c-rune); }
+.term:not(.linked).boss:hover     { background-color: rgba(122,31,31,0.15);  color: #d97070; }
 
 /* ---------- Component: .poe2db-link ---------- */
 .poe2db-link {
